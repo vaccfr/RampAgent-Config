@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "ICAO": "LFMN",
     "Stands": {
         "2A": {
@@ -36,7 +36,7 @@
                 "UIA",
                 "VLG"
             ],
-            "WTC": "LMH",
+            "WTC": "LMHJ",
             "Priority": 2
         },
         "2B": {

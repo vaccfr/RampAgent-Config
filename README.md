@@ -1,4 +1,4 @@
-# Configuration repository for NeoSTAND in LFXX airspace v1.0.1
+# Configuration repository for NeoSTAND in LFXX airspace v1.0.2
 
 ## NeoSTAND Plugin
 

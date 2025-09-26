@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "ICAO": "LFPG",
     "Stands": {
         "Y06": {
@@ -945,7 +945,7 @@
             "Coordinates": "49.000003:2.539067:25",
             "Use": "C",
             "Schengen": false,
-            "WTC": "LM",
+            "WTC": "LMHJ",
             "Priority": 3
         },
         "M14": {
@@ -1847,7 +1847,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 1
         },
         "E05": {
@@ -2126,7 +2126,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LMH",
+            "WTC": "LMHJ",
             "Priority": 3
         },
         "E25": {
