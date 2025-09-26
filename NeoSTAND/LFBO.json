@@ -1,0 +1,371 @@
+{
+    "version": "v1.0.0",
+    "ICAO": "LFBO",
+    "Stands": {
+        "V10": {
+            "Coordinates": "43.633086:1.369442:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U42": {
+            "Coordinates": "43.632854:1.368977:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U41": {
+            "Coordinates": "43.632677:1.368843:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U40": {
+            "Coordinates": "43.632309:1.369063:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U32": {
+            "Coordinates": "43.632084:1.369210:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U31": {
+            "Coordinates": "43.631820:1.369466:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U30": {
+            "Coordinates": "43.631580:1.369674:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U22": {
+            "Coordinates": "43.631484:1.370040:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U21": {
+            "Coordinates": "43.631355:1.370370:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U20": {
+            "Coordinates": "43.631307:1.370627:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U12": {
+            "Coordinates": "43.631299:1.370969:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U11": {
+            "Coordinates": "43.631259:1.371347:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "U10": {
+            "Coordinates": "43.631267:1.371738:25",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "RAM",
+                "BEE",
+                "KLM"
+            ],
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "E62": {
+            "Coordinates": "43.630578:1.372166:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E60": {
+            "Coordinates": "43.630297:1.372520:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E52": {
+            "Coordinates": "43.630105:1.372654:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E54": {
+            "Coordinates": "43.629961:1.372838:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E50": {
+            "Coordinates": "43.629632:1.373192:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E42": {
+            "Coordinates": "43.629256:1.373546:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E40": {
+            "Coordinates": "43.628951:1.373925:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E30": {
+            "Coordinates": "43.628853:1.374451:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E20": {
+            "Coordinates": "43.628994:1.375047:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "E10": {
+            "Coordinates": "43.629090:1.375526:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "AFR",
+                "BAW"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "F10": {
+            "Coordinates": "43.628833:1.375898:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "EZY",
+                "EJU",
+                "EZS",
+                "VOE"
+            ],
+            "WTC": "LMH",
+            "Priority": 3
+        },
+        "F20": {
+            "Coordinates": "43.628468:1.376250:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "EZY",
+                "EJU",
+                "EZS",
+                "VOE"
+            ],
+            "WTC": "LMH",
+            "Priority": 3
+        },
+        "F30": {
+            "Coordinates": "43.628115:1.376611:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "EZY",
+                "EJU",
+                "EZS",
+                "VOE"
+            ],
+            "WTC": "LMH",
+            "Priority": 3
+        },
+        "F40": {
+            "Coordinates": "43.627763:1.376953:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "EZY",
+                "EJU",
+                "EZS",
+                "VOE"
+            ],
+            "WTC": "LMH",
+            "Priority": 3
+        },
+        "F50": {
+            "Coordinates": "43.627429:1.377305:25",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "EZY",
+                "EJU",
+                "EZS",
+                "VOE"
+            ],
+            "WTC": "LMH",
+            "Priority": 1
+        },
+        "K32": {
+            "Coordinates": "43.627135:1.375634:25",
+            "Use": "A",
+            "Schengen": true,
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "K22": {
+            "Coordinates": "43.627436:1.375360:25",
+            "Use": "A",
+            "Schengen": true,
+            "WTC": "LM",
+            "Priority": 1
+        },
+        "K12": {
+            "Coordinates": "43.627782:1.375009:25",
+            "Use": "A",
+            "schengen": true,
+            "WTC": "LM",
+            "Priority": 1
+        }
+    }
+}
