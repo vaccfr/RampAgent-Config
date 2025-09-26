@@ -1,5 +1,5 @@
 {
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "ICAO": "LFPG",
     "Stands": {
         "Y06": {
@@ -2105,7 +2105,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E24": {
@@ -2126,7 +2126,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E25": {
@@ -2168,7 +2168,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E29": {
@@ -2210,7 +2210,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E32": {
@@ -2231,7 +2231,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E34": {
@@ -2252,7 +2252,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E38": {
@@ -2273,7 +2273,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E40": {
@@ -2294,7 +2294,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E42": {
@@ -2315,7 +2315,7 @@
                 "ROT",
                 "HVN"
             ],
-            "WTC": "LM",
+            "WTC": "LMH",
             "Priority": 3
         },
         "E44": {
@@ -3005,7 +3005,7 @@
                 "LGL",
                 "HOP"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 3
         },
         "J21": {
@@ -3017,7 +3017,7 @@
                 "LGL",
                 "HOP"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 3
         },
         "J30": {
@@ -3029,7 +3029,7 @@
                 "LGL",
                 "HOP"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 3
         },
         "J31": {
@@ -3041,7 +3041,7 @@
                 "LGL",
                 "HOP"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 3
         },
         "J32": {
@@ -3053,7 +3053,7 @@
                 "LGL",
                 "HOP"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 3
         },
         "J33": {
@@ -3065,7 +3065,7 @@
                 "LGL",
                 "HOP"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 3
         },
         "J34": {
@@ -3077,7 +3077,7 @@
                 "LGL",
                 "HOP"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 3
         },
         "J35": {
@@ -3089,7 +3089,7 @@
                 "LGL",
                 "HOP"
             ],
-            "WTC": "LMH",
+            "WTC": "LM",
             "Priority": 3
         },
         "J37": {
