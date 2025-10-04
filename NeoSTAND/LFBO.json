@@ -442,28 +442,32 @@
         "S1": {
             "Coordinates": "43.624778:1.356854:25",
             "Callsigns": [
-                "BGA"
+                "BGA",
+                "BCO"
             ],
             "Priority": -50
         },
         "S2": {
             "Coordinates": "43.625149:1.357525:25",
             "Callsigns": [
-                "BGA"
+                "BGA",
+                "BCO"
             ],
             "Priority": -50
         },
         "S3": {
             "Coordinates": "43.625487:1.358230:25",
             "Callsigns": [
-                "BGA"
+                "BGA",
+                "BCO"
             ],
             "Priority": -50
         },
         "S4": {
             "Coordinates": "43.625867:1.358882:25",
             "Callsigns": [
-                "BGA"
+                "BGA",
+                "BCO"
             ],
             "Priority": -50
         },
