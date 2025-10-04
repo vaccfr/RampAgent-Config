@@ -358,7 +358,7 @@
             "Coordinates": "43.627301:1.377335:25",
             "Code": "ABC",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "G": {
@@ -482,7 +482,7 @@
             "Priority": -50
         },
         "U10": {
-            "Coordinates": "43.631252:1.371602:25",
+            "Coordinates": "43.631252:1.371602:12",
             "Code": "ABC",
             "Use": "A",
             "Block": [
