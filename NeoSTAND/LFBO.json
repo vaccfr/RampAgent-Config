@@ -368,6 +368,16 @@
             "Priority": -50,
             "Apron": true
         },
+        "G10": {
+            "Coordinates": "43.620081:1.381410:10",
+            "Use": "H",
+            "Priority": -10
+        },
+        "G12": {
+            "Coordinates": "43.619794:1.381826:10",
+            "Use": "H",
+            "Priority": -10
+        },
         "K11": {
             "Coordinates": "43.627703:1.375141:25",
             "Code": "ABC",
