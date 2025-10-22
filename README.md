@@ -8,6 +8,6 @@
 | FIR | Platforms | Status | Creator |
 | --- | --- |---|---|
 | LFBB | LFBO |✅|Matthieu P.|
-| LFFF | LFPG<br>LFPO |🚧<br>⌛|Leo D.<br>N/A|
+| LFFF | LFPG<br>LFPO |🚧<br>🚧|Leo D.<br>Alexis B.|
 | LFMM | LFMN<br>LFML<br>LFLL  |🚧<br>🚧<br>⌛| Alexis B.<br>Yohannes D.<br> N/A|
 | LFEE | LFSB  |🚧| Alexis B.|
