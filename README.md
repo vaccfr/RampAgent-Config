@@ -2,10 +2,12 @@
 
 ## Platforms Status
 ✅: Done,
-🚧: in progress
+🚧: in progress,
+⌛: Planned
 
-| FIR | Platforms | Status |
-| --- | --- |---|
-| LFBB | LFBO |✅|
-| LFFF | LFPG |🚧|
-| LFMM | LFMN |🚧|
+| FIR | Platforms | Status | Creator |
+| --- | --- |---|---|
+| LFBB | LFBO |✅|Matthieu P.|
+| LFFF | LFPG<br>LFPO |🚧<br>⌛|Leo D.<br>N/A|
+| LFMM | LFMN<br>LFML<br>LFLL  |🚧<br>🚧<br>⌛| Alexis B.<br>Yohannes D.<br> N/A|
+| LFEE | LFSB  |🚧| Alexis B.|
