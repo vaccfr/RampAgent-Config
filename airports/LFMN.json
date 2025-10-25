@@ -82,12 +82,17 @@
         "8A": {
             "Coordinates": "43.665005:7.215405:20",
             "Use": "A",
-            "Priority": 3
+            "Priority": 50,
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY"
+            ]
         },
         "8C": {
             "Coordinates": "43.664668:7.215064:20",
             "Use": "A",
-            "Priority": 3,
+            "Priority": 50,
             "Code": "C"
         },
         "9": {
@@ -567,6 +572,12 @@
             "Code": "C",
             "Block": [
                 "50B"
+            ],
+            "Callsigns": [
+                "AFR",
+                "EJU",
+                "EZS",
+                "EZYTAR"
             ]
         },
         "51A": {
@@ -932,7 +943,7 @@
         "K": {
             "Coordinates": "43.670588:7.225420:100",
             "Code": "AB",
-            "Priority": -10,
+            "Priority": 70,
             "Apron": true
         }
     }
