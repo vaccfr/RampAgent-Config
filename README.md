@@ -9,5 +9,5 @@
 | --- | --- |---|---|
 | LFBB | LFBO |✅|Matthieu P.|
 | LFFF | LFPG<br>LFPO |🚧<br>🚧|Leo D.<br>Alexis B.|
-| LFMM | LFMN<br>LFML<br>LFLL  |🚧<br>🚧<br>⌛| Alexis B.<br>Yohannes D.<br> N/A|
+| LFMM | LFMN<br>LFML<br>LFLL  |🚧<br>🚧<br>⌛| Alexis B.<br>Yohannes D.<br> Leo D.|
 | LFEE | LFSB  |🚧| Alexis B.|
