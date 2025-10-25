@@ -1,0 +1,775 @@
+{
+    "version": "v1.0.2",
+    "ICAO": "LFPO",
+    "Coordinates": "48.728058:2.366524:3000",
+    "Stands": {
+        "A01": {
+            "Coordinates": "48.725505:2.360620:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A02": {
+            "Coordinates": "48.725758:2.361621:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A03": {
+            "Coordinates": "48.725992:2.362763:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A04": {
+            "Coordinates": "48.726200:2.363976:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A05": {
+            "Coordinates": "48.726492:2.365094:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A11": {
+            "Coordinates": "48.725501:2.360255:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A12": {
+            "Coordinates": "48.725670:2.360808:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A21": {
+            "Coordinates": "48.725625:2.361358:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A22": {
+            "Coordinates": "48.725921:2.361806:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A31": {
+            "Coordinates": "48.725903:2.362487:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A32": {
+            "Coordinates": "48.726202:2.362905:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A41": {
+            "Coordinates": "48.726121:2.363638:15",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A42": {
+            "Coordinates": "48.726391:2.364053:15",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A51": {
+            "Coordinates": "48.726349:2.364874:15",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "A52": {
+            "Coordinates": "48.726591:2.365341:15",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B01": {
+            "Coordinates": "48.728292:2.374632:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B02": {
+            "Coordinates": "48.728624:2.375555:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B03": {
+            "Coordinates": "48.729231:2.376118:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B04": {
+            "Coordinates": "48.729971:2.376381:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B05": {
+            "Coordinates": "48.730669:2.376322:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B12": {
+            "Coordinates": "48.728293:2.374785:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B21": {
+            "Coordinates": "48.728440:2.375316:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B22": {
+            "Coordinates": "48.728690:2.375694:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B31": {
+            "Coordinates": "48.729042:2.375944:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B32": {
+            "Coordinates": "48.729408:2.376110:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B41": {
+            "Coordinates": "48.729707:2.376485:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B42": {
+            "Coordinates": "48.730094:2.376451:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B51": {
+            "Coordinates": "48.730588:2.376547:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B52": {
+            "Coordinates": "48.730816:2.376062:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B61": {
+            "Coordinates": "48.731170:2.375761:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "B62": {
+            "Coordinates": "48.731211:2.375222:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "C01": {
+            "Coordinates": "48.727338:2.370488:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "C02": {
+            "Coordinates": "48.727437:2.371145:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "C03": {
+            "Coordinates": "48.727540:2.371805:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "C06": {
+            "Coordinates": "48.727849:2.372484:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "C08": {
+            "Coordinates": "48.727989:2.373455:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "D01": {
+            "Coordinates": "48.727274:2.368533:30",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "D02": {
+            "Coordinates": "48.727104:2.367463:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "D04": {
+            "Coordinates": "48.726972:2.366628:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "D06": {
+            "Coordinates": "48.726887:2.365934:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "E01": {
+            "Coordinates": "48.724682:2.367865:30",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E02": {
+            "Coordinates": "48.724482:2.367004:30",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E03": {
+            "Coordinates": "48.724296:2.366258:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E04": {
+            "Coordinates": "48.724178:2.365263:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E05": {
+            "Coordinates": "48.723872:2.364104:35",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E06": {
+            "Coordinates": "48.723376:2.361446:35",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E07": {
+            "Coordinates": "48.723187:2.360524:35",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E08": {
+            "Coordinates": "48.722991:2.359550:35",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E09": {
+            "Coordinates": "48.722897:2.358544:35",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E41": {
+            "Coordinates": "48.724194:2.365660:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E42": {
+            "Coordinates": "48.724052:2.365089:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E71": {
+            "Coordinates": "48.723192:2.360371:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E81": {
+            "Coordinates": "48.723021:2.359421:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "E91": {
+            "Coordinates": "48.722872:2.358399:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "F10": {
+            "Coordinates": "48.725266:2.371293:30",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "F20": {
+            "Coordinates": "48.725477:2.372307:30",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "F30": {
+            "Coordinates": "48.725716:2.373229:40",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "F41": {
+            "Coordinates": "48.725875:2.374262:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "F42": {
+            "Coordinates": "48.725954:2.374828:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G02": {
+            "Coordinates": "48.732221:2.377684:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G03": {
+            "Coordinates": "48.732325:2.378446:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G04": {
+            "Coordinates": "48.732654:2.378878:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G05": {
+            "Coordinates": "48.733297:2.378859:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G06": {
+            "Coordinates": "48.734025:2.379350:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G07": {
+            "Coordinates": "48.734809:2.379688:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G08": {
+            "Coordinates": "48.735432:2.380198:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G51": {
+            "Coordinates": "48.733068:2.378908:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G52": {
+            "Coordinates": "48.733475:2.378886:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G61": {
+            "Coordinates": "48.733865:2.379117:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G62": {
+            "Coordinates": "48.734250:2.379321:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G71": {
+            "Coordinates": "48.734600:2.379715:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "G72": {
+            "Coordinates": "48.735006:2.379736:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "HANGAR": {
+            "Coordinates": "48.742790:2.376652:200",
+            "Code": "BCDEF",
+            "Priority": 70,
+            "Apron": true
+        },
+        "M01": {
+            "Coordinates": "48.724985:2.355081:20",
+            "Code": "B",
+            "Use": "A",
+            "Priority": 70
+        },
+        "M02": {
+            "Coordinates": "48.725429:2.354878:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "M03": {
+            "Coordinates": "48.726016:2.354564:30",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "M04": {
+            "Coordinates": "48.726590:2.354357:30",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "M05": {
+            "Coordinates": "48.727103:2.354143:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "M06": {
+            "Coordinates": "48.727607:2.353823:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N01": {
+            "Coordinates": "48.726510:2.351766:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N02": {
+            "Coordinates": "48.725896:2.352040:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N03": {
+            "Coordinates": "48.725252:2.352241:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N04": {
+            "Coordinates": "48.724641:2.352482:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N05": {
+            "Coordinates": "48.724381:2.351235:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N06": {
+            "Coordinates": "48.724162:2.350307:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N11": {
+            "Coordinates": "48.726605:2.351568:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N12": {
+            "Coordinates": "48.726214:2.351839:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N21": {
+            "Coordinates": "48.725838:2.352102:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N25": {
+            "Coordinates": "48.725781:2.352144:30",
+            "Code": "F",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N31": {
+            "Coordinates": "48.725374:2.352260:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N34": {
+            "Coordinates": "48.724972:2.352442:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N41": {
+            "Coordinates": "48.724565:2.352493:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N51": {
+            "Coordinates": "48.724381:2.351383:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N56": {
+            "Coordinates": "48.724258:2.350785:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "N61": {
+            "Coordinates": "48.724148:2.350186:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "P08": {
+            "Coordinates": "48.732159:2.361851:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "P09": {
+            "Coordinates": "48.731915:2.361374:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "P10": {
+            "Coordinates": "48.731704:2.360843:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "P11": {
+            "Coordinates": "48.731478:2.360301:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "P12": {
+            "Coordinates": "48.731211:2.359754:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "P13": {
+            "Coordinates": "48.731030:2.359271:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "P14": {
+            "Coordinates": "48.730825:2.358845:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "P41": {
+            "Coordinates": "48.730528:2.358485:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "P42": {
+            "Coordinates": "48.730280:2.358136:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "Q02": {
+            "Coordinates": "48.724988:2.349704:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "Q03": {
+            "Coordinates": "48.725719:2.349540:30",
+            "Code": "DE",
+            "Use": "A",
+            "Priority": 70
+        },
+        "Q21": {
+            "Coordinates": "48.724813:2.349741:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "Q22": {
+            "Coordinates": "48.725172:2.349535:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "Q31": {
+            "Coordinates": "48.725560:2.349401:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "Q32": {
+            "Coordinates": "48.725953:2.349379:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 70
+        },
+        "R01": {
+            "Coordinates": "48.729960:2.357831:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "R22": {
+            "Coordinates": "48.729995:2.357085:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "S04": {
+            "Coordinates": "48.729654:2.356546:20",
+            "Code": "BCDEF",
+            "Use": "A",
+            "Priority": 50
+        },
+        "S24": {
+            "Coordinates": "48.729841:2.356468:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "S25": {
+            "Coordinates": "48.729429:2.356414:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "S26": {
+            "Coordinates": "48.729054:2.356409:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "T26": {
+            "Coordinates": "48.728415:2.356358:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "T27": {
+            "Coordinates": "48.728198:2.356860:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "T28": {
+            "Coordinates": "48.728325:2.357512:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "T29": {
+            "Coordinates": "48.728325:2.358284:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "T30": {
+            "Coordinates": "48.727743:2.358410:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "T31": {
+            "Coordinates": "48.727453:2.357871:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "T32": {
+            "Coordinates": "48.727290:2.357112:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "U03": {
+            "Coordinates": "48.726851:2.357235:20",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "U04": {
+            "Coordinates": "48.726586:2.357635:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "U05": {
+            "Coordinates": "48.726206:2.358010:25",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "V07": {
+            "Coordinates": "48.726000:2.359416:30",
+            "Code": "BC",
+            "Use": "A",
+            "Priority": 50
+        },
+        "Y06": {
+            "Coordinates": "48.725664:2.358689:30",
+            "Code": "BCDE",
+            "Use": "A",
+            "Priority": 50
+        }
+    }
+}
