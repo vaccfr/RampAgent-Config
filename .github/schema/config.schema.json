@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "API Config Schema",
+  "type": "object",
+  "required": [
+    "$schema",
+    "version",
+    "max_alt",
+    "max_distance",
+    "CargoOperator",
+    "Helicopters",
+    "Military",
+    "GeneralAviation",
+    "AircraftWingspans"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^v\\d+\\.\\d+\\.\\d+$"
+    },
+    "max_alt": {
+      "type": "number",
+      "minimum": 1000,
+      "maximum": 20000
+    },
+    "max_distance": {
+      "type": "number",
+      "minimum": 4,
+      "maximum": 50.0
+    },
+    "CargoOperator": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Helicopters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Military": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "GeneralAviation": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "AircraftWingspans": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-Z0-9]{4}$": {
+          "type": "number",
+          "minimum": 5.0,
+          "maximum": 80.0
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
