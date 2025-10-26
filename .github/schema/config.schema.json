@@ -31,31 +31,35 @@
     "CargoOperator": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^[A-Z0-9]{3,4}$"
       }
     },
     "Helicopters": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string", 
+        "pattern": "^[A-Z0-9]{3,4}$"
       }
     },
     "Military": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^[A-Z0-9]{3,4}$"
       }
     },
     "GeneralAviation": {
       "type": "array",
       "items": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^[A-Z0-9]{3,4}$"
       }
     },
     "AircraftWingspans": {
       "type": "object",
       "patternProperties": {
-        "^[A-Z0-9]{4}$": {
+        "^[A-Z0-9]{3,4}$": {
           "type": "number",
           "minimum": 5.0,
           "maximum": 80.0
