@@ -6,7 +6,7 @@
   "properties": {
     "$schema": { "type": "string" },
     "version": { "type": "string", "pattern": "^v[0-9]+\\.[0-9]+\\.[0-9]+$" },
-    "ICAO": { "type": "string" },
+    "ICAO": { "type": "string", "pattern": "[A-Z]{4}" },
     "Coordinates": {
       "type": "string",
       "pattern": "^-?\\d{1,2}\\.\\d+:-?\\d{1,3}\\.\\d+:-?\\d{4}$"
