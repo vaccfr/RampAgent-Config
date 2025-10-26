@@ -38,7 +38,7 @@
     "Helicopters": {
       "type": "array",
       "items": {
-        "type": "string", 
+        "type": "string",
         "pattern": "^[A-Z0-9]{3,4}$"
       }
     },
