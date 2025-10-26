@@ -1,5 +1,5 @@
 {
-    "$schema": "./.github/schema/config.schema.json",
+  "$schema": "./.github/schema/config.schema.json",
   "version": "v1.0.1",
   "max_alt": 15000,
   "max_distance": 50.0,

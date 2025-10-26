@@ -1,4 +1,5 @@
 {
+    "$schema": "../.github/schema/airportConfig.schema.json",
     "version": "v1.0.0",
     "ICAO": "LFPG",
     "Coordinates": "49.010965:2.560501:6000",
@@ -1638,7 +1639,7 @@
                 "DE": "Push S, yellow line"
             },
             "Code": "DE",
-            "wingspan": 61,
+            "Wingspan": 61,
             "Use": "A",
             "Block": [
                 "E25",
@@ -1697,7 +1698,7 @@
                 "DE": "Push E"
             },
             "Code": "DE",
-            "wingspan": 61,
+            "Wingspan": 61,
             "Use": "A",
             "Schengen": false,
             "Callsigns": [
@@ -4376,7 +4377,7 @@
         },
         "N03": {
             "Coordinates": "48.995474:2.531906:25",
-            "Use": "CD",
+            "Use": "C",
             "Priority": 5,
             "Block": [
                 "N31",
