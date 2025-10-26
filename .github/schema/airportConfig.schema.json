@@ -38,6 +38,14 @@
           "Countries": {
             "type": "array",
             "items": { "type": "string" }
+          },
+          "Remark": {
+            "type": "object",
+            "patternProperties": {
+              "^[A-F]{1,4}$": {
+                "type": "string"
+              }
+            }
           }
         },
         "additionalProperties": false
