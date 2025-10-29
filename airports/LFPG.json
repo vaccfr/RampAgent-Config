@@ -1,6 +1,6 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "ICAO": "LFPG",
     "Coordinates": "49.010965:2.560501:6000",
     "Stands": {
@@ -5548,7 +5548,7 @@
             "Callsigns": [
                 "TVF"
             ],
-            "Priority": 100
+            "Priority": 1
         },
         "R14": {
             "Coordinates": "49.013336:2.550969:25",
@@ -5557,7 +5557,7 @@
             "Callsigns": [
                 "TVF"
             ],
-            "Priority": 100
+            "Priority": 1
         },
         "R39": {
             "Coordinates": "49.017020:2.550145:25",
