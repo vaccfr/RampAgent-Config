@@ -667,7 +667,7 @@
             "Priority": 50
         },
         "63C": {
-            "Coordinates": "43.443303:5.212905:8",
+            "Coordinates": "43.443303:5.212905:10",
             "Code": "AB",
             "Use": "P",
             "Priority": 50,
@@ -687,7 +687,7 @@
             ]
         },
         "63E": {
-            "Coordinates": "43.443144:5.213026:8",
+            "Coordinates": "43.443144:5.213026:10",
             "Code": "AB",
             "Use": "P",
             "Priority": 50,
