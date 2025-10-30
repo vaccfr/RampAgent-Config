@@ -1,4 +1,5 @@
 {
+    "$schema": "../.github/schema/airportConfig.schema.json",
     "version": "v1.0.3",
     "ICAO": "LFBO",
     "Coordinates": "43.629242:1.363506:3000",
@@ -235,7 +236,7 @@
         },
         "E50": {
             "Coordinates": "43.629719:1.373058:25",
-            "Code": "AB",
+            "Code": "C",
             "Use": "A",
             "Priority": 1,
             "Callsigns": [

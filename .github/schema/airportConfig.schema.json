@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "API Config Schema",
+  "type": "object",
+  "required": ["$schema", "version", "ICAO", "Coordinates", "Stands"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "type": "string", "pattern": "^v[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "ICAO": { "type": "string", "pattern": "[A-Z]{4}" },
+    "Coordinates": {
+      "type": "string",
+      "pattern": "^-?\\d{1,2}\\.\\d+:-?\\d{1,3}\\.\\d+:-?\\d{4}$"
+    },
+    "Stands": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["Coordinates"],
+        "properties": {
+          "Coordinates": {
+            "type": "string",
+            "pattern": "^-?\\d{1,2}\\.\\d+:-?\\d{1,3}\\.\\d+:-?\\d{2,3}$"
+          },
+          "Code": { "type": "string", "pattern": "^[A-F]{1,6}$" },
+          "Priority": { "type": "integer" },
+          "Block": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "Callsigns": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "Apron": { "type": "boolean" },
+          "Use": { "type": "string", "pattern": "^[A,C,H,M,P]{1,5}$" },
+          "Schengen": { "type": "boolean" },
+          "Wingspan": { "type": "number" },
+          "Countries": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "Remark": {
+            "type": "object",
+            "patternProperties": {
+              "^[A-F]{1,4}$": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  }
+}
