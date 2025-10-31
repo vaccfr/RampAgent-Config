@@ -1,6 +1,6 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "ICAO": "LFBO",
     "Coordinates": "43.629242:1.363506:3000",
     "Stands": {
@@ -366,7 +366,7 @@
                 "K12",
                 "K22"
             ],
-            "Priority": 3
+            "Priority": 10
         },
         "K12": {
             "Coordinates": "43.627837:1.374901:25",
