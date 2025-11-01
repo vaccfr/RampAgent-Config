@@ -1,6 +1,6 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v1.0.4",
+    "version": "v1.0.5",
     "ICAO": "LFBO",
     "Coordinates": "43.629242:1.363506:3000",
     "Stands": {
@@ -300,28 +300,28 @@
             "Coordinates": "43.628672:1.375915:25",
             "Code": "C",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "F20": {
             "Coordinates": "43.628339:1.376283:25",
             "Code": "C",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "F30": {
             "Coordinates": "43.628017:1.376684:25",
             "Code": "C",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "F40": {
             "Coordinates": "43.627625:1.376963:25",
             "Code": "C",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "F50": {
