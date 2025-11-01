@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.0.4",
+  "version": "v1.0.5",
   "max_alt": 15000,
   "max_distance": 50.0,
   "CargoOperator": [
@@ -199,7 +199,9 @@
     "G150",
     "G200",
     "G280",
-	"PRM1"
+	"PRM1",
+    "OPCA",
+    "BT36"
   ],
   "AircraftWingspans": {
     "C172": 11.0,
@@ -217,6 +219,7 @@
     "A333": 60.3,
     "A339": 60.3,
     "A35K": 64.8,
+    "B733": 28.9,
     "B734": 28.9,
     "B737": 35.8,
     "B738": 35.8,
@@ -415,6 +418,8 @@
     "MD83": 32.8,
     "MD11": 51.6,
     "B78X": 63,
-    "RJ1H": 26.3
+    "RJ1H": 26.3,
+    "BT36": 10.97,
+    "OPCA": 14.0
   }
 }
