@@ -1,0 +1,23 @@
+name: Deploy Config
+
+on:
+  push:
+    branches: [ Dev ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install validator deps
+        run: npm install ajv ajv-formats
+
+      - name: Validate configs
+        run: node validate-configs.js
