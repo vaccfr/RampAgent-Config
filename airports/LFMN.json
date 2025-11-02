@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/refs/heads/main/.github/schema/airportConfig.schema.json",
     "version": "v1.0.2",
     "ICAO": "LFMN",
     "Coordinates": "43.661663:7.210765:2000",
@@ -862,7 +863,7 @@
         "53B": {
             "Coordinates": "43.657302:7.207096:25",
             "Use": "A",
-            "schengen": false,
+            "Schengen": false,
             "Priority": 70,
             "Code": "C",
             "Block": [
