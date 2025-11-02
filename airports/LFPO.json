@@ -1,6 +1,6 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "ICAO": "LFPO",
     "Coordinates": "48.728058:2.366524:3000",
     "Stands": {
@@ -8,187 +8,218 @@
             "Coordinates": "48.725505:2.360620:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A11", "A12"]
         },
         "A02": {
             "Coordinates": "48.725758:2.361621:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A21", "A22"]
         },
         "A03": {
             "Coordinates": "48.725992:2.362763:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A31", "A32"]
         },
         "A04": {
             "Coordinates": "48.726200:2.363976:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A41", "A42"]
         },
         "A05": {
             "Coordinates": "48.726492:2.365094:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A51", "A52"]
         },
         "A11": {
             "Coordinates": "48.725501:2.360255:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A01"]
         },
         "A12": {
             "Coordinates": "48.725670:2.360808:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A01"]
         },
         "A21": {
             "Coordinates": "48.725625:2.361358:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A02"]
         },
         "A22": {
             "Coordinates": "48.725921:2.361806:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A02"]
         },
         "A31": {
             "Coordinates": "48.725903:2.362487:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A03"]
         },
         "A32": {
             "Coordinates": "48.726202:2.362905:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A03"]
         },
         "A41": {
             "Coordinates": "48.726121:2.363638:15",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A04"]
         },
         "A42": {
             "Coordinates": "48.726391:2.364053:15",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A04"]
         },
         "A51": {
             "Coordinates": "48.726349:2.364874:15",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A05"]
         },
         "A52": {
             "Coordinates": "48.726591:2.365341:15",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["A05"]
         },
         "B01": {
             "Coordinates": "48.728292:2.374632:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B12"]
         },
         "B02": {
             "Coordinates": "48.728624:2.375555:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B21", "B22"]
         },
         "B03": {
             "Coordinates": "48.729231:2.376118:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B31", "B32"]
         },
         "B04": {
             "Coordinates": "48.729971:2.376381:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B41", "B42"]
         },
         "B05": {
             "Coordinates": "48.730669:2.376322:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B51", "B52"]
         },
         "B12": {
             "Coordinates": "48.728293:2.374785:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B01"]
         },
         "B21": {
             "Coordinates": "48.728440:2.375316:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B02"]
         },
         "B22": {
             "Coordinates": "48.728690:2.375694:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B02"]
         },
         "B31": {
             "Coordinates": "48.729042:2.375944:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B03"]
         },
         "B32": {
             "Coordinates": "48.729408:2.376110:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B03"]
         },
         "B41": {
             "Coordinates": "48.729707:2.376485:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B04"]
         },
         "B42": {
             "Coordinates": "48.730094:2.376451:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B04"]
         },
         "B51": {
             "Coordinates": "48.730588:2.376547:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B05"]
         },
         "B52": {
             "Coordinates": "48.730816:2.376062:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B05"]
         },
         "B61": {
             "Coordinates": "48.731170:2.375761:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B06"]
         },
         "B62": {
             "Coordinates": "48.731211:2.375222:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["B06"]
         },
         "C01": {
             "Coordinates": "48.727338:2.370488:25",
@@ -266,7 +297,8 @@
             "Coordinates": "48.724178:2.365263:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E41", "E42"]
         },
         "E05": {
             "Coordinates": "48.723872:2.364104:35",
@@ -284,49 +316,57 @@
             "Coordinates": "48.723187:2.360524:35",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E71"]
         },
         "E08": {
             "Coordinates": "48.722991:2.359550:35",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E81"]
         },
         "E09": {
             "Coordinates": "48.722897:2.358544:35",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E91"]
         },
         "E41": {
             "Coordinates": "48.724194:2.365660:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E04"]
         },
         "E42": {
             "Coordinates": "48.724052:2.365089:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E04"]
         },
         "E71": {
             "Coordinates": "48.723192:2.360371:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E07"]
         },
         "E81": {
             "Coordinates": "48.723021:2.359421:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E08"]
         },
         "E91": {
             "Coordinates": "48.722872:2.358399:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["E09"]
         },
         "F10": {
             "Coordinates": "48.725266:2.371293:30",
@@ -380,19 +420,22 @@
             "Coordinates": "48.733297:2.378859:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G51", "G52"]
         },
         "G06": {
             "Coordinates": "48.734025:2.379350:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G61", "G62"]
         },
         "G07": {
             "Coordinates": "48.734809:2.379688:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G71", "G72"]
         },
         "G08": {
             "Coordinates": "48.735432:2.380198:25",
@@ -404,37 +447,43 @@
             "Coordinates": "48.733068:2.378908:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G05"]
         },
         "G52": {
             "Coordinates": "48.733475:2.378886:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G05"]
         },
         "G61": {
             "Coordinates": "48.733865:2.379117:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G06"]
         },
         "G62": {
             "Coordinates": "48.734250:2.379321:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G06"]
         },
         "G71": {
             "Coordinates": "48.734600:2.379715:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G07"]
         },
         "G72": {
             "Coordinates": "48.735006:2.379736:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["G07"]
         },
         "HANGAR": {
             "Coordinates": "48.742790:2.376652:200",
@@ -482,97 +531,113 @@
             "Coordinates": "48.726510:2.351766:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N11", "N12"]
         },
         "N02": {
             "Coordinates": "48.725896:2.352040:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N12", "N21", "N25"]
         },
         "N03": {
             "Coordinates": "48.725252:2.352241:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N31", "N34"]
         },
         "N04": {
             "Coordinates": "48.724641:2.352482:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N34", "N41"]
         },
         "N05": {
             "Coordinates": "48.724381:2.351235:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N51", "N56"]
         },
         "N06": {
             "Coordinates": "48.724162:2.350307:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N61", "N56"]
         },
         "N11": {
             "Coordinates": "48.726605:2.351568:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N01"]
         },
         "N12": {
             "Coordinates": "48.726214:2.351839:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N01", "N02"]
         },
         "N21": {
             "Coordinates": "48.725838:2.352102:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N02", "N25"]
         },
         "N25": {
             "Coordinates": "48.725781:2.352144:30",
             "Code": "F",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N02"]
         },
         "N31": {
             "Coordinates": "48.725374:2.352260:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N03"]
         },
         "N34": {
             "Coordinates": "48.724972:2.352442:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N03", "N04"]
         },
         "N41": {
             "Coordinates": "48.724565:2.352493:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N04"]
         },
         "N51": {
             "Coordinates": "48.724381:2.351383:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N05"]
         },
         "N56": {
             "Coordinates": "48.724258:2.350785:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N05", "N06"]
         },
         "N61": {
             "Coordinates": "48.724148:2.350186:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["N06"]
         },
         "P08": {
             "Coordinates": "48.732159:2.361851:20",
@@ -632,37 +697,43 @@
             "Coordinates": "48.724988:2.349704:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["Q21", "Q22"]
         },
         "Q03": {
             "Coordinates": "48.725719:2.349540:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["Q31", "Q32"]
         },
         "Q21": {
             "Coordinates": "48.724813:2.349741:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["Q02"]
         },
         "Q22": {
             "Coordinates": "48.725172:2.349535:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["Q02"]
         },
         "Q31": {
             "Coordinates": "48.725560:2.349401:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["Q03"]
         },
         "Q32": {
             "Coordinates": "48.725953:2.349379:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 70,
+            "Block": ["Q03"]
         },
         "R01": {
             "Coordinates": "48.729960:2.357831:20",
@@ -680,19 +751,22 @@
             "Coordinates": "48.729654:2.356546:20",
             "Code": "BCDEF",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["S24", "S25"]
         },
         "S24": {
             "Coordinates": "48.729841:2.356468:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["S04"]
         },
         "S25": {
             "Coordinates": "48.729429:2.356414:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": ["S04"]
         },
         "S26": {
             "Coordinates": "48.729054:2.356409:20",
