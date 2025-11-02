@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.0.7",
+  "version": "v1.0.8",
   "max_alt": 15000,
   "max_distance": 50.0,
   "CargoOperator": [
@@ -233,6 +233,7 @@
     "B763": 51.9,
     "A306": 60.3,
     "A332": 60.3,
+    "A338": 64.0,
 	"A342": 60.3,
 	"A343": 60.3,
 	"A345": 63.5,
