@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.0.9",
+  "version": "v1.1.0",
   "max_alt": 15000,
   "max_distance": 50.0,
   "CargoOperator": [
@@ -80,7 +80,8 @@
     "C40B",
     "C37A",
     "C37B",
-    "C32B"
+    "C32B",
+    "SR72"
   ],
   "GeneralAviation": [
     "C150",
@@ -426,6 +427,11 @@
     "BT36": 10.97,
     "OPCA": 14.0,
     "A337": 60.3,
-    "T134": 29.0
+    "T134": 29.0,
+    "B742": 59.7,
+    "SR72": 10.1,
+    "RJ85": 26.3,
+    "A318": 34.1,
+    "CONC": 25.6
   }
 }
