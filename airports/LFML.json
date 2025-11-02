@@ -1,6 +1,959 @@
 {
-    "version": "v1.0.0",
+    "$schema": "../.github/schema/airportConfig.schema.json",
+    "version": "v1.0.1",
     "ICAO": "LFML",
-    "Coordinates": "43.436849:5.212841:3000",
-    "Stands": {}
+    "Coordinates": "43.436667:5.215000:2000",
+    "Stands": {
+        "1A": {
+            "Coordinates": "43.439202:5.224552:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Priority": 50
+        },
+        "1Z": {
+            "Coordinates": "43.437256:5.219536:25",
+            "Code": "B",
+            "Use": "AP",
+            "Priority": 50
+        },
+        "2A": {
+            "Coordinates": "43.438826:5.224597:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Priority": 50
+        },
+        "2C": {
+            "Coordinates": "43.438508:5.224777:15",
+            "Code": "BC",
+            "Use": "A",
+            "Schengen": true,
+            "Priority": 50
+        },
+        "3A": {
+            "Coordinates": "43.438164:5.223527:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Priority": 50,
+            "Block": [
+                "3B"
+            ]
+        },
+        "3B": {
+            "Coordinates": "43.438166:5.223404:15",
+            "Code": "D",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "3C",
+                "3A"
+            ],
+            "Priority": 50
+        },
+        "3C": {
+            "Coordinates": "43.438168:5.223087:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Priority": 50,
+            "Block": [
+                "3B"
+            ]
+        },
+        "4B": {
+            "Coordinates": "43.438658:5.223173:20",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Priority": 50
+        },
+        "4Z": {
+            "Coordinates": "43.440460:5.215727:30",
+            "Code": "BC",
+            "Use": "P",
+            "Priority": 50
+        },
+        "5A": {
+            "Coordinates": "43.439317:5.222937:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "5B"
+            ],
+            "Priority": 50
+        },
+        "5B": {
+            "Coordinates": "43.439321:5.222899:15",
+            "Code": "D",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "5C",
+                "5A"
+            ],
+            "Priority": 50
+        },
+        "5C": {
+            "Coordinates": "43.439325:5.222422:15",
+            "Code": "BC",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "6A",
+                "5B"
+            ],
+            "Priority": 50
+        },
+        "6A": {
+            "Coordinates": "43.439788:5.222384:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "6A1",
+                "5C"
+            ],
+            "Priority": 50
+        },
+        "6A1": {
+            "Coordinates": "43.439767:5.222307:10",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "6B",
+                "6A"
+            ],
+            "Priority": 50
+        },
+        "6B": {
+            "Coordinates": "43.439774:5.222231:10",
+            "Code": "D",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "6C",
+                "6A",
+                "6A1"
+            ],
+            "Priority": 50
+        },
+        "6C": {
+            "Coordinates": "43.439753:5.221880:15",
+            "Code": "BC",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "6B"
+            ],
+            "Priority": 50
+        },
+        "7A": {
+            "Coordinates": "43.440244:5.221671:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "7C",
+                "7B"
+            ],
+            "Priority": 50
+        },
+        "7B": {
+            "Coordinates": "43.440240:5.221596:10",
+            "Code": "CD",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "7C",
+                "7A"
+            ],
+            "Priority": 50
+        },
+        "7C": {
+            "Coordinates": "43.440261:5.221212:15",
+            "Code": "BC",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "8B",
+                "7B"
+            ],
+            "Priority": 50
+        },
+        "8B": {
+            "Coordinates": "43.440629:5.221073:20",
+            "Code": "DE",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "8C",
+                "7C"
+            ],
+            "Priority": 50
+        },
+        "8C": {
+            "Coordinates": "43.440622:5.220963:20",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "8B"
+            ],
+            "Priority": 50
+        },
+        "9A": {
+            "Coordinates": "43.441142:5.220488:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "9B"
+            ],
+            "Priority": 50
+        },
+        "9B": {
+            "Coordinates": "43.441085:5.220375:15",
+            "Code": "DE",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "9C",
+                "9A"
+            ],
+            "Priority": 50
+        },
+        "9C": {
+            "Coordinates": "43.441124:5.219981:15",
+            "Code": "BC",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "9B"
+            ],
+            "Priority": 50
+        },
+        "10A": {
+            "Coordinates": "43.441652:5.219713:20",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "10B",
+                "10D"
+            ],
+            "Priority": 50
+        },
+        "10B": {
+            "Coordinates": "43.441663:5.219632:15",
+            "Code": "CD",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "10C",
+                "10D",
+                "10A"
+            ],
+            "Priority": 50
+        },
+        "10C": {
+            "Coordinates": "43.441601:5.219074:20",
+            "Code": "BC",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "10B",
+                "10D"
+            ],
+            "Priority": 50
+        },
+        "10D": {
+            "Coordinates": "43.441640:5.219702:15",
+            "Code": "DE",
+            "Use": "A",
+            "Schengen": false,
+            "Block": [
+                "10C",
+                "10B",
+                "10A"
+            ],
+            "Priority": 50
+        },
+        "20A": {
+            "Coordinates": "43.438222:5.224651:15",
+            "Code": "BC",
+            "Use": "A",
+            "Schengen": true,
+            "Priority": 50
+        },
+        "20B": {
+            "Coordinates": "43.438039:5.224192:15",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "20C"
+            ],
+            "Priority": 50
+        },
+        "20C": {
+            "Coordinates": "43.438092:5.224136:15",
+            "Code": "B",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "20B"
+            ],
+            "Priority": 50
+        },
+        "47A": {
+            "Coordinates": "43.442485:5.218584:25",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "EZY",
+                "EJU",
+                "EXS"
+            ],
+            "Priority": 50
+        },
+        "47C": {
+            "Coordinates": "43.442057:5.217953:25",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "EZY",
+                "EJU",
+                "EXS"
+            ],
+            "Priority": 50
+        },
+        "47E": {
+            "Coordinates": "43.441660:5.217398:25",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "EZY",
+                "EJU",
+                "EXS"
+            ],
+            "Priority": 50
+        },
+        "47G": {
+            "Coordinates": "43.441206:5.216934:25",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": false,
+            "Callsigns": [
+                "RYR",
+                "EZY",
+                "EJU",
+                "EXS"
+            ],
+            "Priority": 50
+        },
+        "48A": {
+            "Coordinates": "43.443206:5.217521:25",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "RYR",
+                "EZY",
+                "EJU",
+                "EXS"
+            ],
+            "Priority": 50
+        },
+        "48C": {
+            "Coordinates": "43.442766:5.217020:25",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "RYR",
+                "EZY",
+                "EJU",
+                "EXS"
+            ],
+            "Priority": 50
+        },
+        "48E": {
+            "Coordinates": "43.442337:5.216347:25",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "RYR",
+                "EZY",
+                "EJU",
+                "EXS"
+            ],
+            "Priority": 50
+        },
+        "48G": {
+            "Coordinates": "43.441700:5.216355:25",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Callsigns": [
+                "RYR",
+                "EZY",
+                "EJU",
+                "EXS"
+            ],
+            "Priority": 50
+        },
+        "50": {
+            "Coordinates": "43.441459:5.213560:20",
+            "Code": "F",
+            "Block": [
+                "51",
+                "50C",
+                "51C",
+                "50A",
+                "51A"
+            ],
+            "Priority": 50
+        },
+        "50A": {
+            "Coordinates": "43.441591:5.212769:12",
+            "Code": "BC",
+            "Use": "APM",
+            "Block": [
+                "51",
+                "50"
+            ],
+            "Priority": 50
+        },
+        "50C": {
+            "Coordinates": "43.441967:5.213375:12",
+            "Code": "BC",
+            "Use": "APM",
+            "Block": [
+                "51",
+                "50"
+            ],
+            "Priority": 50
+        },
+        "51": {
+            "Coordinates": "43.441872:5.212978:20",
+            "Code": "F",
+            "Block": [
+                "50C",
+                "51C",
+                "50",
+                "50A",
+                "51A"
+            ],
+            "Priority": 50
+        },
+        "51A": {
+            "Coordinates": "43.441416:5.213080:12",
+            "Code": "BC",
+            "Use": "APM",
+            "Block": [
+                "51",
+                "50"
+            ],
+            "Priority": 50
+        },
+        "51C": {
+            "Coordinates": "43.441755:5.213678:12",
+            "Code": "BC",
+            "Use": "APM",
+            "Block": [
+                "51",
+                "50"
+            ],
+            "Priority": 50
+        },
+        "52": {
+            "Coordinates": "43.441946:5.214426:20",
+            "Code": "DE",
+            "Use": "APM",
+            "Block": [
+                "53"
+            ],
+            "Priority": 50
+        },
+        "53": {
+            "Coordinates": "43.442293:5.213927:20",
+            "Code": "DE",
+            "Use": "APM",
+            "Block": [
+                "52"
+            ],
+            "Priority": 50
+        },
+        "54": {
+            "Coordinates": "43.442316:5.215089:15",
+            "Code": "CD",
+            "Use": "APM",
+            "Block": [
+                "55"
+            ],
+            "Priority": 50
+        },
+        "55": {
+            "Coordinates": "43.442612:5.214633:15",
+            "Code": "CD",
+            "Use": "APM",
+            "Block": [
+                "54"
+            ],
+            "Priority": 50
+        },
+        "56": {
+            "Coordinates": "43.442684:5.215692:15",
+            "Code": "BC",
+            "Use": "APM",
+            "Block": [
+                "57"
+            ],
+            "Priority": 50
+        },
+        "57": {
+            "Coordinates": "43.442929:5.215346:15",
+            "Code": "BC",
+            "Use": "APM",
+            "Block": [
+                "56"
+            ],
+            "Priority": 50
+        },
+        "60N": {
+            "Coordinates": "43.442904:5.211355:20",
+            "Code": "CD",
+            "Use": "C",
+            "Callsigns": [
+                "DHL",
+                "DAE",
+                "DHK",
+                "DHV",
+                "DHX",
+                "JOS",
+                "VEC",
+                "SET",
+                "SOP",
+                "AHK",
+                "ABR",
+                "BCS",
+                "LVU",
+                "VTM",
+                "AJK",
+                "GHN",
+                "CGF",
+                "KFS",
+                "KII",
+                "SWT",
+                "XLR",
+                "BDA",
+                "SWQ",
+                "PAC",
+                "CSB",
+                "ABX",
+                "TMN",
+                "CJT",
+                "CKS",
+                "BOX",
+                "HLF"
+            ],
+            "Priority": 50
+        },
+        "61N": {
+            "Coordinates": "43.443112:5.211999:15",
+            "Code": "C",
+            "Use": "C",
+            "Callsigns": [
+                "DHL",
+                "DAE",
+                "DHK",
+                "DHV",
+                "DHX",
+                "JOS",
+                "VEC",
+                "SET",
+                "SOP",
+                "AHK",
+                "ABR",
+                "BCS",
+                "LVU",
+                "VTM",
+                "AJK",
+                "GHN",
+                "CGF",
+                "KFS",
+                "KII",
+                "SWT",
+                "XLR",
+                "BDA",
+                "SWQ",
+                "PAC",
+                "CSB",
+                "ABX",
+                "TMN",
+                "CJT",
+                "CKS",
+                "BOX",
+                "HLF"
+            ],
+            "Priority": 50,
+            "Block": [
+                "62N"
+            ]
+        },
+        "62N": {
+            "Coordinates": "43.443200:5.211875:20",
+            "Code": "CD",
+            "Use": "C",
+            "Callsigns": [
+                "DHL",
+                "DAE",
+                "DHK",
+                "DHV",
+                "DHX",
+                "JOS",
+                "VEC",
+                "SET",
+                "SOP",
+                "AHK",
+                "ABR",
+                "BCS",
+                "LVU",
+                "VTM",
+                "AJK",
+                "GHN",
+                "CGF",
+                "KFS",
+                "KII",
+                "SWT",
+                "XLR",
+                "BDA",
+                "SWQ",
+                "PAC",
+                "CSB",
+                "ABX",
+                "TMN",
+                "CJT",
+                "CKS",
+                "BOX",
+                "HLF"
+            ],
+            "Priority": 50,
+            "Block": [
+                "61N"
+            ]
+        },
+        "63A": {
+            "Coordinates": "43.443697:5.212769:12",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50
+        },
+        "63B": {
+            "Coordinates": "43.443463:5.212766:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50
+        },
+        "63C": {
+            "Coordinates": "43.443303:5.212905:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50,
+            "Block": [
+                "63D"
+            ]
+        },
+        "63D": {
+            "Coordinates": "43.443233:5.213005:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50,
+            "Block": [
+                "63C",
+                "63E",
+                "65"
+            ]
+        },
+        "63E": {
+            "Coordinates": "43.443144:5.213026:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50,
+            "Block": [
+                "63D"
+            ]
+        },
+        "64": {
+            "Coordinates": "43.443545:5.213056:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50
+        },
+        "64B": {
+            "Coordinates": "43.443445:5.213493:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50,
+            "Block": [
+                "65"
+            ]
+        },
+        "65": {
+            "Coordinates": "43.443364:5.213364:15",
+            "Use": "H",
+            "Block": [
+                "64B",
+                "63D"
+            ],
+            "Priority": 50
+        },
+        "66E": {
+            "Coordinates": "43.444074:5.213705:15",
+            "Code": "B",
+            "Use": "P",
+            "Block": [
+                "66W",
+                "66G"
+            ],
+            "Priority": 50
+        },
+        "66G": {
+            "Coordinates": "43.444006:5.213659:15",
+            "Code": "C",
+            "Use": "P",
+            "Block": [
+                "66E",
+                "66W"
+            ],
+            "Priority": 50
+        },
+        "66W": {
+            "Coordinates": "43.444008:5.213544:15",
+            "Code": "B",
+            "Use": "P",
+            "Block": [
+                "66E",
+                "66G"
+            ],
+            "Priority": 50
+        },
+        "67N": {
+            "Coordinates": "43.444291:5.214217:15",
+            "Code": "B",
+            "Use": "P",
+            "Block": [
+                "68N"
+            ],
+            "Priority": 50
+        },
+        "68N": {
+            "Coordinates": "43.444252:5.214469:20",
+            "Code": "C",
+            "Use": "P",
+            "Block": [
+                "69N",
+                "67N"
+            ],
+            "Priority": 50
+        },
+        "69N": {
+            "Coordinates": "43.444322:5.214735:15",
+            "Code": "B",
+            "Use": "P",
+            "Block": [
+                "68N"
+            ],
+            "Priority": 50
+        },
+        "70": {
+            "Coordinates": "43.443627:5.214850:30",
+            "Code": "A",
+            "Use": "P",
+            "Priority": 50,
+            "Apron": true
+        },
+        "71": {
+            "Coordinates": "43.443897:5.215231:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50,
+            "Block": [
+                "72B"
+            ]
+        },
+        "72": {
+            "Coordinates": "43.444035:5.215448:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50,
+            "Block": [
+                "72B"
+            ]
+        },
+        "72B": {
+            "Coordinates": "43.443993:5.215598:15",
+            "Code": "BC",
+            "Use": "P",
+            "Block": [
+                "73",
+                "72"
+            ],
+            "Priority": 50
+        },
+        "73": {
+            "Coordinates": "43.444143:5.215668:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50,
+            "Block": [
+                "73B",
+                "72B"
+            ]
+        },
+        "73B": {
+            "Coordinates": "43.444254:5.215791:15",
+            "Code": "BC",
+            "Use": "P",
+            "Block": [
+                "74",
+                "73"
+            ],
+            "Priority": 50
+        },
+        "74": {
+            "Coordinates": "43.444316:5.215808:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50,
+            "Block": [
+                "73B"
+            ]
+        },
+        "75": {
+            "Coordinates": "43.444390:5.216068:10",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": 50
+        },
+        "76": {
+            "Coordinates": "43.445196:5.216328:20",
+            "Code": "BC",
+            "Use": "PMC",
+            "Priority": 50
+        },
+        "77": {
+            "Coordinates": "43.445027:5.215861:20",
+            "Code": "BC",
+            "Use": "PMC",
+            "Priority": 50
+        },
+        "78": {
+            "Coordinates": "43.444748:5.215475:20",
+            "Code": "BC",
+            "Use": "PMC",
+            "Priority": 50
+        },
+        "80": {
+            "Coordinates": "43.446096:5.216693:22",
+            "Code": "CD",
+            "Use": "C",
+            "Priority": 50
+        },
+        "81": {
+            "Coordinates": "43.446361:5.217154:22",
+            "Code": "CD",
+            "Use": "C",
+            "Priority": 50
+        },
+        "82": {
+            "Coordinates": "43.446698:5.217648:22",
+            "Code": "CD",
+            "Use": "C",
+            "Priority": 50
+        },
+        "83A": {
+            "Coordinates": "43.445366:5.218348:10",
+            "Code": "B",
+            "Use": "C",
+            "Block": [
+                "83B"
+            ],
+            "Priority": 50
+        },
+        "83B": {
+            "Coordinates": "43.445401:5.218409:10",
+            "Code": "C",
+            "Use": "C",
+            "Block": [
+                "83A"
+            ],
+            "Priority": 50
+        },
+        "83C": {
+            "Coordinates": "43.445588:5.218495:12",
+            "Code": "B",
+            "Use": "C",
+            "Block": [
+                "83D"
+            ],
+            "Priority": 50
+        },
+        "83D": {
+            "Coordinates": "43.445778:5.218629:10",
+            "Code": "C",
+            "Use": "C",
+            "Block": [
+                "83E"
+            ],
+            "Priority": 50
+        },
+        "83E": {
+            "Coordinates": "43.445810:5.218702:10",
+            "Code": "B",
+            "Use": "C",
+            "Block": [
+                "83D"
+            ],
+            "Priority": 50
+        },
+        "AIRBUS": {
+            "Coordinates": "43.433772:5.228934:200",
+            "Use": "H",
+            "Priority": 50,
+            "Apron": true
+        },
+        "PELICANDROME": {
+            "Coordinates": "43.434185:5.225190:100",
+            "Priority": 50,
+            "Apron": true
+        },
+        "SECUA": {
+            "Coordinates": "43.436218:5.223184:100",
+            "Priority": 50,
+            "Apron": true
+        },
+        "SECUH": {
+            "Coordinates": "43.432813:5.208839:50",
+            "Use": "H",
+            "Callsigns": [
+                "SAMU",
+                "DRAGON",
+                "FGN"
+            ],
+            "Priority": 50,
+            "Apron": true
+        }
+    }
 }

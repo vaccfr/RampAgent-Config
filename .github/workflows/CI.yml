@@ -1,0 +1,38 @@
+name: Deploy Config
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install validator deps
+        run: npm install ajv ajv-formats
+
+      - name: Validate configs
+        run: node validate-configs.js
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: validate
+    steps:
+      - name: Trigger Config Update
+        run: |
+          # Generate signature from the exact payload string
+          payload='{"ref":"refs/heads/main","repository":{"name":"config-repo"}}'
+          sig=$(printf '%s' "$payload" | openssl dgst -sha256 -hmac "${{ secrets.WEBHOOK_SECRET }}" | awk '{print $2}')
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Hub-Signature-256: sha256=${sig}" \
+            -d "$payload" \
+            https://pintade.vatsim.fr/rampagent/api/config-webhook

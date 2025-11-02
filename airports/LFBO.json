@@ -1,5 +1,6 @@
 {
-    "version": "v1.0.3",
+    "$schema": "../.github/schema/airportConfig.schema.json",
+    "version": "v1.0.6",
     "ICAO": "LFBO",
     "Coordinates": "43.629242:1.363506:3000",
     "Stands": {
@@ -235,7 +236,7 @@
         },
         "E50": {
             "Coordinates": "43.629719:1.373058:25",
-            "Code": "AB",
+            "Code": "C",
             "Use": "A",
             "Priority": 1,
             "Callsigns": [
@@ -299,28 +300,28 @@
             "Coordinates": "43.628672:1.375915:25",
             "Code": "C",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "F20": {
             "Coordinates": "43.628339:1.376283:25",
             "Code": "C",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "F30": {
             "Coordinates": "43.628017:1.376684:25",
             "Code": "C",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "F40": {
             "Coordinates": "43.627625:1.376963:25",
             "Code": "C",
             "Use": "A",
-            "Priority": 1,
+            "Priority": 10,
             "Schengen": true
         },
         "F50": {
@@ -365,7 +366,7 @@
                 "K12",
                 "K22"
             ],
-            "Priority": 3
+            "Priority": 30
         },
         "K12": {
             "Coordinates": "43.627837:1.374901:25",
@@ -381,7 +382,7 @@
                 "EG",
                 "LP"
             ],
-            "Priority": 3
+            "Priority": 20
         },
         "K22": {
             "Coordinates": "43.627518:1.375261:25",
@@ -400,7 +401,7 @@
             "Block": [
                 "K11"
             ],
-            "Priority": 3
+            "Priority": 20
         },
         "K32": {
             "Coordinates": "43.627195:1.375568:25",
@@ -416,7 +417,7 @@
                 "EG",
                 "LP"
             ],
-            "Priority": 3
+            "Priority": 20
         },
         "S1": {
             "Coordinates": "43.624778:1.356854:25",
