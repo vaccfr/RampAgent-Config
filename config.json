@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.1.2",
+  "version": "v1.1.3",
   "max_alt": 15000,
   "max_distance": 50.0,
   "CargoOperator": [
@@ -82,7 +82,8 @@
     "C37B",
     "C32B",
     "SR72",
-    "RFAL"
+    "RFAL",
+    "E3TF"
   ],
   "GeneralAviation": [
     "C150",
@@ -439,6 +440,9 @@
     "A318": 34.1,
     "CONC": 25.6,
     "B788": 60.2,
-    "RFAL": 10.9
+    "RFAL": 10.9,
+    "E3TF": 44.5,
+    "A32N": 35.8,
+    "B764": 52
   }
 }
