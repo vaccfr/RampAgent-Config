@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.1.3",
+  "version": "v1.1.4",
   "max_alt": 15000,
   "max_distance": 50.0,
   "CargoOperator": [
@@ -34,6 +34,7 @@
     "H135",
     "EC35",
     "EC45",
+    "E145",
     "EC30",
     "EC20",
     "EC55",
@@ -206,7 +207,9 @@
 	"PRM1",
     "OPCA",
     "BT36",
-    "GABR"
+    "GABR",
+    "EPIC",
+    "PC24"
   ],
   "AircraftWingspans": {
     "C172": 11.0,
@@ -443,6 +446,10 @@
     "RFAL": 10.9,
     "E3TF": 44.5,
     "A32N": 35.8,
-    "B764": 52
+    "B764": 52,
+    "EPIC": 13.2,
+    "E145": 20.1,
+    "PC24": 17.2,
+    "B461": 30.5
   }
 }
