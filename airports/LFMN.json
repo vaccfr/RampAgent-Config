@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/refs/heads/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.2",
+    "version": "v1.0.3",
     "ICAO": "LFMN",
     "Coordinates": "43.661663:7.210765:2000",
     "Stands": {
@@ -51,7 +51,9 @@
             ],
             "Priority": 70,
             "Callsigns": [
-                "CCM"
+                "CCM",
+                "LGL",
+                "TJT"
             ],
             "Remark": {
                 "ABCDEF": "Left S"
@@ -98,6 +100,11 @@
             "Coordinates": "43.662452:7.211857:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "CCM",
+                "LGL",
+                "TJT"
+            ],
             "Block": [
                 "15",
                 "17"
@@ -115,7 +122,25 @@
                 "SWR",
                 "EIN",
                 "THY",
-                "AEE"
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
             ],
             "Remark": {
                 "ABCDEF": "Push W"
@@ -126,6 +151,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Remark": {
                 "ABCDEF": "Push W block F"
             }
@@ -134,6 +183,11 @@
             "Coordinates": "43.662171:7.211433:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "CCM",
+                "LGL",
+                "TJT"
+            ],
             "Block": [
                 "15",
                 "17"
@@ -148,6 +202,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "10B"
             ],
@@ -160,6 +238,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "DE",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "10A",
                 "10C"
@@ -173,6 +275,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "10B"
             ],
@@ -184,6 +310,11 @@
             "Coordinates": "43.661886:7.211001:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "CCM",
+                "LGL",
+                "TJT"
+            ],
             "Block": [
                 "15",
                 "17"
@@ -198,6 +329,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "12B"
             ],
@@ -210,6 +365,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "DE",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "12A",
                 "12C"
@@ -223,6 +402,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "12B"
             ],
@@ -248,6 +451,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "14B"
             ],
@@ -273,6 +500,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "14B"
             ],
@@ -301,6 +552,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "16B"
             ],
@@ -326,6 +601,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Block": [
                 "16B"
             ],
@@ -351,6 +650,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Remark": {
                 "ABCDEF": "Push E Block 40A/28/26R"
             }
@@ -360,6 +683,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Remark": {
                 "ABCDEF": "Push E Block 40A/28/26R"
             }
@@ -378,6 +725,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Remark": {
                 "ABCDEF": "Push E Block 40A/28/26R"
             }
@@ -396,6 +767,30 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "SWR",
+                "EIN",
+                "THY",
+                "AEE",
+                "BAW",
+                "DLH",
+                "FIA",
+                "BEL",
+                "TAP",
+                "TRA",
+                "QTR",
+                "AUA",
+                "NSZ",
+                "NOZ",
+                "RYR",
+                "VLG",
+                "LBT",
+                "LOT",
+                "ITY",
+                "EIN",
+                "EWG",
+                "PGT"
+            ],
             "Remark": {
                 "ABCDEF": "Push E Block 40A/28/26R"
             }
@@ -411,7 +806,7 @@
         },
         "24A": {
             "Coordinates": "43.663599:7.207431:20",
-            "Use": "A",
+            "Use": "AC",
             "Priority": 50,
             "Code": "C",
             "Remark": {
@@ -420,7 +815,7 @@
         },
         "24C": {
             "Coordinates": "43.663580:7.206835:20",
-            "Use": "A",
+            "Use": "AC",
             "Priority": 50,
             "Code": "AB",
             "Remark": {
@@ -459,7 +854,7 @@
             "Coordinates": "43.665732:7.218782:25",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70,
+            "Priority": 60,
             "Callsigns": [
                 "VJT",
                 "NJE",
@@ -471,43 +866,74 @@
             "Coordinates": "43.665355:7.218184:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 60,
+            "Callsigns": [
+                "VJT",
+                "NJE",
+                "ANE",
+                "EJA"
+            ]
         },
         "35C": {
             "Coordinates": "43.664874:7.217588:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 60,
+            "Callsigns": [
+                "VJT",
+                "NJE",
+                "ANE",
+                "EJA"
+            ]
         },
         "35D": {
             "Coordinates": "43.665138:7.217873:20",
             "Code": "BC",
             "Use": "A",
-            "Priority": 70
+            "Priority": 60,
+            "Callsigns": [
+                "VJT",
+                "NJE",
+                "ANE",
+                "EJA"
+            ]
         },
         "37A": {
             "Coordinates": "43.664591:7.217186:25",
             "Code": "BC",
             "Use": "AH",
-            "Priority": 70
+            "Priority": 60
         },
         "39A": {
             "Coordinates": "43.664269:7.216768:25",
             "Code": "BC",
             "Use": "AH",
-            "Priority": 70
+            "Priority": 60
         },
         "39C": {
             "Coordinates": "43.663993:7.216376:25",
             "Code": "BC",
             "Use": "AH",
-            "Priority": 70
+            "Priority": 60
         },
         "40A": {
             "Coordinates": "43.662528:7.206143:25",
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Block": [
                 "40B"
             ],
@@ -533,6 +959,19 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Block": [
                 "40B"
             ],
@@ -545,6 +984,11 @@
             "Use": "A",
             "Priority": 50,
             "Code": "B",
+            "Callsigns": [
+                "CCM",
+                "LGL",
+                "TJT"
+            ],
             "Remark": {
                 "ABCDEF": "Push S on C"
             }
@@ -554,6 +998,11 @@
             "Use": "A",
             "Priority": 50,
             "Code": "AB",
+            "Callsigns": [
+                "CCM",
+                "LGL",
+                "TJT"
+            ],
             "Block": [
                 "43A"
             ],
@@ -566,6 +1015,19 @@
             "Use": "A",
             "Priority": 50,
             "Code": "CDE",
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Remark": {
                 "ABCDEF": "Push S on C"
             }
@@ -575,6 +1037,11 @@
             "Use": "A",
             "Priority": 50,
             "Code": "B",
+            "Callsigns": [
+                "CCM",
+                "LGL",
+                "TJT"
+            ],
             "Block": [
                 "41E"
             ],
@@ -597,6 +1064,19 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Remark": {
                 "ABCDEF": "Push S on C"
             }
@@ -606,6 +1086,11 @@
             "Use": "A",
             "Priority": 50,
             "Code": "B",
+            "Callsigns": [
+                "CCM",
+                "LGL",
+                "TJT"
+            ],
             "Remark": {
                 "ABCDEF": "Push S on C"
             }
@@ -614,6 +1099,19 @@
             "Coordinates": "43.660822:7.207096:20",
             "Use": "A",
             "Priority": 50,
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Block": [
                 "46B"
             ],
@@ -639,6 +1137,19 @@
             "Coordinates": "43.660467:7.207152:25",
             "Use": "A",
             "Priority": 50,
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Block": [
                 "46B"
             ],
@@ -652,6 +1163,11 @@
             "Use": "A",
             "Priority": 50,
             "Code": "B",
+            "Callsigns": [
+                "CCM",
+                "LGL",
+                "TJT"
+            ],
             "Remark": {
                 "ABCDEF": "Push S on C"
             }
@@ -661,6 +1177,19 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Block": [
                 "48B"
             ],
@@ -686,6 +1215,19 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Block": [
                 "48B"
             ],
@@ -732,6 +1274,19 @@
             "Use": "A",
             "Priority": 50,
             "Code": "C",
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ"
+
+            ],
             "Block": [
                 "50B"
             ],
@@ -768,7 +1323,10 @@
                 "EZY",
                 "TAR",
                 "DAH",
-                "SAS"
+                "SAS",
+                "VOE",
+                "WZZ"
+
             ],
             "Remark": {
                 "ABCDEF": "Push E on T"
@@ -831,6 +1389,9 @@
             "Block": [
                 "52A",
                 "52C"
+            ],
+            "Callsigns": [
+                "UAE"
             ],
             "Remark": {
                 "ABCDEF": "Push E on T Block B"
