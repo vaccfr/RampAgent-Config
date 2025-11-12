@@ -1,0 +1,207 @@
+{
+    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
+    "version": "v0.0.1",
+    "ICAO": "LFKJ",
+    "Coordinates": "41.921631:8.799534:2000",
+    "Stands": {
+        "1": {
+            "Coordinates": "41.917559:8.794416:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "2": {
+            "Coordinates": "41.918082:8.794706:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "3": {
+            "Coordinates": "41.918461:8.795087:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "4": {
+            "Coordinates": "41.919048:8.795393:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "5": {
+            "Coordinates": "41.919595:8.795768:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "6": {
+            "Coordinates": "41.920225:8.796068:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "7": {
+            "Coordinates": "41.920693:8.796449:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "8": {
+            "Coordinates": "41.921373:8.796809:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "9": {
+            "Coordinates": "41.921938:8.797139:25",
+            "Code": "BC",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "10": {
+            "Coordinates": "41.922433:8.797528:25",
+            "Code": "BCD",
+            "Use": "A",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 50
+        },
+        "J1": {
+            "Coordinates": "41.922229:8.794440:15",
+            "Code": "B",
+            "Use": "AP",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 10
+        },
+        "J2": {
+            "Coordinates": "41.921974:8.794156:15",
+            "Code": "B",
+            "Use": "AP",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 10
+        },
+        "J3": {
+            "Coordinates": "41.922016:8.793595:15",
+            "Code": "B",
+            "Use": "AP",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 10
+        },
+        "J4": {
+            "Coordinates": "41.921916:8.794837:15",
+            "Code": "B",
+            "Use": "AP",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 10
+        },
+        "J5": {
+            "Coordinates": "41.921629:8.794408:15",
+            "Code": "B",
+            "Use": "AP",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 10
+        },
+        "J6": {
+            "Coordinates": "41.921619:8.794003:15",
+            "Code": "B",
+            "Use": "AP",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 10
+        },
+        "K1": {
+            "Coordinates": "41.922944:8.791367:20",
+            "Code": "BCD",
+            "Use": "C",
+            "Remark": {
+                "BCD": "Taxi out"
+            },
+            "Priority": 10
+        },
+        "K2": {
+            "Coordinates": "41.923008:8.790712:20",
+            "Code": "BCD",
+            "Use": "C",
+            "Remark": {
+                "BCD": "Taxi out"
+            },
+            "Priority": 10
+        },
+        "L": {
+            "Coordinates": "41.921764:8.793172:50",
+            "Code": "A",
+            "Use": "AP",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Wingspan": 12,
+            "Priority": -10,
+            "Apron": true
+        },
+        "M1": {
+            "Coordinates": "41.922107:8.792077:10",
+            "Use": "H",
+            "Priority": -10
+        },
+        "M2": {
+            "Coordinates": "41.921912:8.792056:10",
+            "Use": "H",
+            "Priority": -10
+        },
+        "M3": {
+            "Coordinates": "41.921726:8.792037:10",
+            "Use": "H",
+            "Priority": -10
+        },
+        "PELICANDROME": {
+            "Coordinates": "41.920164:8.803088:100",
+            "Callsigns": [
+                "PELICAN"
+            ],
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": -10,
+            "Apron": true
+        }
+    }
+}
