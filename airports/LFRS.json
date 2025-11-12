@@ -1,0 +1,271 @@
+{
+    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
+    "version": "v0.0.1",
+    "ICAO": "LFRS",
+    "Coordinates": "47.154471:-1.609154:2000",
+    "Stands": {
+        "1": {
+            "Coordinates": "47.157682:-1.603465:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "2": {
+            "Coordinates": "47.157309:-1.603301:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50,
+            "Remark": {
+                "ABCDEF": "Push W on RD"
+            }
+        },
+        "3": {
+            "Coordinates": "47.157035:-1.602851:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50,
+            "Remark": {
+                "ABCDEF": "Push W on RD"
+            }
+        },
+        "4": {
+            "Coordinates": "47.156772:-1.602242:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50,
+            "Remark": {
+                "ABCDEF": "Push Straight"
+            }
+        },
+        "5": {
+            "Coordinates": "47.156437:-1.601657:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50,
+            "Remark": {
+                "ABCDEF": "Push Straight"
+            }
+        },
+        "5A": {
+            "Coordinates": "47.156236:-1.601408:30",
+            "Code": "DE",
+            "Use": "A",
+            "Block": [
+                "5",
+                "6"
+            ],
+            "Priority": 50,
+            "Remark": {
+                "ABCDEF": "Push Straight"
+            }
+        },
+        "6": {
+            "Coordinates": "47.156282:-1.601086:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50,
+            "Remark": {
+                "ABCDEF": "Push N on RC"
+            }
+        },
+        "7": {
+            "Coordinates": "47.155926:-1.600598:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50,
+            "Remark": {
+                "ABCDEF": "Push N on RC"
+            }
+        },
+        "8": {
+            "Coordinates": "47.154959:-1.601067:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push N on RC"
+            }
+        },
+        "9": {
+            "Coordinates": "47.155113:-1.601622:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push N on RC"
+            }
+        },
+        "10": {
+            "Coordinates": "47.155211:-1.602212:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push N on RC"
+            }
+        },
+        "11": {
+            "Coordinates": "47.154788:-1.602808:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            }
+        },
+        "12": {
+            "Coordinates": "47.154635:-1.602223:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            }
+        },
+        "14": {
+            "Coordinates": "47.154419:-1.601735:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            }
+        },
+        "15": {
+            "Coordinates": "47.153633:-1.602309:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            }
+        },
+        "16": {
+            "Coordinates": "47.153803:-1.602805:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            }
+        },
+        "17": {
+            "Coordinates": "47.153991:-1.603261:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            }
+        },
+        "18": {
+            "Coordinates": "47.154206:-1.603682:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            },
+            "Block": [
+                "18A"
+            ]
+        },
+        "18A": {
+            "Coordinates": "47.154259:-1.603870:25",
+            "Code": "D",
+            "Use": "AC",
+            "Block": [
+                "18",
+                "19"
+            ],
+            "Priority": 60
+        },
+        "19": {
+            "Coordinates": "47.154401:-1.604208:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            },
+            "Block": [
+                "18A",
+                "19A"
+            ]
+        },
+        "19A": {
+            "Coordinates": "47.154556:-1.604503:30",
+            "Code": "DEF",
+            "Use": "AC",
+            "Block": [
+                "20",
+                "19"
+            ],
+            "Priority": 60
+        },
+        "20": {
+            "Coordinates": "47.154607:-1.604787:20",
+            "Code": "C",
+            "Use": "AC",
+            "Priority": 60,
+            "Remark": {
+                "ABCDEF": "Push S on RC"
+            },
+            "Block": [
+                "19A"
+            ]
+        },
+        "J": {
+            "Coordinates": "47.160106:-1.601000:20",
+            "Code": "AB",
+            "Use": "P",
+            "Priority": -10,
+            "Apron": true
+        },
+        "K1": {
+            "Coordinates": "47.160447:-1.601147:20",
+            "Code": "B",
+            "Priority": 61
+        },
+        "L2": {
+            "Coordinates": "47.158636:-1.602971:20",
+            "Code": "B",
+            "Use": "AC",
+            "Priority": 60
+        },
+        "L3": {
+            "Coordinates": "47.158968:-1.602663:20",
+            "Code": "B",
+            "Use": "AC",
+            "Priority": 60
+        },
+        "L4": {
+            "Coordinates": "47.159395:-1.602336:20",
+            "Code": "B",
+            "Use": "AC",
+            "Priority": 60
+        },
+        "L5": {
+            "Coordinates": "47.159740:-1.602049:20",
+            "Code": "B",
+            "Use": "AC",
+            "Priority": 60
+        },
+        "M1": {
+            "Coordinates": "47.153661:-1.606198:20",
+            "Code": "BC",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 70
+        },
+        "M2": {
+            "Coordinates": "47.153520:-1.605391:20",
+            "Code": "BC",
+            "Remark": {
+                "ABCDEF": "Taxi out"
+            },
+            "Priority": 70
+        }
+    }
+}
