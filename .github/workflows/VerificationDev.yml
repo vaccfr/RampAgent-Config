@@ -2,7 +2,7 @@ name: Deploy Config
 
 on:
   push:
-    branches: [ Dev ]
+    branches: [ dev ]
 
 jobs:
   validate:
