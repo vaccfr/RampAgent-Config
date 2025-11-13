@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v0.0.1",
+    "version": "v0.0.2",
     "ICAO": "LFBD",
     "Coordinates": "44.828970:-0.710506:2000",
     "Stands": {
@@ -127,7 +127,11 @@
             "Coordinates": "44.829582:-0.702792:30",
             "Code": "DE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Block": [
+                "C1",
+                "C3"
+            ]
         },
         "C3": {
             "Coordinates": "44.829502:-0.702605:20",
