@@ -1,0 +1,126 @@
+{
+    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
+    "version": "v0.0.1",
+    "ICAO": "LFOB",
+    "Coordinates": "49.455237:2.115126:2000",
+    "Stands": {
+        "1": {
+            "Coordinates": "49.458475:2.110654:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "2": {
+            "Coordinates": "49.458247:2.111129:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "3": {
+            "Coordinates": "49.458020:2.111687:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "4": {
+            "Coordinates": "49.457762:2.112154:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "5": {
+            "Coordinates": "49.457715:2.112615:20",
+            "Code": "C",
+            "Use": "AH",
+            "Priority": 50
+        },
+        "6": {
+            "Coordinates": "49.457921:2.112966:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "7": {
+            "Coordinates": "49.458215:2.113406:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "8": {
+            "Coordinates": "49.458487:2.113836:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "9": {
+            "Coordinates": "49.458955:2.114316:20",
+            "Code": "CDE",
+            "Use": "A",
+            "Priority": 50
+        },
+        "10": {
+            "Coordinates": "49.459235:2.114780:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "11": {
+            "Coordinates": "49.459553:2.115182:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "12": {
+            "Coordinates": "49.459844:2.115614:20",
+            "Code": "C",
+            "Use": "A",
+            "Priority": 50
+        },
+        "L1": {
+            "Coordinates": "49.458548:2.109898:15",
+            "Code": "B",
+            "Use": "AP",
+            "Block": [
+                "L2",
+                "L3"
+            ],
+            "Priority": 60
+        },
+        "L2": {
+            "Coordinates": "49.458524:2.109946:10",
+            "Code": "B",
+            "Use": "APH",
+            "Block": [
+                "L1"
+            ],
+            "Priority": 60
+        },
+        "L3": {
+            "Coordinates": "49.458606:2.109775:10",
+            "Code": "B",
+            "Use": "APH",
+            "Block": [
+                "L1"
+            ],
+            "Priority": 60
+        },
+        "L4": {
+            "Coordinates": "49.458707:2.109579:10",
+            "Code": "B",
+            "Use": "APH",
+            "Priority": 50
+        },
+        "L5": {
+            "Coordinates": "49.458813:2.109273:10",
+            "Code": "B",
+            "Use": "APH",
+            "Priority": 50
+        },
+        "NORTH": {
+            "Coordinates": "49.462413:2.121778:50",
+            "Code": "A",
+            "Priority": -10,
+            "Apron": true
+        }
+    }
+}
