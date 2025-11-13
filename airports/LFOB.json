@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v0.0.1",
+    "version": "v0.0.2",
     "ICAO": "LFOB",
     "Coordinates": "49.455237:2.115126:2000",
     "Stands": {
@@ -44,36 +44,42 @@
             "Coordinates": "49.458215:2.113406:20",
             "Code": "C",
             "Use": "A",
+            "Schengen": false,
             "Priority": 50
         },
         "8": {
             "Coordinates": "49.458487:2.113836:20",
             "Code": "C",
             "Use": "A",
+            "Schengen": false,
             "Priority": 50
         },
         "9": {
             "Coordinates": "49.458955:2.114316:20",
-            "Code": "CDE",
+            "Code": "C",
             "Use": "A",
+            "Schengen": false,
             "Priority": 50
         },
         "10": {
             "Coordinates": "49.459235:2.114780:20",
             "Code": "C",
             "Use": "A",
+            "Schengen": false,
             "Priority": 50
         },
         "11": {
             "Coordinates": "49.459553:2.115182:20",
             "Code": "C",
             "Use": "A",
+            "Schengen": false,
             "Priority": 50
         },
         "12": {
             "Coordinates": "49.459844:2.115614:20",
             "Code": "C",
             "Use": "A",
+            "Schengen": false,
             "Priority": 50
         },
         "L1": {
