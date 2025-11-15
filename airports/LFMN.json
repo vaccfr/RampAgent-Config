@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/refs/heads/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.4",
+    "version": "v1.0.5",
     "ICAO": "LFMN",
     "Coordinates": "43.661663:7.210765:2000",
     "Stands": {
@@ -75,7 +75,7 @@
             "Coordinates": "43.665437:7.216086:30",
             "Use": "A",
             "Priority": 60,
-            "Code": "DE",
+            "Code": "C",
             "Block": [
                 "6A",
                 "6C"
@@ -385,7 +385,7 @@
             "Coordinates": "43.662518:7.209180:25",
             "Use": "A",
             "Priority": 50,
-            "Code": "B",
+            "Code": "BC",
             "Remark": {
                 "ABCDEF": "Push-Pull S on D"
             }
@@ -403,7 +403,7 @@
             "Coordinates": "43.662043:7.209300:25",
             "Use": "A",
             "Priority": 50,
-            "Code": "B",
+            "Code": "BCD",
             "Remark": {
                 "ABCDEF": "Push S on D"
             }
@@ -421,7 +421,7 @@
             "Coordinates": "43.661583:7.209386:20",
             "Use": "A",
             "Priority": 50,
-            "Code": "B",
+            "Code": "BC",
             "Remark": {
                 "ABCDEF": "Push S on D"
             }
@@ -448,7 +448,7 @@
             "Coordinates": "43.661110:7.209467:25",
             "Use": "A",
             "Priority": 50,
-            "Code": "B",
+            "Code": "BC",
             "Remark": {
                 "ABCDEF": "Push S on D"
             }
@@ -475,6 +475,7 @@
         "31": {
             "Coordinates": "43.665732:7.218782:25",
             "Code": "BC",
+            "Wingspan": 21.1,
             "Use": "A",
             "Priority": 69,
             "Callsigns": [
@@ -482,19 +483,26 @@
                 "NJE",
                 "ANE",
                 "EJA"
-            ]
+            ],
+            "Remark": {
+                "ABCDEF": "Taxi U"
+            }
         },
         "33E": {
             "Coordinates": "43.665355:7.218184:20",
             "Code": "BC",
             "Use": "A",
+            "Wingspan": 23.2,
             "Priority": 69,
             "Callsigns": [
                 "VJT",
                 "NJE",
                 "ANE",
                 "EJA"
-            ]
+            ],
+            "Remark": {
+                "ABCDEF": "Taxi U"
+            }
         },
         "35C": {
             "Coordinates": "43.664874:7.217588:20",
@@ -506,11 +514,15 @@
                 "NJE",
                 "ANE",
                 "EJA"
-            ]
+            ],
+            "Remark": {
+                "ABCDEF": "Taxi U"
+            }
         },
         "35D": {
             "Coordinates": "43.665138:7.217873:20",
             "Code": "BC",
+            "Wingspan": 23.2,
             "Use": "A",
             "Priority": 69,
             "Callsigns": [
@@ -518,25 +530,38 @@
                 "NJE",
                 "ANE",
                 "EJA"
-            ]
+            ],
+            "Remark": {
+                "ABCDEF": "Taxi U"
+            }
         },
         "37A": {
             "Coordinates": "43.664591:7.217186:25",
             "Code": "BC",
             "Use": "AH",
-            "Priority": 70
+            "Priority": 70,
+            "Remark": {
+                "ABCDEF": "Taxi U"
+            }
         },
         "39A": {
             "Coordinates": "43.664269:7.216768:25",
             "Code": "BC",
             "Use": "AH",
-            "Priority": 70
+            "Priority": 70,
+            "Remark": {
+                "ABCDEF": "Taxi U"
+            }
         },
         "39C": {
             "Coordinates": "43.663993:7.216376:25",
             "Code": "BC",
             "Use": "AH",
-            "Priority": 70
+            "Wingspan": 25,
+            "Priority": 70,
+            "Remark": {
+                "ABCDEF": "Taxi U"
+            }
         },
         "40A": {
             "Coordinates": "43.662528:7.206143:25",
@@ -555,7 +580,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "40B"
@@ -581,7 +607,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "40A",
@@ -595,7 +622,8 @@
             "Coordinates": "43.662284:7.206742:25",
             "Use": "A",
             "Priority": 50,
-            "Code": "C",
+            "Code": "CD",
+            "Wingspan": 39,
             "Callsigns": [
                 "AFR",
                 "KLM",
@@ -608,7 +636,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "40B"
@@ -621,7 +650,8 @@
             "Coordinates": "43.662441:7.208560:20",
             "Use": "A",
             "Priority": 50,
-            "Code": "B",
+            "Code": "BC",
+            "Wingspan": 34.5,
             "Callsigns": [
                 "CCM",
                 "LGL",
@@ -636,7 +666,8 @@
             "Coordinates": "43.662060:7.208560:10",
             "Use": "A",
             "Priority": 50,
-            "Code": "AB",
+            "Code": "ABC",
+            "Wingspan": 34.5,
             "Callsigns": [
                 "CCM",
                 "LGL",
@@ -667,7 +698,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push S on C"
@@ -718,7 +750,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push S on C"
@@ -755,12 +788,14 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "46B"
             ],
             "Code": "C",
+            "Wingspan": 34.5,
             "Remark": {
                 "ABCDEF": "Push S on C"
             }
@@ -786,7 +821,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push S on C"
@@ -808,7 +844,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "46B"
@@ -850,7 +887,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "48B"
@@ -880,7 +918,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push S on C"
@@ -903,7 +942,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "48B"
@@ -916,7 +956,8 @@
             "Coordinates": "43.659410:7.209960:25",
             "Use": "A",
             "Priority": 70,
-            "Code": "C",
+            "Code": "CD",
+            "Wingspan": 47.7,
             "Block": [
                 "49B"
             ],
@@ -926,7 +967,7 @@
         },
         "49B": {
             "Coordinates": "43.659266:7.209711:30",
-            "Code": "DE",
+            "Code": "D",
             "Use": "A",
             "Block": [
                 "49A",
@@ -938,7 +979,8 @@
             "Coordinates": "43.658981:7.209410:25",
             "Use": "A",
             "Priority": 70,
-            "Code": "C",
+            "Code": "CD",
+            "Wingspan": 38.1,
             "Block": [
                 "49B"
             ],
@@ -963,7 +1005,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "50B"
@@ -993,7 +1036,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push E on T"
@@ -1019,7 +1063,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push E on T"
@@ -1082,7 +1127,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push E on T"
@@ -1109,7 +1155,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push E on T Block B"
@@ -1135,7 +1182,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Remark": {
                 "ABCDEF": "Push E on T"
@@ -1145,7 +1193,8 @@
             "Coordinates": "43.657390:7.207206:20",
             "Use": "A",
             "Priority": 70,
-            "Code": "AB",
+            "Code": "C",
+            "Wingspan": 29,
             "Block": [
                 "53B"
             ],
@@ -1156,7 +1205,6 @@
         "53B": {
             "Coordinates": "43.657302:7.207096:25",
             "Use": "A",
-            "Schengen": false,
             "Priority": 70,
             "Code": "C",
             "Block": [
@@ -1196,7 +1244,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "54B"
@@ -1222,7 +1271,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "54A",
@@ -1236,7 +1286,7 @@
             "Coordinates": "43.657731:7.205041:25",
             "Use": "A",
             "Priority": 50,
-            "Code": "C",
+            "Code": "CD",
             "Callsigns": [
                 "AFR",
                 "KLM",
@@ -1249,7 +1299,8 @@
                 "VOE",
                 "WZZ",
                 "UAE",
-                "TGZ"
+                "TGZ",
+                "DAL"
             ],
             "Block": [
                 "54B"
@@ -1267,18 +1318,48 @@
                 "56B",
                 "56L"
             ],
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
+            ],
             "Remark": {
                 "ABCDEF": "Push E on T"
             }
         },
         "56B": {
             "Coordinates": "43.657165:7.204202:25",
-            "Code": "DE",
+            "Code": "C",
             "Use": "A",
             "Block": [
                 "56A",
                 "56C",
                 "56L"
+            ],
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
             ],
             "Priority": 70,
             "Remark": {
@@ -1294,18 +1375,48 @@
                 "56B",
                 "56L"
             ],
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
+            ],
             "Remark": {
                 "ABCDEF": "Push E on T"
             }
         },
         "56L": {
             "Coordinates": "43.657180:7.204215:25",
-            "Code": "F",
+            "Code": "C",
             "Use": "A",
             "Block": [
                 "56A",
                 "56B",
                 "56C"
+            ],
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
             ],
             "Priority": 70
         },
@@ -1317,17 +1428,47 @@
             "Block": [
                 "58B"
             ],
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
+            ],
             "Remark": {
                 "ABCDEF": "Push E on T"
             }
         },
         "58B": {
             "Coordinates": "43.656520:7.203453:25",
-            "Code": "DE",
+            "Code": "D",
             "Use": "A",
             "Block": [
                 "58A",
                 "58C"
+            ],
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
             ],
             "Priority": 70,
             "Remark": {
@@ -1342,6 +1483,21 @@
             "Block": [
                 "58B"
             ],
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
+            ],
             "Remark": {
                 "ABCDEF": "Push E on T"
             }
@@ -1351,6 +1507,21 @@
             "Code": "C",
             "Use": "A",
             "Priority": 70,
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
+            ],
             "Remark": {
                 "ABCDEF": "Push E on T"
             }
@@ -1360,6 +1531,21 @@
             "Code": "BC",
             "Use": "A",
             "Priority": 70,
+            "Callsigns": [
+                "AFR",
+                "KLM",
+                "EJU",
+                "EZS",
+                "EZY",
+                "TAR",
+                "DAH",
+                "SAS",
+                "VOE",
+                "WZZ",
+                "UAE",
+                "TGZ",
+                "DAL"
+            ],
             "Remark": {
                 "ABCDEF": "Taxi U"
             }
@@ -1456,7 +1642,8 @@
         },
         "71A": {
             "Coordinates": "43.656154:7.205527:15",
-            "Code": "AB",
+            "Code": "ABC",
+            "Wingspan": 26.3,
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1464,7 +1651,8 @@
         },
         "71C": {
             "Coordinates": "43.655890:7.205191:15",
-            "Code": "AB",
+            "Code": "ABC",
+            "Wingspan": 26.3,
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1472,6 +1660,7 @@
         },
         "73A": {
             "Coordinates": "43.655615:7.204789:15",
+            "Wingspan": 26.3,
             "Code": "AB",
             "Priority": 70,
             "Remark": {
