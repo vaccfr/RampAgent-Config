@@ -31,7 +31,19 @@
             "type": "array",
             "items": { "type": "string" }
           },
-          "Apron": { "type": "boolean" },
+          "Apron": {
+            "type": "object",
+            "required": ["Size"],
+            "properties": {
+              "Size": { "type": "integer", "minimum": 2, "maximum": 100 },
+              "Coordinates": {
+                "type": "array",
+                "items": { "type": "string", "pattern": "^-?\\d{1,2}\\.\\d+:-?\\d{1,3}\\.\\d+$" },
+                "minItems": 3,
+                "maxItems": 10
+              }
+            }
+          },
           "Use": { "type": "string", "pattern": "^[A,C,H,M,P]{1,5}$" },
           "Schengen": { "type": "boolean" },
           "Wingspan": { "type": "number" },
