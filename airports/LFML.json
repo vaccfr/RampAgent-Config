@@ -1,6 +1,6 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v1.0.5",
+    "version": "v1.0.6",
     "ICAO": "LFML",
     "Coordinates": "43.436667:5.215000:2000",
     "Stands": {
@@ -174,6 +174,17 @@
             "Callsigns": [
                 "VOE"
             ]
+        },
+        "6A1": {
+            "Coordinates": "43.439749:5.222323:18",
+            "Code": "C",
+            "Use": "A",
+            "Schengen": true,
+            "Block": [
+                "6B",
+                "6A"
+            ],
+            "Priority": 3
         },
         "6B": {
             "Coordinates": "43.439695:5.222025:30",
@@ -390,7 +401,7 @@
             "Code": "BC",
             "Use": "A",
             "Schengen": true,
-            "Priority": 1
+            "Priority": 12
         },
         "20B": {
             "Coordinates": "43.438039:5.224192:30",
@@ -1133,7 +1144,7 @@
                 "BOX",
                 "HLF"
             ],
-            "Priority": 1
+            "Priority": 31
         },
         "61N": {
             "Coordinates": "43.443112:5.211999:25",
@@ -1172,7 +1183,7 @@
                 "BOX",
                 "HLF"
             ],
-            "Priority": 3,
+            "Priority": 33,
             "Block": [
                 "62N"
             ]
@@ -1214,7 +1225,7 @@
                 "BOX",
                 "HLF"
             ],
-            "Priority": 2,
+            "Priority": 32,
             "Block": [
                 "61N"
             ]
@@ -1285,7 +1296,7 @@
             ]
         },
         "64B": {
-            "Coordinates": "43.443445:5.213493:10",
+            "Coordinates": "43.443445:5.213493:15",
             "Code": "AB",
             "Use": "P",
             "Priority": 28,
@@ -1350,7 +1361,7 @@
             ]
         },
         "67N": {
-            "Coordinates": "43.444291:5.214217:15",
+            "Coordinates": "43.444291:5.214217:20",
             "Code": "B",
             "Use": "P",
             "Block": [
@@ -1372,7 +1383,7 @@
             ]
         },
         "69N": {
-            "Coordinates": "43.444322:5.214735:15",
+            "Coordinates": "43.444322:5.214735:20",
             "Code": "B",
             "Use": "P",
             "Block": [
@@ -1381,7 +1392,7 @@
             "Priority": 50
         },
         "70": {
-            "Coordinates": "43.443627:5.214850:30",
+            "Coordinates": "43.443627:5.214850:33",
             "Code": "A",
             "Use": "P",
             "Priority": 30,
@@ -1462,31 +1473,31 @@
             "Priority": 26
         },
         "76": {
-            "Coordinates": "43.445196:5.216328:20",
+            "Coordinates": "43.445196:5.216328:21",
             "Code": "BC",
             "Use": "PMC",
-            "Priority": 7,
+            "Priority": 27,
             "Callsigns": [
                 "TJT"
             ]
         },
         "77": {
-            "Coordinates": "43.445027:5.215861:20",
+            "Coordinates": "43.445027:5.215861:22",
             "Code": "BC",
             "Use": "PMC",
-            "Priority": 7
+            "Priority": 27
         },
         "78": {
-            "Coordinates": "43.444748:5.215475:20",
+            "Coordinates": "43.444748:5.215475:22",
             "Code": "BC",
             "Use": "PMC",
-            "Priority": 7
+            "Priority": 27
         },
         "80": {
             "Coordinates": "43.446096:5.216693:25",
             "Code": "CD",
             "Use": "C",
-            "Priority": 6,
+            "Priority": 36,
             "Callsigns": [
                 "BRD",
                 "FPO",
@@ -1498,7 +1509,7 @@
             "Coordinates": "43.446361:5.217154:25",
             "Code": "CD",
             "Use": "C",
-            "Priority": 6,
+            "Priority": 36,
             "Callsigns": [
                 "BRD",
                 "FPO",
@@ -1510,7 +1521,7 @@
             "Coordinates": "43.446698:5.217648:25",
             "Code": "CD",
             "Use": "C",
-            "Priority": 6,
+            "Priority": 36,
             "Callsigns": [
                 "BRD",
                 "FPO",
@@ -1519,13 +1530,13 @@
             ]
         },
         "83A": {
-            "Coordinates": "43.445434:5.218294:20",
+            "Coordinates": "43.445366:5.218348:12",
             "Code": "B",
             "Use": "C",
             "Block": [
                 "83B"
             ],
-            "Priority": 8
+            "Priority": 38
         },
         "83B": {
             "Coordinates": "43.445406:5.218264:20",
@@ -1534,16 +1545,16 @@
             "Block": [
                 "83A"
             ],
-            "Priority": 8
+            "Priority": 38
         },
         "83C": {
-            "Coordinates": "43.445588:5.218495:12",
+            "Coordinates": "43.445588:5.218495:13",
             "Code": "B",
             "Use": "C",
             "Block": [
                 "83D"
             ],
-            "Priority": 8
+            "Priority": 38
         },
         "83D": {
             "Coordinates": "43.445815:5.218581:20",
@@ -1552,7 +1563,7 @@
             "Block": [
                 "83E"
             ],
-            "Priority": 8
+            "Priority": 38
         },
         "83E": {
             "Coordinates": "43.445833:5.218664:20",
@@ -1561,7 +1572,7 @@
             "Block": [
                 "83D"
             ],
-            "Priority": 8
+            "Priority": 38
         },
         "AIRBUS": {
             "Coordinates": "43.432595:5.228441:50",
