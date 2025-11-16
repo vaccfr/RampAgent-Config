@@ -1,6 +1,6 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v1.0.4",
+    "version": "v1.0.5",
     "ICAO": "LFML",
     "Coordinates": "43.436667:5.215000:2000",
     "Stands": {

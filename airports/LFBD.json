@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v0.0.2",
+    "version": "v0.0.3",
     "ICAO": "LFBD",
     "Coordinates": "44.828970:-0.710506:2000",
     "Stands": {

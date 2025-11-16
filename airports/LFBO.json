@@ -1,6 +1,6 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v1.0.6",
+    "version": "v1.0.7",
     "ICAO": "LFBO",
     "Coordinates": "43.629242:1.363506:3000",
     "Stands": {
