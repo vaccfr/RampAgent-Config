@@ -126,7 +126,9 @@
             "Coordinates": "49.462413:2.121778:50",
             "Code": "A",
             "Priority": -10,
-            "Apron": true
+            "Apron": {
+                "Size": 10
+            }
         }
     }
 }

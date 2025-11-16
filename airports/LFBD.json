@@ -213,7 +213,9 @@
             "Code": "AB",
             "Use": "P",
             "Priority": -10,
-            "Apron": true
+            "Apron": {
+                "Size": 10
+            }
         },
         "Y02": {
             "Coordinates": "44.834358:-0.700727:30",

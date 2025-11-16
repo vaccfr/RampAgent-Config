@@ -1385,7 +1385,9 @@
             "Code": "A",
             "Use": "P",
             "Priority": 30,
-            "Apron": true
+            "Apron": {
+                "Size": 4
+            }
         },
         "71": {
             "Coordinates": "43.443897:5.215231:10",
@@ -1562,27 +1564,47 @@
             "Priority": 8
         },
         "AIRBUS": {
-            "Coordinates": "43.433772:5.228934:200",
+            "Coordinates": "43.432595:5.228441:50",
             "Use": "H",
             "Priority": -10,
-            "Apron": true,
             "Callsigns": [
                 "AIB",
                 "IXR"
-            ]
+            ],
+            "Apron": {
+                "Size": 29,
+                "Coordinates": [
+                    "43.434255:5.226445",
+                    "43.434800:5.227679",
+                    "43.429790:5.230941",
+                    "43.429650:5.230511",
+                    "43.431029:5.228784",
+                    "43.433008:5.227357"
+                ]
+            }
         },
         "PELICANDROME": {
             "Coordinates": "43.434185:5.225190:100",
             "Priority": -10,
-            "Apron": true,
             "Callsigns": [
                 "PELICAN"
-            ]
+            ],
+            "Apron": {
+                "Size": 6,
+                "Coordinates": [
+                    "43.434835:5.223522",
+                    "43.435458:5.225093",
+                    "43.433351:5.226928",
+                    "43.432895:5.226021"
+                ]
+            }
         },
         "SECUA": {
             "Coordinates": "43.436218:5.223184:100",
             "Priority": 75,
-            "Apron": true
+            "Apron": {
+                "Size": 10
+            }
         },
         "SECUH": {
             "Coordinates": "43.432813:5.208839:50",
@@ -1593,7 +1615,9 @@
                 "FGN"
             ],
             "Priority": 60,
-            "Apron": true
+            "Apron": {
+                "Size": 3
+            }
         }
     }
 }
