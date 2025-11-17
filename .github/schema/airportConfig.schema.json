@@ -15,7 +15,7 @@
       "type": "object",
       "additionalProperties": {
         "type": "object",
-        "required": ["Coordinates"],
+        "required": ["Coordinates", "Priority"],
         "properties": {
           "Coordinates": {
             "type": "string",
