@@ -1,5 +1,5 @@
 {
-    "$schema": "../.github/schema/airportConfig.schema.json",
+    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
     "version": "v1.0.7",
     "ICAO": "LFBO",
     "Coordinates": "43.629242:1.363506:3000",
@@ -181,10 +181,7 @@
         },
         "DELIVERY": {
             "Coordinates": "43.632379:1.350760:100",
-            "Callsigns": [
-                "AIB"
-            ],
-            "Priority": -50,
+            "Priority": 100,
             "Apron": {
                 "Size": 20,
                 "Coordinates": [
@@ -462,7 +459,7 @@
             "Callsigns": [
                 "AIB"
             ],
-            "Priority": -50,
+            "Priority": 0,
             "Apron": {
                 "Size": 10,
                 "Coordinates": [
