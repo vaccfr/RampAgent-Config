@@ -1771,6 +1771,8 @@
         },
         "K": {
             "Coordinates": "43.669889:7.224283:100",
+            "Code": "AB",
+            "Priority": 71,
             "Apron": {
                 "Size": 100,
                 "Coordinates": [

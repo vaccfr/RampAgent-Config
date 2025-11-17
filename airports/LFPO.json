@@ -1,5 +1,5 @@
 {
-    "$schema": "../.github/schema/airportConfig.schema.json",
+    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
     "version": "v1.0.5",
     "ICAO": "LFPO",
     "Coordinates": "48.728058:2.366524:3000",
