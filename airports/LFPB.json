@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v0.0.1",
+    "version": "v0.0.2",
     "ICAO": "LFPB",
     "Coordinates": "48.963202:2.437592:2000",
     "Stands": {
         "D": {
             "Coordinates": "48.961712:2.446566:50",
             "Code": "B",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6,
                 "Coordinates": [
@@ -21,7 +21,7 @@
         "E": {
             "Coordinates": "48.960606:2.440869:60",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6,
                 "Coordinates": [
@@ -35,7 +35,7 @@
         "F1": {
             "Coordinates": "48.959845:2.444131:50",
             "Code": "B",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 8,
                 "Coordinates": [
@@ -49,7 +49,7 @@
         "F2": {
             "Coordinates": "48.958563:2.443165:50",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 8,
                 "Coordinates": [
@@ -63,7 +63,7 @@
         "F3": {
             "Coordinates": "48.959032:2.439845:100",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 8,
                 "Coordinates": [
@@ -77,7 +77,7 @@
         "H1": {
             "Coordinates": "48.953198:2.439228:30",
             "Code": "B",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 3,
                 "Coordinates": [
@@ -91,7 +91,7 @@
         "H2": {
             "Coordinates": "48.952569:2.438662:30",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6,
                 "Coordinates": [
@@ -105,7 +105,7 @@
         "H3": {
             "Coordinates": "48.951773:2.437983:50",
             "Code": "ABC",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6,
                 "Coordinates": [
@@ -119,7 +119,7 @@
         "H4": {
             "Coordinates": "48.951048:2.437398:30",
             "Code": "B",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 2,
                 "Coordinates": [
@@ -133,7 +133,7 @@
         "H5": {
             "Coordinates": "48.950540:2.436991:30",
             "Code": "B",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 2,
                 "Coordinates": [
@@ -147,7 +147,7 @@
         "I": {
             "Coordinates": "48.957306:2.442312:50",
             "Code": "ABC",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 8,
                 "Coordinates": [
@@ -161,7 +161,7 @@
         "J": {
             "Coordinates": "48.956571:2.437978:60",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 8,
                 "Coordinates": [
@@ -175,7 +175,7 @@
         "K1": {
             "Coordinates": "48.956161:2.441454:50",
             "Code": "A",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 8,
                 "Coordinates": [
@@ -189,7 +189,7 @@
         "K2": {
             "Coordinates": "48.955439:2.440971:50",
             "Code": "A",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 8,
                 "Coordinates": [
@@ -203,7 +203,7 @@
         "L1": {
             "Coordinates": "48.953950:2.437417:30",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 4,
                 "Coordinates": [
@@ -217,7 +217,7 @@
         "L2": {
             "Coordinates": "48.954144:2.435660:60",
             "Code": "BC",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6,
                 "Coordinates": [
@@ -231,7 +231,7 @@
         "M1": {
             "Coordinates": "48.963244:2.449546:50",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6
             }
@@ -239,7 +239,7 @@
         "M2": {
             "Coordinates": "48.963013:2.448345:50",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6
             }
@@ -247,7 +247,7 @@
         "M3": {
             "Coordinates": "48.962925:2.446797:65",
             "Code": "A",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6
             }
@@ -269,7 +269,7 @@
         "N": {
             "Coordinates": "48.955197:2.438257:40",
             "Code": "A",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 4,
                 "Coordinates": [
@@ -291,7 +291,7 @@
         "T": {
             "Coordinates": "48.950074:2.435446:100",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 14,
                 "Coordinates": [
@@ -308,7 +308,7 @@
         "Z1": {
             "Coordinates": "48.954593:2.440258:50",
             "Code": "AB",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 6,
                 "Coordinates": [
@@ -322,7 +322,7 @@
         "Z2": {
             "Coordinates": "48.953818:2.439700:30",
             "Code": "B",
-            "Priority": 0,
+            "Priority": -1,
             "Apron": {
                 "Size": 3,
                 "Coordinates": [
