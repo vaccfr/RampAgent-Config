@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/refs/heads/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.7",
+    "version": "v1.0.8",
     "ICAO": "LFMN",
     "Coordinates": "43.661663:7.210765:2000",
     "Stands": {
@@ -476,7 +476,6 @@
             "Coordinates": "43.665732:7.218782:25",
             "Code": "BC",
             "Wingspan": 21.1,
-            "Use": "A",
             "Priority": 69,
             "Callsigns": [
                 "VJT",
@@ -491,7 +490,6 @@
         "33E": {
             "Coordinates": "43.665355:7.218184:20",
             "Code": "BC",
-            "Use": "A",
             "Wingspan": 23.2,
             "Priority": 69,
             "Callsigns": [
@@ -507,7 +505,6 @@
         "35C": {
             "Coordinates": "43.664874:7.217588:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 69,
             "Callsigns": [
                 "VJT",
@@ -523,7 +520,6 @@
             "Coordinates": "43.665138:7.217873:20",
             "Code": "BC",
             "Wingspan": 23.2,
-            "Use": "A",
             "Priority": 69,
             "Callsigns": [
                 "VJT",
@@ -538,7 +534,7 @@
         "37A": {
             "Coordinates": "43.664591:7.217186:25",
             "Code": "BC",
-            "Use": "AH",
+            "Use": "AHP",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -547,7 +543,7 @@
         "39A": {
             "Coordinates": "43.664269:7.216768:25",
             "Code": "BC",
-            "Use": "AH",
+            "Use": "AHP",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -556,7 +552,7 @@
         "39C": {
             "Coordinates": "43.663993:7.216376:25",
             "Code": "BC",
-            "Use": "AH",
+            "Use": "AHP",
             "Wingspan": 25,
             "Priority": 70,
             "Remark": {
@@ -1072,7 +1068,6 @@
         },
         "51A": {
             "Coordinates": "43.657859:7.207831:20",
-            "Use": "A",
             "Priority": 70,
             "Code": "AB",
             "Block": [
@@ -1084,7 +1079,6 @@
         },
         "51B": {
             "Coordinates": "43.657803:7.207672:25",
-            "Use": "A",
             "Priority": 70,
             "Code": "C",
             "Block": [
@@ -1097,7 +1091,6 @@
         },
         "51C": {
             "Coordinates": "43.657658:7.207536:20",
-            "Use": "A",
             "Priority": 70,
             "Code": "AB",
             "Block": [
@@ -1191,7 +1184,6 @@
         },
         "53A": {
             "Coordinates": "43.657390:7.207206:20",
-            "Use": "A",
             "Priority": 70,
             "Code": "C",
             "Wingspan": 29,
@@ -1204,7 +1196,6 @@
         },
         "53B": {
             "Coordinates": "43.657302:7.207096:25",
-            "Use": "A",
             "Priority": 70,
             "Code": "C",
             "Block": [
@@ -1217,7 +1208,6 @@
         },
         "53C": {
             "Coordinates": "43.657159:7.206876:20",
-            "Use": "A",
             "Priority": 70,
             "Code": "AB",
             "Block": [
@@ -1529,7 +1519,6 @@
         "61A": {
             "Coordinates": "43.663081:7.214984:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Callsigns": [
                 "AFR",
@@ -1553,7 +1542,6 @@
         "61C": {
             "Coordinates": "43.662831:7.214579:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1571,7 +1559,6 @@
         "63A": {
             "Coordinates": "43.662509:7.214139:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1579,8 +1566,7 @@
         },
         "63C": {
             "Coordinates": "43.662229:7.213777:20",
-            "Code": "BC",
-            "Use": "A",
+            "Code": "BC",            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1589,7 +1575,6 @@
         "65A": {
             "Coordinates": "43.661886:7.213361:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1598,7 +1583,6 @@
         "65C": {
             "Coordinates": "43.661639:7.212962:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1607,7 +1591,6 @@
         "67A": {
             "Coordinates": "43.661286:7.212557:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1616,7 +1599,6 @@
         "67C": {
             "Coordinates": "43.661003:7.212219:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1625,7 +1607,6 @@
         "69A": {
             "Coordinates": "43.660658:7.211795:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
@@ -1634,7 +1615,6 @@
         "69C": {
             "Coordinates": "43.660368:7.211452:20",
             "Code": "BC",
-            "Use": "A",
             "Priority": 70,
             "Remark": {
                 "ABCDEF": "Taxi U"
