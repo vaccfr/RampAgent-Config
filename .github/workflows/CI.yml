@@ -35,4 +35,4 @@ jobs:
             -H "Content-Type: application/json" \
             -H "X-Hub-Signature-256: sha256=${sig}" \
             -d "$payload" \
-            https://pintade.vatsim.fr/rampagent/api/config-webhook
+            https://rampagent.vatsim.fr/api/config-webhook
