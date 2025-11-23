@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.5",
+    "version": "v1.0.6",
     "ICAO": "LFPO",
     "Coordinates": "48.728058:2.366524:3000",
     "Stands": {
@@ -8,6 +8,11 @@
             "Coordinates": "48.725505:2.360620:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A11",
@@ -18,6 +23,11 @@
             "Coordinates": "48.725758:2.361621:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A21",
@@ -28,6 +38,11 @@
             "Coordinates": "48.725992:2.362763:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A31",
@@ -38,6 +53,11 @@
             "Coordinates": "48.726200:2.363976:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A41",
@@ -48,6 +68,11 @@
             "Coordinates": "48.726492:2.365094:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A51",
@@ -58,6 +83,11 @@
             "Coordinates": "48.725501:2.360255:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A01"
@@ -67,6 +97,11 @@
             "Coordinates": "48.725670:2.360808:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A01"
@@ -76,6 +111,11 @@
             "Coordinates": "48.725625:2.361358:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A02"
@@ -85,6 +125,11 @@
             "Coordinates": "48.725921:2.361806:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A02"
@@ -94,6 +139,11 @@
             "Coordinates": "48.725903:2.362487:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A03"
@@ -103,6 +153,11 @@
             "Coordinates": "48.726202:2.362905:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A03"
@@ -112,6 +167,11 @@
             "Coordinates": "48.726121:2.363638:15",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A04"
@@ -121,6 +181,11 @@
             "Coordinates": "48.726391:2.364053:15",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A04"
@@ -130,6 +195,11 @@
             "Coordinates": "48.726349:2.364874:15",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A05"
@@ -139,6 +209,11 @@
             "Coordinates": "48.726591:2.365341:15",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "VLG",
+                "AFR"
+            ],
             "Priority": 50,
             "Block": [
                 "A05"
@@ -148,6 +223,14 @@
             "Coordinates": "48.728292:2.374632:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FBU",
+                "DAH",
+                "CAJ",
+                "FWI",
+                "TAR"
+            ],
             "Priority": 50,
             "Block": [
                 "B12"
@@ -157,6 +240,13 @@
             "Coordinates": "48.728624:2.375555:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FBU",
+                "DAH",
+                "CAJ",
+                "FWI"
+            ],
             "Priority": 50,
             "Block": [
                 "B21",
@@ -167,6 +257,13 @@
             "Coordinates": "48.729231:2.376118:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FBU",
+                "DAH",
+                "CAJ",
+                "FWI"
+            ],
             "Priority": 50,
             "Block": [
                 "B31",
@@ -177,6 +274,13 @@
             "Coordinates": "48.729971:2.376381:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FBU",
+                "DAH",
+                "CAJ",
+                "FWI"
+            ],
             "Priority": 50,
             "Block": [
                 "B41",
@@ -187,6 +291,13 @@
             "Coordinates": "48.730669:2.376322:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FBU",
+                "DAH",
+                "CAJ",
+                "FWI"
+            ],
             "Priority": 50,
             "Block": [
                 "B51",
@@ -197,6 +308,12 @@
             "Coordinates": "48.728293:2.374785:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B01"
@@ -206,6 +323,12 @@
             "Coordinates": "48.728440:2.375316:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B02"
@@ -215,6 +338,12 @@
             "Coordinates": "48.728690:2.375694:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B02"
@@ -224,6 +353,12 @@
             "Coordinates": "48.729042:2.375944:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B03"
@@ -233,6 +368,12 @@
             "Coordinates": "48.729408:2.376110:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B03"
@@ -242,6 +383,12 @@
             "Coordinates": "48.729707:2.376485:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B04"
@@ -251,6 +398,12 @@
             "Coordinates": "48.730094:2.376451:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B04"
@@ -260,6 +413,12 @@
             "Coordinates": "48.730588:2.376547:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B05"
@@ -269,6 +428,12 @@
             "Coordinates": "48.730816:2.376062:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B05"
@@ -278,6 +443,12 @@
             "Coordinates": "48.731170:2.375761:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B06"
@@ -287,6 +458,12 @@
             "Coordinates": "48.731211:2.375222:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "FBU",
+                "DAH",
+                "CAJ"
+            ],
             "Priority": 50,
             "Block": [
                 "B06"
@@ -295,48 +472,93 @@
         "C01": {
             "Coordinates": "48.727338:2.370488:25",
             "Code": "BC",
+            "Callsigns": [
+                "TAR",
+                "FWI",
+                "RAM",
+                "DJT"
+            ],
             "Use": "A",
             "Priority": 50
         },
         "C02": {
             "Coordinates": "48.727437:2.371145:25",
             "Code": "BC",
+            "Callsigns": [
+                "TAR",
+                "FWI",
+                "RAM",
+                "DJT"
+            ],
             "Use": "A",
             "Priority": 50
         },
         "C03": {
             "Coordinates": "48.727540:2.371805:25",
             "Code": "BC",
+            "Callsigns": [
+                "TAR",
+                "FWI",
+                "RAM",
+                "DJT"
+            ],
             "Use": "A",
             "Priority": 50
         },
         "C06": {
             "Coordinates": "48.727849:2.372484:30",
             "Code": "DE",
+            "Callsigns": [
+                "TAR",
+                "FWI",
+                "RAM",
+                "DJT"
+            ],
             "Use": "A",
             "Priority": 50
         },
         "C08": {
             "Coordinates": "48.727989:2.373455:30",
             "Code": "DE",
+            "Callsigns": [
+                "TAR",
+                "FWI",
+                "RAM",
+                "DJT"
+            ],
             "Use": "A",
             "Priority": 50
         },
         "D01": {
             "Coordinates": "48.727274:2.368533:30",
             "Code": "BC",
+            "Callsigns": [
+                "TVF",
+                "JAF",
+                "PGT"
+            ],
             "Use": "A",
             "Priority": 50
         },
         "D02": {
             "Coordinates": "48.727104:2.367463:25",
             "Code": "BC",
+            "Callsigns": [
+                "TVF",
+                "JAF",
+                "PGT"
+            ],
             "Use": "A",
             "Priority": 50
         },
         "D04": {
             "Coordinates": "48.726972:2.366628:25",
             "Code": "BC",
+            "Callsigns": [
+                "TVF",
+                "JAF",
+                "PGT"
+            ],
             "Use": "A",
             "Priority": 50
         },
@@ -344,6 +566,11 @@
             "Coordinates": "48.726887:2.365934:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF",
+                "JAF",
+                "PGT"
+            ],
             "Priority": 50
         },
         "E01": {
@@ -368,6 +595,10 @@
             "Coordinates": "48.724178:2.365263:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FWI"
+            ],
             "Priority": 70,
             "Block": [
                 "E41",
@@ -378,18 +609,30 @@
             "Coordinates": "48.723872:2.364104:35",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FWI"
+            ],
             "Priority": 70
         },
         "E06": {
             "Coordinates": "48.723376:2.361446:35",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FWI"
+            ],
             "Priority": 70
         },
         "E07": {
             "Coordinates": "48.723187:2.360524:35",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FWI"
+            ],
             "Priority": 70,
             "Block": [
                 "E71"
@@ -399,6 +642,10 @@
             "Coordinates": "48.722991:2.359550:35",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FWI"
+            ],
             "Priority": 70,
             "Block": [
                 "E81"
@@ -408,6 +655,10 @@
             "Coordinates": "48.722897:2.358544:35",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "CRL",
+                "FWI"
+            ],
             "Priority": 70,
             "Block": [
                 "E91"
@@ -805,60 +1056,135 @@
             "Coordinates": "48.732159:2.361851:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "P09": {
             "Coordinates": "48.731915:2.361374:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "P10": {
             "Coordinates": "48.731704:2.360843:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "P11": {
             "Coordinates": "48.731478:2.360301:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "P12": {
             "Coordinates": "48.731211:2.359754:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "P13": {
             "Coordinates": "48.731030:2.359271:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "P14": {
             "Coordinates": "48.730825:2.358845:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "P41": {
             "Coordinates": "48.730528:2.358485:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "P42": {
             "Coordinates": "48.730280:2.358136:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "VLG",
+                "VOE",
+                "CLG",
+                "IBE",
+                "AEA"
+            ],
             "Priority": 50
         },
         "Q02": {
             "Coordinates": "48.724988:2.349704:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "TVF"
+            ],
             "Priority": 70,
             "Block": [
                 "Q21",
@@ -869,6 +1195,9 @@
             "Coordinates": "48.725719:2.349540:30",
             "Code": "DE",
             "Use": "A",
+            "Callsigns": [
+                "TVF"
+            ],
             "Priority": 70,
             "Block": [
                 "Q31",
@@ -879,6 +1208,9 @@
             "Coordinates": "48.724813:2.349741:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF"
+            ],
             "Priority": 70,
             "Block": [
                 "Q02"
@@ -888,6 +1220,9 @@
             "Coordinates": "48.725172:2.349535:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF"
+            ],
             "Priority": 70,
             "Block": [
                 "Q02"
@@ -897,6 +1232,9 @@
             "Coordinates": "48.725560:2.349401:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF"
+            ],
             "Priority": 70,
             "Block": [
                 "Q03"
@@ -906,6 +1244,9 @@
             "Coordinates": "48.725953:2.349379:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TVF"
+            ],
             "Priority": 70,
             "Block": [
                 "Q03"
@@ -915,12 +1256,22 @@
             "Coordinates": "48.729960:2.357831:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "CLG",
+                "WZZ"
+            ],
             "Priority": 50
         },
         "R22": {
             "Coordinates": "48.729995:2.357085:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "CLG",
+                "WZZ"
+            ],
             "Priority": 50
         },
         "S04": {
@@ -928,6 +1279,11 @@
             "Code": "BCDEF",
             "Use": "A",
             "Priority": 50,
+            "Callsigns": [
+                "TAP",
+                "WMT",
+                "AIA"
+            ],
             "Block": [
                 "S24",
                 "S25"
@@ -938,6 +1294,11 @@
             "Code": "BC",
             "Use": "A",
             "Priority": 50,
+            "Callsigns": [
+                "TAP",
+                "WMT",
+                "AIA"
+            ],
             "Block": [
                 "S04"
             ]
@@ -947,6 +1308,11 @@
             "Code": "BC",
             "Use": "A",
             "Priority": 50,
+            "Callsigns": [
+                "TAP",
+                "WMT",
+                "AIA"
+            ],
             "Block": [
                 "S04"
             ]
@@ -955,79 +1321,151 @@
             "Coordinates": "48.729054:2.356409:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "TAP",
+                "WMT",
+                "AIA"
+            ],
             "Priority": 50
         },
         "T26": {
             "Coordinates": "48.728415:2.356358:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "TVF",
+                "CCM",
+                "ITY",
+                "TAP"
+            ],
             "Priority": 50
         },
         "T27": {
             "Coordinates": "48.728198:2.356860:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "TVF",
+                "CCM",
+                "ITY",
+                "TAP"
+            ],
             "Priority": 50
         },
         "T28": {
             "Coordinates": "48.728325:2.357512:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "TVF",
+                "CCM",
+                "ITY",
+                "TAP"
+            ],
             "Priority": 50
         },
         "T29": {
             "Coordinates": "48.728325:2.358284:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "TVF",
+                "CCM",
+                "ITY",
+                "TAP"
+            ],
             "Priority": 50
         },
         "T30": {
             "Coordinates": "48.727743:2.358410:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "TVF",
+                "CCM",
+                "ITY",
+                "TAP"
+            ],
             "Priority": 50
         },
         "T31": {
             "Coordinates": "48.727453:2.357871:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "TVF",
+                "CCM",
+                "ITY",
+                "TAP"
+            ],
             "Priority": 50
         },
         "T32": {
             "Coordinates": "48.727290:2.357112:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "EJU",
+                "TVF",
+                "CCM",
+                "ITY",
+                "TAP"
+            ],
             "Priority": 50
         },
         "U03": {
             "Coordinates": "48.726851:2.357235:20",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "CCM",
+                "AFR",
+                "ITY"
+            ],
             "Priority": 50
         },
         "U04": {
             "Coordinates": "48.726586:2.357635:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "CCM",
+                "AFR",
+                "ITY"
+            ],
             "Priority": 50
         },
         "U05": {
             "Coordinates": "48.726206:2.358010:25",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "CCM",
+                "AFR",
+                "ITY"
+            ],
             "Priority": 50
         },
         "V07": {
             "Coordinates": "48.726000:2.359416:30",
             "Code": "BC",
             "Use": "A",
+            "Callsigns": [
+                "CCM"
+            ],
             "Priority": 50
         },
         "Y06": {
             "Coordinates": "48.725664:2.358689:30",
             "Code": "BCDE",
             "Use": "A",
-            "Priority": 50
+            "Priority": 70
         }
     }
 }
