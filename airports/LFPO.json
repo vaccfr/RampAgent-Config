@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.6",
+    "version": "v1.0.7",
     "ICAO": "LFPO",
     "Coordinates": "48.728058:2.366524:3000",
     "Stands": {
@@ -1452,6 +1452,12 @@
             ],
             "Priority": 50
         },
+        "V06": {
+            "Coordinates": "48.725664:2.358689:30",
+            "Code": "BCDE",
+            "Use": "A",
+            "Priority": 70
+        },
         "V07": {
             "Coordinates": "48.726000:2.359416:30",
             "Code": "BC",
@@ -1460,12 +1466,6 @@
                 "CCM"
             ],
             "Priority": 50
-        },
-        "Y06": {
-            "Coordinates": "48.725664:2.358689:30",
-            "Code": "BCDE",
-            "Use": "A",
-            "Priority": 70
         }
     }
 }
