@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.1.6",
+  "version": "v1.1.7",
   "max_alt": 15000,
   "max_distance": 50.0,
   "CargoOperator": [
