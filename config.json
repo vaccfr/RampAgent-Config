@@ -1,8 +1,13 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.1.7",
-  "max_alt": 15000,
-  "max_distance": 50.0,
+  "version": "v1.1.8",
+  "max_alt": 5000,
+  "max_alt_extended": 20000,
+  "max_distance": 10.0,
+  "max_distance_extended": 35.0,
+  "extended_icaos": [
+    "LFPG"
+  ],
   "CargoOperator": [
     "FDX",
     "UPS",
