@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/refs/heads/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.5",
+    "version": "v1.0.6",
     "ICAO": "LFPG",
     "Coordinates": "49.010965:2.560501:6000",
     "Stands": {
@@ -1109,6 +1109,8 @@
             "Use": "A",
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "EJU",
                 "BTI",
                 "SAS",
@@ -1131,6 +1133,8 @@
             "Use": "A",
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "EJU",
                 "BTI",
                 "SAS",
@@ -1178,6 +1182,8 @@
             ],
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "EJU",
                 "BTI",
                 "SAS",
@@ -1227,6 +1233,8 @@
             ],
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "EJU",
                 "BTI",
                 "SAS",
@@ -1277,6 +1285,8 @@
             ],
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "EJU",
                 "BTI",
                 "SAS",
@@ -1327,6 +1337,8 @@
             ],
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "EJU",
                 "BTI",
                 "SAS",
@@ -1519,6 +1531,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN"
@@ -1535,6 +1549,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1552,6 +1568,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1569,6 +1587,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1589,6 +1609,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1606,6 +1628,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1626,6 +1650,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1643,6 +1669,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1660,6 +1688,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1677,6 +1707,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1694,6 +1726,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1710,6 +1744,8 @@
             "Use": "A",
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1728,6 +1764,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1748,6 +1786,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1765,6 +1805,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1787,6 +1829,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1807,6 +1851,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1824,6 +1870,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1842,6 +1890,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1859,6 +1909,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1877,6 +1929,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1894,6 +1948,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1911,6 +1967,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1928,6 +1986,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "KQA",
                 "MEA",
                 "HVN",
@@ -1945,6 +2005,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -1960,6 +2022,8 @@
             "Use": "A",
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -1976,6 +2040,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -1992,6 +2058,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2007,6 +2075,8 @@
             "Use": "A",
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2023,6 +2093,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2039,6 +2111,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2054,6 +2128,8 @@
             "Use": "A",
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2070,6 +2146,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2086,6 +2164,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2102,6 +2182,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2121,6 +2203,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2141,6 +2225,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2160,6 +2246,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2176,6 +2264,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2192,6 +2282,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2208,6 +2300,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2224,6 +2318,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2244,6 +2340,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2265,6 +2363,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2286,6 +2386,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2306,6 +2408,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2322,6 +2426,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2338,6 +2444,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2354,6 +2462,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2370,6 +2480,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2386,6 +2498,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2402,6 +2516,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2418,6 +2534,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -2434,6 +2552,8 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CCM",
                 "ROT",
                 "KLM"
@@ -4489,6 +4609,8 @@
             ],
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4510,6 +4632,8 @@
             ],
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4525,6 +4649,8 @@
             "Use": "A",
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4543,6 +4669,8 @@
             ],
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4561,6 +4689,8 @@
             ],
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4576,6 +4706,8 @@
             "Use": "A",
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4595,6 +4727,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4611,6 +4745,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4627,6 +4763,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4643,6 +4781,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4659,6 +4799,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4675,6 +4817,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4691,6 +4835,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4707,6 +4853,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4723,6 +4871,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4739,6 +4889,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4755,6 +4907,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4774,6 +4928,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4793,6 +4949,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "CES",
                 "CXA",
                 "DAL",
@@ -4812,6 +4970,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "DAL",
                 "HVN"
             ],
@@ -4827,6 +4987,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "DAL",
                 "HVN"
             ],
@@ -4842,6 +5004,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "DAL",
                 "HVN"
             ],
@@ -4857,6 +5021,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "DAL",
                 "HVN"
             ],
@@ -4872,6 +5038,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "DAL",
                 "HVN"
             ],
@@ -4887,6 +5055,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "DAL",
                 "HVN"
             ],
@@ -4902,6 +5072,8 @@
             "Schengen": false,
             "Callsigns": [
                 "AFR",
+                "FBT",
+                "LNR",
                 "DAL",
                 "HVN"
             ],
