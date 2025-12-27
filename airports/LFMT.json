@@ -141,7 +141,7 @@
             "Code": "ABC",
             "Use": "A",
             "Wingspan": 34.32,
-            "Priority": 1,
+            "Priority": 2,
             "Block": ["D08"]
         },
         "D08": {
@@ -150,7 +150,7 @@
             "Use": "A",
             "Schengen": false,
             "Wingspan": 35.79,
-            "Priority": 2,
+            "Priority": 1,
             "Block": ["D07","D09"]
         },
         "D09": {
