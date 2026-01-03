@@ -261,6 +261,9 @@
         },
         "B01": {
             "Coordinates": "49.006853:2.563352:25",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -283,6 +286,9 @@
         },
         "B02": {
             "Coordinates": "49.005453:2.564071:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -308,6 +314,9 @@
         },
         "B03": {
             "Coordinates": "49.006839:2.562727:25",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -330,6 +339,9 @@
         },
         "B04": {
             "Coordinates": "49.005518:2.563661:25",
+            "Remark": {
+                "DE": "Push yellow"
+            },
             "Code": "DE",
             "Use": "A",
             "Block": [
@@ -356,6 +368,9 @@
         },
         "B05": {
             "Coordinates": "49.006767:2.562172:25",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -378,6 +393,9 @@
         },
         "B06": {
             "Coordinates": "49.005537:2.563513:25",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -403,6 +421,9 @@
         },
         "B07": {
             "Coordinates": "49.006757:2.561644:25",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -425,6 +446,9 @@
         },
         "B08": {
             "Coordinates": "49.005535:2.562912:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -450,6 +474,9 @@
         },
         "B09": {
             "Coordinates": "49.006753:2.561067:20",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -472,6 +499,9 @@
         },
         "B10": {
             "Coordinates": "49.005447:2.562534:25",
+            "Remark": {
+                "DE": "Push yellow"
+            },
             "Code": "DE",
             "Use": "A",
             "Block": [
@@ -498,6 +528,9 @@
         },
         "B11": {
             "Coordinates": "49.006718:2.560520:20",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -507,6 +540,9 @@
         },
         "B12": {
             "Coordinates": "49.005497:2.562389:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -532,6 +568,9 @@
         },
         "B13": {
             "Coordinates": "49.006732:2.560354:20",
+            "Remark": {
+                "DE": "Push W yellow"
+            },
             "Code": "DE",
             "Use": "A",
             "Block": [
@@ -542,6 +581,10 @@
         },
         "B14": {
             "Coordinates": "49.005437:2.561633:25",
+            "Remark": {
+                "C": "Push blue/yellow",
+                "DE": "Push yellow"
+            },
             "Code": "CDE",
             "Use": "A",
             "Callsigns": [
@@ -564,6 +607,9 @@
         },
         "B15": {
             "Coordinates": "49.006677:2.559962:20",
+            "Remark": {
+                "C": "Push W orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -573,6 +619,9 @@
         },
         "B16": {
             "Coordinates": "49.005389:2.560879:15",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -598,6 +647,9 @@
         },
         "B18": {
             "Coordinates": "49.005222:2.560791:20",
+            "Remark": {
+                "DE": "Push yellow"
+            },
             "Code": "DE",
             "Use": "A",
             "Block": [
@@ -624,6 +676,9 @@
         },
         "B20": {
             "Coordinates": "49.005277:2.560335:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -649,6 +704,9 @@
         },
         "B22": {
             "Coordinates": "49.005106:2.559796:20",
+            "Remark": {
+                "C": "Push W blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -674,6 +732,9 @@
         },
         "B24": {
             "Coordinates": "49.004895:2.559541:25",
+            "Remark": {
+                "DE": "Push W yellow"
+            },
             "Code": "DE",
             "Use": "A",
             "Block": [
@@ -700,6 +761,9 @@
         },
         "B26": {
             "Coordinates": "49.004862:2.559401:20",
+            "Remark": {
+                "C": "Push W blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -1084,6 +1148,9 @@
         },
         "D02": {
             "Coordinates": "49.005421:2.569570:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -1105,6 +1172,9 @@
         },
         "D03": {
             "Coordinates": "49.007138:2.568438:20",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -1129,6 +1199,9 @@
         },
         "D05": {
             "Coordinates": "49.007077:2.567901:20",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -1153,6 +1226,9 @@
         },
         "D06": {
             "Coordinates": "49.005590:2.569052:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -1174,6 +1250,9 @@
         },
         "D07": {
             "Coordinates": "49.007077:2.567386:20",
+            "Remark": {
+                "D": "Push yellow"
+            },
             "Code": "D",
             "Wingspan": 48,
             "Use": "A",
@@ -1202,6 +1281,9 @@
         },
         "D08": {
             "Coordinates": "49.005785:2.568623:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -1226,6 +1308,9 @@
         },
         "D09": {
             "Coordinates": "49.007056:2.567303:20",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -1253,6 +1338,9 @@
         },
         "D10": {
             "Coordinates": "49.005708:2.568255:25",
+            "Remark": {
+                "DE": "Push yellow"
+            },
             "Code": "DE",
             "Use": "A",
             "Block": [
@@ -1278,6 +1366,9 @@
         },
         "D11": {
             "Coordinates": "49.007024:2.566743:20",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -1305,6 +1396,9 @@
         },
         "D12": {
             "Coordinates": "49.005713:2.567982:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -1329,6 +1423,9 @@
         },
         "D13": {
             "Coordinates": "49.007050:2.566635:25",
+            "Remark": {
+                "D": "Push yellow"
+            },
             "Code": "D",
             "Wingspan": 48,
             "Use": "A",
@@ -1357,6 +1454,9 @@
         },
         "D14": {
             "Coordinates": "49.005699:2.567354:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -1378,6 +1478,9 @@
         },
         "D15": {
             "Coordinates": "49.006968:2.566182:20",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -1387,6 +1490,10 @@
         },
         "D16": {
             "Coordinates": "49.005699:2.566587:20",
+            "Remark": {
+                "C": "Push blue/yellow",
+                "DE": "Push yellow"
+            },
             "Code": "CDE",
             "Wingspan": 52,
             "Use": "A",
@@ -1409,6 +1516,9 @@
         },
         "D17": {
             "Coordinates": "49.007012:2.565879:25",
+            "Remark": {
+                "D": "Push yellow"
+            },
             "Code": "D",
             "Wingspan": 48,
             "Use": "A",
@@ -1420,6 +1530,9 @@
         },
         "D18": {
             "Coordinates": "49.005666:2.565874:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Callsigns": [
@@ -1441,6 +1554,9 @@
         },
         "D19": {
             "Coordinates": "49.007010:2.565603:20",
+            "Remark": {
+                "C": "Push orange/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -1450,6 +1566,9 @@
         },
         "D20": {
             "Coordinates": "49.005588:2.565283:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
@@ -1474,6 +1593,9 @@
         },
         "D22": {
             "Coordinates": "49.005460:2.565015:25",
+            "Remark": {
+                "DE": "Push yellow"
+            },
             "Code": "DE",
             "Use": "A",
             "Block": [
@@ -1499,6 +1621,9 @@
         },
         "D24": {
             "Coordinates": "49.005377:2.564814:20",
+            "Remark": {
+                "C": "Push blue/yellow"
+            },
             "Code": "C",
             "Use": "A",
             "Block": [
