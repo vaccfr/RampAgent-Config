@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.7",
+    "version": "v1.0.8",
     "ICAO": "LFBO",
     "Coordinates": "43.629242:1.363506:3000",
     "Stands": {
@@ -200,7 +200,10 @@
             "Schengen": true,
             "Callsigns": [
                 "AFR"
-            ]
+            ],
+            "Remark": {
+                "BC": "Push on T43/T44"
+            }
         },
         "E20": {
             "Coordinates": "43.628829:1.374866:25",
@@ -212,11 +215,15 @@
                 "AFR",
                 "DLH",
                 "KLM"
-            ]
+            ],
+            "Remark": {
+                "BC": "Push on T41"
+            }
         },
         "E30": {
             "Coordinates": "43.628735:1.374185:25",
             "Code": "C",
+            
             "Use": "A",
             "Priority": 3,
             "Schengen": true,
@@ -227,7 +234,10 @@
                 "IBE",
                 "KLM",
                 "TAP"
-            ]
+            ],
+            "Remark": {
+                "BC": "Push on T41"
+            }
         },
         "E40": {
             "Coordinates": "43.629031:1.373805:25",
@@ -324,35 +334,60 @@
             "Code": "C",
             "Use": "A",
             "Priority": 10,
-            "Schengen": true
+            "Schengen": true,
+            "Remark": {
+                "ABC": "Push on T43/T44"
+            }
         },
         "F20": {
             "Coordinates": "43.628339:1.376283:25",
             "Code": "C",
             "Use": "A",
             "Priority": 10,
-            "Schengen": true
+            "Schengen": true,
+            "Remark": {
+                "BC": "Push N on T44"
+            }
         },
         "F30": {
             "Coordinates": "43.628017:1.376684:25",
             "Code": "C",
             "Use": "A",
             "Priority": 10,
-            "Schengen": true
+            "Schengen": true,
+            "Remark": {
+                "BC": "Push N on T44"
+            }
         },
         "F40": {
             "Coordinates": "43.627625:1.376963:25",
             "Code": "C",
             "Use": "A",
             "Priority": 10,
-            "Schengen": true
+            "Schengen": true,
+            "Remark": {
+                "BC": "Push on T42/T44"
+            }
         },
         "F50": {
             "Coordinates": "43.627301:1.377335:25",
             "Code": "C",
             "Use": "A",
             "Priority": 10,
-            "Schengen": true
+            "Schengen": true,
+            "Remark": {
+                "BC": "Push S on T44"
+            }
+        },
+        "F60": {
+            "Coordinates": "43.627301:1.377335:25",
+            "Code": "B",
+            "Use": "A",
+            "Priority": 5,
+            "Schengen": true,
+            "Remark": {
+                "B": "Taxi Out Left"
+            }
         },
         "G": {
             "Coordinates": "43.621351:1.382346:100",
@@ -401,7 +436,10 @@
                 "K12",
                 "K22"
             ],
-            "Priority": 30
+            "Priority": 30,
+            "Remark": {
+                "ABC": "Push S on T41"
+            }
         },
         "K12": {
             "Coordinates": "43.627837:1.374901:25",
@@ -417,7 +455,10 @@
                 "EG",
                 "LP"
             ],
-            "Priority": 20
+            "Priority": 20,
+            "Remark": {
+                "BC": "Taxi Out"
+            }
         },
         "K22": {
             "Coordinates": "43.627518:1.375261:25",
@@ -436,7 +477,10 @@
             "Block": [
                 "K11"
             ],
-            "Priority": 20
+            "Priority": 20,
+            "Remark": {
+                "BC": "Taxi Out"
+            }
         },
         "K32": {
             "Coordinates": "43.627195:1.375568:25",
@@ -452,7 +496,10 @@
                 "EG",
                 "LP"
             ],
-            "Priority": 20
+            "Priority": 20,
+            "Remark": {
+                "AB": "Taxi Out"
+            }
         },
         "NORTH": {
             "Coordinates": "43.651417:1.355782:20",
@@ -522,7 +569,10 @@
                 "TAP",
                 "TOM",
                 "VOE"
-            ]
+            ],
+            "Remark": {
+                "BC": "Push S on T61"
+            }
         },
         "U11": {
             "Coordinates": "43.631168:1.371362:30",
@@ -532,7 +582,10 @@
                 "U10",
                 "U12"
             ],
-            "Priority": 5
+            "Priority": 5,
+            "Remark": {
+                "BC": "Push S on T61"
+            }
         },
         "U12": {
             "Coordinates": "43.631198:1.371076:25",
@@ -595,7 +648,10 @@
                 "U20",
                 "U22"
             ],
-            "Priority": 5
+            "Priority": 5,
+            "Remark": {
+                "BCDE": "Push S abeam T60"
+            }
         },
         "U22": {
             "Coordinates": "43.631395:1.370138:25",
@@ -650,7 +706,10 @@
                 "U30",
                 "U32"
             ],
-            "Priority": 5
+            "Priority": 5,
+            "Remark": {
+                "BC": "Push S"
+            }
         },
         "U32": {
             "Coordinates": "43.631927:1.369410:25",
@@ -712,7 +771,11 @@
                 "AFR",
                 "ACA",
                 "QTR"
-            ]
+            ],
+            "Remark": {
+                "BC": "Push S on R Area",
+                "DE": "Push N"
+            }
         },
         "U42": {
             "Coordinates": "43.632670:1.369252:25",
@@ -734,7 +797,10 @@
                 "TAR",
                 "THY",
                 "TOM"
-            ]
+            ],
+            "Remark": {
+                "BC": "Push S on R Area"
+            }
         },
         "V10": {
             "Coordinates": "43.633064:1.369635:25",
@@ -750,7 +816,10 @@
                 "THY",
                 "TOM",
                 "TRA"
-            ]
+            ],
+            "Remark": {
+                "BC": "Push S on R Area"
+            }
         },
         "V12": {
             "Coordinates": "43.633345:1.369995:25",
@@ -765,7 +834,10 @@
                 "RYR",
                 "RYS",
                 "THY"
-            ]
+            ],
+            "Remark": {
+                "BC": "Push S on R Area"
+            }
         }
     }
 }
