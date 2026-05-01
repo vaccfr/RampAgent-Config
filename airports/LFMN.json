@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.4.0",
+    "version": "v1.4.1",
     "ICAO": "LFMN",
     "Coordinates": "43.661663:7.210765:2000",
     "Stands": {
@@ -365,7 +365,7 @@
                 "FPO",
                 "TVF"
             ],
-            "Priority": 10,
+            "Priority": 7,
             "Remark": {
                 "ABCDEF": "Push E on T"
             }
@@ -395,7 +395,7 @@
                 "FPO",
                 "TVF"
             ],
-            "Priority": 10,
+            "Priority": 7,
             "Remark": {
                 "ABCDEF": "Push E on T"
             }
@@ -665,6 +665,8 @@
                 "SWR",
                 "TAP",
                 "LGL",
+                "WUK",
+                "RUK",
                 "RYR",
                 "RUK",
                 "TRA",
@@ -701,6 +703,7 @@
                 "TAP",
                 "CFG",
                 "LGL",
+                "WUK",
                 "RYR",
                 "RUK",
                 "BTI",
@@ -735,6 +738,7 @@
                 "RYR",
                 "LGL",
                 "RUK",
+                "WUK",
                 "TRA",
                 "BTI",
                 "CFG",
@@ -771,6 +775,7 @@
                 "ICE",
                 "EWG",
                 "CFG",
+                "WUK",
                 "AFL",
                 "DLH"
             ],
@@ -835,6 +840,7 @@
                 "SWR",
                 "TAP",
                 "RYR",
+                "WUK",
                 "RUK",
                 "TRA",
                 "BTI",
@@ -951,6 +957,7 @@
                 "DJT",
                 "OAL",
                 "THT",
+                "WUK",
                 "FIA"
             ],
             "Block": [
@@ -1012,6 +1019,7 @@
                 "DJT",
                 "THT",
                 "OAL",
+                "WUK",
                 "FIA"
             ],
             "Block": [
@@ -1045,6 +1053,7 @@
                 "UAL",
                 "DJT",
                 "THT",
+                "WUK",
                 "FIA"
             ],
             "Block": [
@@ -1111,6 +1120,7 @@
                 "UAL",
                 "DJT",
                 "THT",
+                "WUK",
                 "FIA"
             ],
             "Block": [
@@ -1146,10 +1156,11 @@
                 "UAL",
                 "DJT",
                 "THT",
+                "WUK",
                 "OAL",
                 "FIA"
             ],
-            "Priority": 10,
+            "Priority": 7,
             "Remark": {
                 "ABCDEF": "Push long E on S"
             }
@@ -2177,6 +2188,7 @@
                 "FBT",
                 "LNR",
                 "WMT",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -2198,6 +2210,7 @@
                 "AFR",
                 "KLM",
                 "TAR",
+                "TGL",
                 "DAH",
                 "SAS"
             ],
@@ -2225,6 +2238,7 @@
                 "EZY",
                 "TAR",
                 "VOE",
+                "TGL",
                 "WZZ",
                 "FBT",
                 "LNR",
@@ -2412,6 +2426,7 @@
                 "FBT",
                 "LNR",
                 "SAS",
+                "TGL",
                 "WMT"
             ],
             "Block": [
@@ -2435,6 +2450,7 @@
                 "FBT",
                 "LNR",
                 "DAH",
+                "TGL",
                 "SAS"
             ],
             "Block": [
@@ -2464,6 +2480,7 @@
                 "FBT",
                 "LNR",
                 "SAS",
+                "TGL",
                 "WMT"
             ],
             "Block": [
@@ -2526,6 +2543,7 @@
                 "FBT",
                 "LNR",
                 "WMT",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -2549,6 +2567,7 @@
                 "FBT",
                 "LNR",
                 "DAH",
+                "TGL",
                 "SAS"
             ],
             "Block": [
@@ -2579,6 +2598,7 @@
                 "FBT",
                 "LNR",
                 "WMT",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -2660,6 +2680,7 @@
                 "UAE",
                 "TGZ",
                 "WMT",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -2698,6 +2719,7 @@
                 "ETD",
                 "FIN",
                 "MEA",
+                "TGL",
                 "UAE"
             ],
             "Block": [
@@ -2741,6 +2763,7 @@
                 "UAE",
                 "TGZ",
                 "WMT",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -2840,6 +2863,7 @@
                 "MEA",
                 "UAE",
                 "TGZ",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -2869,6 +2893,7 @@
                 "FIN",
                 "MEA",
                 "UAE",
+                "TGL",
                 "TGZ"
             ],
             "Block": [
@@ -2910,6 +2935,7 @@
                 "FIN",
                 "MEA",
                 "TGZ",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -3008,6 +3034,7 @@
                 "MEA",
                 "UAE",
                 "TGZ",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -3033,6 +3060,7 @@
                 "DAL",
                 "ETD",
                 "FIN",
+                "TGL",
                 "UAE"
             ],
             "Block": [
@@ -3065,6 +3093,7 @@
                 "FIN",
                 "UAE",
                 "TGZ",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -3100,6 +3129,7 @@
                 "VOE",
                 "WZZ",
                 "TGZ",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -3125,6 +3155,7 @@
                 "DAH",
                 "SAS",
                 "TVS",
+                "TGL",
                 "TAR"
             ],
             "Block": [
@@ -3160,6 +3191,7 @@
                 "VOE",
                 "WZZ",
                 "TGZ",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -3193,6 +3225,7 @@
                 "VOE",
                 "WZZ",
                 "TGZ",
+                "TGL",
                 "TVF"
             ],
             "Block": [
@@ -3231,6 +3264,7 @@
                 "ETD",
                 "FIN",
                 "MEA",
+                "TGL",
                 "UAE",
                 "TGZ"
             ],
