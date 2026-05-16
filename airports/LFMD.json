@@ -11,7 +11,7 @@
                 "1A"
             ],
             "Wingspan": 17,
-            "Priority": 30
+            "Priority": 40
         },
         "12": {
             "Coordinates": "43.545086:6.953710:10",
@@ -21,7 +21,7 @@
                 "1B"
             ],
             "Wingspan": 17,
-            "Priority": 30
+            "Priority": 40
         },
         "13": {
             "Coordinates": "43.545113:6.953973:10",
@@ -30,7 +30,7 @@
                 "1B"
             ],
             "Wingspan": 17,
-            "Priority": 30
+            "Priority": 40
         },
         "1A": {
             "Coordinates": "43.545077:6.953519:13",
@@ -40,7 +40,7 @@
                 "12"
             ],
             "Wingspan": 27,
-            "Priority": 50
+            "Priority": 60
         },
         "1B": {
             "Coordinates": "43.545102:6.953903:13",
@@ -50,7 +50,7 @@
                 "13"
             ],
             "Wingspan": 22,
-            "Priority": 50
+            "Priority": 60
         },
         "21": {
             "Coordinates": "43.545568:6.953373:10",
@@ -59,7 +59,7 @@
                 "2A"
             ],
             "Wingspan": 15,
-            "Priority": 30
+            "Priority": 40
         },
         "22": {
             "Coordinates": "43.545583:6.953638:10",
@@ -69,7 +69,7 @@
                 "2B"
             ],
             "Wingspan": 17,
-            "Priority": 30
+            "Priority": 40
         },
         "23": {
             "Coordinates": "43.545619:6.953887:10",
@@ -77,7 +77,7 @@
                 "2B"
             ],
             "Wingspan": 17,
-            "Priority": 30,
+            "Priority": 40,
             "Use": "P"
         },
         "2A": {
@@ -87,7 +87,7 @@
                 "22"
             ],
             "Wingspan": 27,
-            "Priority": 50,
+            "Priority": 60,
             "Use": "P"
         },
         "2B": {
@@ -98,7 +98,7 @@
                 "23"
             ],
             "Wingspan": 22,
-            "Priority": 50
+            "Priority": 60
         },
         "31": {
             "Coordinates": "43.546110:6.953256:10",
@@ -107,7 +107,7 @@
                 "3A"
             ],
             "Wingspan": 15,
-            "Priority": 40,
+            "Priority": 30,
             "Code": "A"
         },
         "32": {
@@ -117,7 +117,7 @@
                 "3B"
             ],
             "Wingspan": 17,
-            "Priority": 40,
+            "Priority": 30,
             "Use": "P"
         },
         "33": {
@@ -127,7 +127,7 @@
                 "3B"
             ],
             "Wingspan": 17,
-            "Priority": 40
+            "Priority": 30
         },
         "3A": {
             "Coordinates": "43.546116:6.953339:13",
@@ -137,7 +137,7 @@
                 "32"
             ],
             "Wingspan": 27,
-            "Priority": 60
+            "Priority": 50
         },
         "3B": {
             "Coordinates": "43.546153:6.953732:13",
@@ -148,7 +148,7 @@
                 "33"
             ],
             "Wingspan": 24,
-            "Priority": 60
+            "Priority": 50
         },
         "41": {
             "Coordinates": "43.546690:6.953153:10",
@@ -158,7 +158,7 @@
                 "4A"
             ],
             "Wingspan": 15,
-            "Priority": 40
+            "Priority": 30
         },
         "42": {
             "Coordinates": "43.546717:6.953403:10",
@@ -168,7 +168,7 @@
                 "4B"
             ],
             "Wingspan": 17,
-            "Priority": 40
+            "Priority": 30
         },
         "43": {
             "Coordinates": "43.546745:6.953668:10",
@@ -177,7 +177,7 @@
                 "4B"
             ],
             "Wingspan": 17,
-            "Priority": 40
+            "Priority": 30
         },
         "4A": {
             "Coordinates": "43.546693:6.953239:13",
@@ -187,7 +187,7 @@
                 "42"
             ],
             "Wingspan": 27,
-            "Priority": 60
+            "Priority": 50
         },
         "4B": {
             "Coordinates": "43.546740:6.953625:13",
@@ -198,7 +198,7 @@
                 "43"
             ],
             "Wingspan": 24,
-            "Priority": 60
+            "Priority": 50
         },
         "51": {
             "Coordinates": "43.547240:6.953052:10",
@@ -208,7 +208,7 @@
                 "5A"
             ],
             "Wingspan": 15,
-            "Priority": 40
+            "Priority": 30
         },
         "52": {
             "Coordinates": "43.547300:6.953299:10",
@@ -218,7 +218,7 @@
                 "5B"
             ],
             "Wingspan": 17,
-            "Priority": 40
+            "Priority": 30
         },
         "53": {
             "Coordinates": "43.547315:6.953559:10",
@@ -227,7 +227,7 @@
                 "5B"
             ],
             "Wingspan": 17,
-            "Priority": 40
+            "Priority": 30
         },
         "5A": {
             "Coordinates": "43.547287:6.953134:13",
@@ -237,14 +237,14 @@
                 "52"
             ],
             "Wingspan": 27,
-            "Priority": 60
+            "Priority": 50
         },
         "5B": {
             "Coordinates": "43.547339:6.953518:10",
             "Code": "B",
             "Use": "P",
             "Wingspan": 24,
-            "Priority": 60,
+            "Priority": 50,
             "Block": [
                 "52",
                 "53"
@@ -274,7 +274,7 @@
             "Code": "A",
             "Use": "P",
             "Wingspan": 11,
-            "Priority": 0,
+            "Priority": 10,
             "Apron": {
                 "Size": 8,
                 "Coordinates": [
@@ -290,7 +290,7 @@
             "Code": "A",
             "Use": "P",
             "Wingspan": 12,
-            "Priority": 5,
+            "Priority": 0,
             "Apron": {
                 "Size": 13,
                 "Coordinates": [
@@ -306,7 +306,7 @@
             "Code": "A",
             "Use": "P",
             "Wingspan": 15,
-            "Priority": 10,
+            "Priority": -10,
             "Apron": {
                 "Size": 20,
                 "Coordinates": [
@@ -322,7 +322,7 @@
             "Code": "A",
             "Use": "P",
             "Wingspan": 12,
-            "Priority": 5,
+            "Priority": 0,
             "Apron": {
                 "Size": 11,
                 "Coordinates": [
@@ -336,7 +336,7 @@
         "SIERRA ECHO": {
             "Coordinates": "43.546997:6.960256:15",
             "Use": "H",
-            "Priority": -10,
+            "Priority": -20,
             "Apron": {
                 "Size": 7,
                 "Coordinates": [
