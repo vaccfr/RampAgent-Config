@@ -34,12 +34,12 @@
     "max_alt_extended": {
       "type": "number",
       "minimum": 2000,
-      "maximum": 20000
+      "maximum": 40000
     },
     "max_distance_extended": {
       "type": "number",
       "minimum": 4.0,
-      "maximum": 50.0
+      "maximum": 200.0
     },
     "extended_icaos": {
       "type": "array",
