@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.1.9",
+  "version": "v1.2.0",
   "max_alt": 5000,
   "max_alt_extended": 40000,
   "max_distance": 10.0,
