@@ -13,7 +13,8 @@
             ],
             "Remark": {
                 "C": "Self exit to right"
-            }
+            },
+            "Priority": 0
         },
         "1A": {
             "Coordinates": "48.072774:-1.722378:20",
@@ -25,7 +26,8 @@
             ],
             "Remark": {
                 "CD": "Self exit to right"
-            }
+            },
+            "Priority": 10
         },
         "2": {
             "Coordinates": "48.072841:-1.722904:20",
@@ -36,7 +38,8 @@
             ],
             "Remark": {
                 "C": "Self exit to right"
-            }
+            },
+            "Priority": 0
         },
         "3": {
             "Coordinates": "48.072968:-1.723703:25",
@@ -47,7 +50,8 @@
             },
             "Block": [
                 "5"
-            ]
+            ],
+            "Priority": 10
         },
         "4": {
             "Coordinates": "48.073099:-1.724711:20",
@@ -58,7 +62,8 @@
             },
             "Block": [
                 "5"
-            ]
+            ],
+            "Priority": 0
         },
         "5": {
             "Coordinates": "48.072891:-1.724205:25",
@@ -71,17 +76,20 @@
             "Remark": {
                 "DE": "Self exit to right"
             },
-            "Wingspan": 64
+            "Wingspan": 64,
+            "Priority": 20
         },
         "A1": {
             "Coordinates": "48.069770:-1.729859:10",
             "Code": "A",
-            "Use": "A"
+            "Use": "A",
+            "Priority": 0
         },
         "A2": {
             "Coordinates": "48.069606:-1.730028:10",
             "Code": "A",
-            "Use": "A"
+            "Use": "A",
+            "Priority": 0
         },
         "A3": {
             "Coordinates": "48.069433:-1.729940:10",
@@ -89,7 +97,8 @@
             "Use": "A",
             "Block": [
                 "B5"
-            ]
+            ],
+            "Priority": 0
         },
         "A4": {
             "Coordinates": "48.069288:-1.730140:10",
@@ -97,7 +106,8 @@
             "Use": "A",
             "Block": [
                 "B5"
-            ]
+            ],
+            "Priority": 0
         },
         "ACB": {
             "Coordinates": "48.067691:-1.728642:10",
@@ -112,17 +122,20 @@
                     "48.067573:-1.729264"
                 ]
             },
-            "Wingspan": 12
+            "Wingspan": 12,
+            "Priority": 0
         },
         "B1": {
             "Coordinates": "48.069582:-1.729086:15",
             "Code": "B",
-            "Use": "AH"
+            "Use": "AH",
+            "Priority": 0
         },
         "B2": {
             "Coordinates": "48.069258:-1.729166:15",
             "Code": "B",
-            "Use": "AH"
+            "Use": "AH",
+            "Priority": 0
         },
         "B3": {
             "Coordinates": "48.069464:-1.728097:15",
@@ -130,7 +143,8 @@
             "Use": "AH",
             "Block": [
                 "C0"
-            ]
+            ],
+            "Priority": 10
         },
         "B4": {
             "Coordinates": "48.069138:-1.728193:15",
@@ -138,7 +152,8 @@
             "Use": "AH",
             "Block": [
                 "C0"
-            ]
+            ],
+            "Priority": 10
         },
         "B5": {
             "Coordinates": "48.069304:-1.729799:10",
@@ -148,7 +163,8 @@
                 "A3",
                 "A4"
             ],
-            "Wingspan": 17
+            "Wingspan": 17,
+            "Priority": 20
         },
         "C0": {
             "Coordinates": "48.069294:-1.727936:15",
@@ -160,7 +176,8 @@
             "Block": [
                 "B3",
                 "B4"
-            ]
+            ],
+            "Priority": 10
         },
         "C1": {
             "Coordinates": "48.069175:-1.727174:20",
@@ -168,7 +185,8 @@
             "Use": "A",
             "Remark": {
                 "C": "Self exit to right"
-            }
+            },
+            "Priority": 0
         },
         "C2": {
             "Coordinates": "48.069093:-1.726374:20",
@@ -176,7 +194,8 @@
             "Use": "A",
             "Remark": {
                 "C": "Self exit to right"
-            }
+            },
+            "Priority": 0
         },
         "C3": {
             "Coordinates": "48.068964:-1.725623:20",
@@ -184,7 +203,8 @@
             "Use": "A",
             "Remark": {
                 "C": "Self exit to right"
-            }
+            },
+            "Priority": 0
         },
         "C4": {
             "Coordinates": "48.068905:-1.724787:20",
@@ -192,7 +212,8 @@
             "Use": "A",
             "Remark": {
                 "C": "Self exit to right"
-            }
+            },
+            "Priority": 0
         },
         "C5": {
             "Coordinates": "48.068799:-1.724157:20",
@@ -203,7 +224,8 @@
             ],
             "Remark": {
                 "C": "Self exit to right"
-            }
+            },
+            "Priority": 5
         },
         "C6": {
             "Coordinates": "48.068613:-1.723046:20",
@@ -214,7 +236,8 @@
             ],
             "Remark": {
                 "C": "Self exit to right"
-            }
+            },
+            "Priority": 5
         },
         "D1": {
             "Coordinates": "48.068745:-1.723569:20",
@@ -226,13 +249,15 @@
             ],
             "Remark": {
                 "D": "Self exit to right"
-            }
+            },
+            "Priority": 0
         },
         "H": {
             "Coordinates": "48.068408:-1.722757:10",
             "Code": "AB",
             "Use": "H",
-            "Wingspan": 16
+            "Wingspan": 16,
+            "Priority": -10
         },
         "MILI": {
             "Coordinates": "48.065598:-1.730551:20",
@@ -246,7 +271,8 @@
                     "48.064831:-1.730658",
                     "48.065885:-1.732122"
                 ]
-            }
+            },
+            "Priority": 0
         },
         "SUD1": {
             "Coordinates": "48.062249:-1.734595:20",
@@ -261,7 +287,8 @@
                     "48.061862:-1.734547",
                     "48.062382:-1.735191"
                 ]
-            }
+            },
+            "Priority": 0
         },
         "SUD2": {
             "Coordinates": "48.061482:-1.733775:10",
@@ -276,7 +303,8 @@
                     "48.061274:-1.733850",
                     "48.061482:-1.734092"
                 ]
-            }
+            },
+            "Priority": 0
         }
     }
 }
