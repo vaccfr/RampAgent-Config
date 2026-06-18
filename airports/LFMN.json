@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.4.1",
+    "version": "v1.4.3",
     "ICAO": "LFMN",
     "Coordinates": "43.661663:7.210765:2000",
     "Stands": {
@@ -446,6 +446,10 @@
             "Code": "AB",
             "Wingspan": 21.5,
             "Use": "P",
+            "Block": [
+                "1C",
+                "1X"
+            ],
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
@@ -458,7 +462,8 @@
             "Use": "P",
             "Block": [
                 "1B",
-                "1D"
+                "1D",
+                "1X"
             ],
             "Priority": 50,
             "Remark": {
@@ -470,6 +475,24 @@
             "Code": "AB",
             "Wingspan": 21.5,
             "Use": "P",
+            "Block": [
+                "1C",
+                "1X"
+            ],
+            "Priority": 50,
+            "Remark": {
+                "ABC": "Taxi left to G"
+            }
+        },
+        "1X": {
+            "Coordinates": "43.666768:7.220045:7",
+            "Code": "AB",
+            "Wingspan": 17.65,
+            "Block": [
+                "1B",
+                "1C",
+                "1D"
+            ],
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
@@ -480,6 +503,10 @@
             "Code": "AB",
             "Wingspan": 21.5,
             "Use": "P",
+            "Block": [
+                "1F",
+                "1Y"
+            ],
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
@@ -492,7 +519,8 @@
             "Use": "P",
             "Block": [
                 "1E",
-                "1G"
+                "1G",
+                "1Y"
             ],
             "Priority": 50,
             "Remark": {
@@ -504,6 +532,24 @@
             "Code": "AB",
             "Wingspan": 21.5,
             "Use": "P",
+            "Block": [
+                "1F",
+                "1Y"
+            ],
+            "Priority": 50,
+            "Remark": {
+                "ABC": "Taxi left to G"
+            }
+        },
+        "1Y": {
+            "Coordinates": "43.667024:7.220383:7",
+            "Code": "AB",
+            "Wingspan": 17.65,
+            "Block": [
+                "1E",
+                "1F",
+                "1G"
+            ],
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
@@ -512,8 +558,12 @@
         "1H": {
             "Coordinates": "43.667350:7.220839:10",
             "Code": "AB",
-            "Wingspan": 21.36,
+            "Wingspan": 21.38,
             "Use": "P",
+            "Block": [
+                "1J",
+                "1Z"
+            ],
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
@@ -526,7 +576,8 @@
             "Use": "P",
             "Block": [
                 "1H",
-                "1Q"
+                "1Q",
+                "1Z"
             ],
             "Priority": 50,
             "Remark": {
@@ -538,6 +589,24 @@
             "Code": "AB",
             "Wingspan": 21.38,
             "Use": "P",
+            "Block": [
+                "1J",
+                "1Z"
+            ],
+            "Priority": 50,
+            "Remark": {
+                "ABC": "Taxi left to G"
+            }
+        },
+        "1Z": {
+            "Coordinates": "43.667416:7.220944:7",
+            "Code": "AB",
+            "Wingspan": 17.65,
+            "Block": [
+                "1H",
+                "1J",
+                "1Q"
+            ],
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
@@ -559,7 +628,7 @@
         "2B": {
             "Coordinates": "43.666112:7.216998:45",
             "Code": "F",
-            "Wingspan": 79.85,
+            "Wingspan": 79.75,
             "Use": "A",
             "Block": [
                 "2A",
@@ -2429,34 +2498,6 @@
                 "TGL",
                 "WMT"
             ],
-            "Block": [
-                "46B"
-            ],
-            "Priority": 5,
-            "Remark": {
-                "ABCDEF": "Push S on C"
-            }
-        },
-        "46B": {
-            "Coordinates": "43.660628:7.207334:30",
-            "Code": "DE",
-            "Wingspan": 64.92,
-            "Use": "A",
-            "Schengen": true,
-            "Callsigns": [
-                "AFR",
-                "KLM",
-                "TAR",
-                "FBT",
-                "LNR",
-                "DAH",
-                "TGL",
-                "SAS"
-            ],
-            "Block": [
-                "46A",
-                "46C"
-            ],
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
@@ -2482,9 +2523,6 @@
                 "SAS",
                 "TGL",
                 "WMT"
-            ],
-            "Block": [
-                "46B"
             ],
             "Priority": 5,
             "Remark": {
@@ -3047,7 +3085,7 @@
         },
         "54B": {
             "Coordinates": "43.657925:7.205328:30",
-            "Code": "C",
+            "Code": "DEF",
             "Wingspan": 79.75,
             "Use": "A",
             "Schengen": false,
@@ -3143,8 +3181,8 @@
         },
         "56B": {
             "Coordinates": "43.657165:7.204202:25",
-            "Code": "ED",
-            "Wingspan": 64.92,
+            "Code": "EDF",
+            "Wingspan": 79.75,
             "Use": "A",
             "Callsigns": [
                 "AFR",
@@ -3156,7 +3194,17 @@
                 "SAS",
                 "TVS",
                 "TGL",
-                "TAR"
+                "TAR",
+                "FBT",
+                "LNR",
+                "DAH",
+                "AFR",
+                "SAS",
+                "DAL",
+                "ETD",
+                "FIN",
+                "TGL",
+                "UAE"
             ],
             "Block": [
                 "56A",
