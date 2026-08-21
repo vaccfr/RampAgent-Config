@@ -20,7 +20,8 @@
                 "CLG",
                 "LGL",
                 "CCM",
-                "XK"
+                "XK",
+                "NPV"
             ],
             "Block": [
                 "17"
@@ -2258,7 +2259,8 @@
                 "LNR",
                 "WMT",
                 "TGL",
-                "TVF"
+                "TVF",
+                "NPV"
             ],
             "Block": [
                 "40B"
