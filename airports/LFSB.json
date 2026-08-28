@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.3",
+    "version": "v1.0.4",
     "ICAO": "LFSB",
     "Coordinates": "47.598900:7.525420:3000",
     "Stands": {
@@ -236,7 +236,7 @@
             "Coordinates": "47.602671:7.526767:20",
             "Code": "B",
             "Remark": {
-                "BC": "No Push in corridor"
+                "BC": "No Push"
             },
             "Priority": 50
         },

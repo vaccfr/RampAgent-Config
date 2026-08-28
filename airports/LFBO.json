@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.8",
+    "version": "v1.0.9",
     "ICAO": "LFBO",
     "Coordinates": "43.629242:1.363506:3000",
     "Stands": {
@@ -650,7 +650,7 @@
             ],
             "Priority": 5,
             "Remark": {
-                "BCDE": "Push S abeam T60"
+                "BCDE": "Push S"
             }
         },
         "U22": {
@@ -773,7 +773,7 @@
                 "QTR"
             ],
             "Remark": {
-                "BC": "Push S on R Area",
+                "BC": "Push S",
                 "DE": "Push N"
             }
         },
@@ -799,7 +799,7 @@
                 "TOM"
             ],
             "Remark": {
-                "BC": "Push S on R Area"
+                "BC": "Push S"
             }
         },
         "V10": {
@@ -818,7 +818,7 @@
                 "TRA"
             ],
             "Remark": {
-                "BC": "Push S on R Area"
+                "BC": "Push S"
             }
         },
         "V12": {
@@ -836,7 +836,7 @@
                 "THY"
             ],
             "Remark": {
-                "BC": "Push S on R Area"
+                "BC": "Push S"
             }
         }
     }

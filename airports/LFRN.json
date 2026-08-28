@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v0.0.1",
+    "version": "v0.0.2",
     "ICAO": "LFRN",
     "Coordinates": "48.0695:-1.73479:2000",
     "Stands": {
@@ -12,7 +12,7 @@
                 "1A"
             ],
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Priority": 0
         },
@@ -25,7 +25,7 @@
                 "2"
             ],
             "Remark": {
-                "CD": "Self exit to right"
+                "CD": "Self exit right"
             },
             "Priority": 10
         },
@@ -37,7 +37,7 @@
                 "1A"
             ],
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Priority": 0
         },
@@ -46,7 +46,7 @@
             "Code": "CD",
             "Use": "C",
             "Remark": {
-                "CD": "Self exit to right"
+                "CD": "Self exit right"
             },
             "Block": [
                 "5"
@@ -58,7 +58,7 @@
             "Code": "C",
             "Use": "C",
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Block": [
                 "5"
@@ -74,7 +74,7 @@
                 "4"
             ],
             "Remark": {
-                "DE": "Self exit to right"
+                "DE": "Self exit right"
             },
             "Wingspan": 64,
             "Priority": 20
@@ -171,7 +171,7 @@
             "Code": "C",
             "Use": "A",
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Block": [
                 "B3",
@@ -184,7 +184,7 @@
             "Code": "C",
             "Use": "A",
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Priority": 0
         },
@@ -193,7 +193,7 @@
             "Code": "C",
             "Use": "A",
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Priority": 0
         },
@@ -202,7 +202,7 @@
             "Code": "C",
             "Use": "A",
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Priority": 0
         },
@@ -211,7 +211,7 @@
             "Code": "C",
             "Use": "A",
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Priority": 0
         },
@@ -223,7 +223,7 @@
                 "D1"
             ],
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Priority": 5
         },
@@ -235,7 +235,7 @@
                 "D1"
             ],
             "Remark": {
-                "C": "Self exit to right"
+                "C": "Self exit right"
             },
             "Priority": 5
         },
@@ -248,7 +248,7 @@
                 "C6"
             ],
             "Remark": {
-                "D": "Self exit to right"
+                "D": "Self exit right"
             },
             "Priority": 0
         },
