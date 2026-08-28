@@ -55,7 +55,8 @@
             "type": "object",
             "patternProperties": {
               "^[A-F]{1,4}$": {
-                "type": "string"
+                "type": "string",
+                "pattern": "^[A-Za-z0-9\\s.,;:!?()\\-]{1,15}$"
               }
             }
           }
