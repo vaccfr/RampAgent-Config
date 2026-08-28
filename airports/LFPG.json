@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/refs/heads/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.0.7",
+    "version": "v1.0.8",
     "ICAO": "LFPG",
     "Coordinates": "49.010965:2.560501:6000",
     "Stands": {
@@ -262,7 +262,7 @@
         "B01": {
             "Coordinates": "49.006853:2.563352:25",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -287,7 +287,7 @@
         "B02": {
             "Coordinates": "49.005453:2.564071:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -315,7 +315,7 @@
         "B03": {
             "Coordinates": "49.006839:2.562727:25",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -371,7 +371,7 @@
         "B05": {
             "Coordinates": "49.006767:2.562172:25",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -397,7 +397,7 @@
         "B06": {
             "Coordinates": "49.005537:2.563513:25",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -426,7 +426,7 @@
         "B07": {
             "Coordinates": "49.006757:2.561644:25",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -452,7 +452,7 @@
         "B08": {
             "Coordinates": "49.005535:2.562912:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -480,7 +480,7 @@
         "B09": {
             "Coordinates": "49.006753:2.561067:20",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -534,7 +534,7 @@
         "B11": {
             "Coordinates": "49.006718:2.560520:20",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -546,7 +546,7 @@
         "B12": {
             "Coordinates": "49.005497:2.562389:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -587,7 +587,7 @@
         "B14": {
             "Coordinates": "49.005437:2.561633:25",
             "Remark": {
-                "C": "Push blue/yellow",
+                "C": "Push Blu/Yel",
                 "DE": "Push yellow"
             },
             "Code": "CDE",
@@ -613,7 +613,7 @@
         "B15": {
             "Coordinates": "49.006677:2.559962:20",
             "Remark": {
-                "C": "Push W orange/yellow"
+                "C": "Push W Oran/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -625,7 +625,7 @@
         "B16": {
             "Coordinates": "49.005389:2.560879:15",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -682,7 +682,7 @@
         "B20": {
             "Coordinates": "49.005277:2.560335:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -710,7 +710,7 @@
         "B22": {
             "Coordinates": "49.005106:2.559796:20",
             "Remark": {
-                "C": "Push W blue/yellow"
+                "C": "Push W Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -767,7 +767,7 @@
         "B26": {
             "Coordinates": "49.004862:2.559401:20",
             "Remark": {
-                "C": "Push W blue/yellow"
+                "C": "Push W Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1067,7 +1067,7 @@
         "CF9": {
             "Coordinates": "49.000475:2.568376:30",
             "Remark": {
-                "F": "Push W, pull TA3"
+                "F": "Push W pull TA3"
             },
             "Code": "F",
             "Use": "A",
@@ -1096,7 +1096,7 @@
         "CFE": {
             "Coordinates": "49.002206:2.569857:30",
             "Remark": {
-                "F": "Push W, pull TA3"
+                "F": "Push W pull TA3"
             },
             "Code": "F",
             "Use": "A",
@@ -1126,7 +1126,7 @@
         "CFW": {
             "Coordinates": "49.001923:2.565798:30",
             "Remark": {
-                "F": "Push W, exit TA2"
+                "F": "Push W exit TA2"
             },
             "Code": "F",
             "Use": "A",
@@ -1156,7 +1156,7 @@
         "D02": {
             "Coordinates": "49.005421:2.569570:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1181,7 +1181,7 @@
         "D03": {
             "Coordinates": "49.007138:2.568438:20",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1209,7 +1209,7 @@
         "D05": {
             "Coordinates": "49.007077:2.567901:20",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1237,7 +1237,7 @@
         "D06": {
             "Coordinates": "49.005590:2.569052:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1294,7 +1294,7 @@
         "D08": {
             "Coordinates": "49.005785:2.568623:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1322,7 +1322,7 @@
         "D09": {
             "Coordinates": "49.007056:2.567303:20",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1382,7 +1382,7 @@
         "D11": {
             "Coordinates": "49.007024:2.566743:20",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1413,7 +1413,7 @@
         "D12": {
             "Coordinates": "49.005713:2.567982:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1473,7 +1473,7 @@
         "D14": {
             "Coordinates": "49.005699:2.567354:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1498,7 +1498,7 @@
         "D15": {
             "Coordinates": "49.006968:2.566182:20",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1510,7 +1510,7 @@
         "D16": {
             "Coordinates": "49.005699:2.566587:20",
             "Remark": {
-                "C": "Push blue/yellow",
+                "C": "Push Blu/Yel",
                 "DE": "Push yellow"
             },
             "Code": "CDE",
@@ -1551,7 +1551,7 @@
         "D18": {
             "Coordinates": "49.005666:2.565874:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1576,7 +1576,7 @@
         "D19": {
             "Coordinates": "49.007010:2.565603:20",
             "Remark": {
-                "C": "Push orange/yellow"
+                "C": "Push Orange/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1588,7 +1588,7 @@
         "D20": {
             "Coordinates": "49.005588:2.565283:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1645,7 +1645,7 @@
         "D24": {
             "Coordinates": "49.005377:2.564814:20",
             "Remark": {
-                "C": "Push blue/yellow"
+                "C": "Push Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1729,7 +1729,7 @@
         "E09": {
             "Coordinates": "49.002900:2.583890:20",
             "Remark": {
-                "C": "Push S blue/yellow"
+                "C": "Push S Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1770,7 +1770,7 @@
         "E15": {
             "Coordinates": "49.002516:2.583992:20",
             "Remark": {
-                "C": "Push S blue/yellow"
+                "C": "Push S Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1811,7 +1811,7 @@
         "E17": {
             "Coordinates": "49.002045:2.584019:20",
             "Remark": {
-                "C": "Push S blue/yellow"
+                "C": "Push S Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1868,7 +1868,7 @@
         "E21": {
             "Coordinates": "49.001689:2.584064:20",
             "Remark": {
-                "C": "Push S blue/yellow"
+                "C": "Push S Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1925,7 +1925,7 @@
         "E25": {
             "Coordinates": "49.001274:2.584121:20",
             "Remark": {
-                "C": "Push S blue/yellow"
+                "C": "Push S Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -1990,7 +1990,7 @@
         "E29": {
             "Coordinates": "49.000894:2.584164:20",
             "Remark": {
-                "C": "Push S blue/yellow"
+                "C": "Push S Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2234,7 +2234,7 @@
         "F14": {
             "Coordinates": "49.006841:2.573153:20",
             "Remark": {
-                "C": "Push N or E/W blue"
+                "C": "Push N:E/W blue"
             },
             "Code": "C",
             "Use": "A",
@@ -2269,7 +2269,7 @@
         "F16": {
             "Coordinates": "49.007075:2.573531:20",
             "Remark": {
-                "C": "Push G4 blue/yellow"
+                "C": "Push G4 Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2287,7 +2287,7 @@
         "F20": {
             "Coordinates": "49.007223:2.573995:20",
             "Remark": {
-                "C": "Push G4 blue/yellow"
+                "C": "Push G4 Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2305,7 +2305,7 @@
         "F22": {
             "Coordinates": "49.007281:2.574537:20",
             "Remark": {
-                "C": "Push G4 blue/yellow"
+                "C": "Push G4 Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2323,7 +2323,7 @@
         "F26": {
             "Coordinates": "49.007216:2.575234:20",
             "Remark": {
-                "C": "Push G4 blue/yellow"
+                "C": "Push G4 Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2366,7 +2366,7 @@
         "F30": {
             "Coordinates": "49.007049:2.575779:20",
             "Remark": {
-                "C": "Push G4 blue/yellow or N E2"
+                "C": "Push G4 Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2459,7 +2459,7 @@
         "F70": {
             "Coordinates": "49.007114:2.577552:20",
             "Remark": {
-                "C": "Push G4 blue/yellow or N"
+                "C": "Push G4 Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2481,7 +2481,7 @@
         "F72": {
             "Coordinates": "49.007247:2.577619:25",
             "Remark": {
-                "D": "Push G4 yellow line"
+                "D": "Push G4 yellow "
             },
             "Code": "D",
             "Wingspan": 48,
@@ -2527,7 +2527,7 @@
         "F76": {
             "Coordinates": "49.007358:2.577917:20",
             "Remark": {
-                "C": "Push G4 blue/yellow"
+                "C": "Push G4 Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2549,7 +2549,7 @@
         "F80": {
             "Coordinates": "49.007444:2.578426:20",
             "Remark": {
-                "C": "Push G4 blue/yellow"
+                "C": "Push G4 Blu/Yel"
             },
             "Code": "C",
             "Use": "A",
@@ -2567,7 +2567,7 @@
         "F82": {
             "Coordinates": "49.007464:2.579132:20",
             "Remark": {
-                "C": "Push E blue or W yellow"
+                "C": "Push E Blu:W Ye"
             },
             "Code": "C",
             "Use": "A",
@@ -2585,7 +2585,7 @@
         "F84": {
             "Coordinates": "49.007453:2.579692:20",
             "Remark": {
-                "C": "Push E blue/yellow"
+                "C": "Push E Blu/Yel"
             },
             "Code": "C",
             "Use": "A",

@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.4.4",
+    "version": "v1.4.5",
     "ICAO": "LFMN",
     "Coordinates": "43.661663:7.210765:2000",
     "Stands": {
@@ -247,7 +247,7 @@
             ],
             "Priority": 5,
             "Remark": {
-                "ABC": "Push W long on S"
+                "ABC": "Push W on S"
             }
         },
         "31": {
@@ -638,7 +638,7 @@
             "Priority": 10,
             "Remark": {
                 "ABCDE": "Push W on T",
-                "F": "Push-Pull E on T"
+                "F": "Push E on T"
             }
         },
         "2C": {
@@ -1502,7 +1502,7 @@
             "Priority": 5,
             "Remark": {
                 "ABCDE": "Push W long on S",
-                "F": "Push-Pull W on S"
+                "F": "Push W on S"
             }
         },
         "28A": {
