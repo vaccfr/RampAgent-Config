@@ -1,10 +1,10 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v0.0.5",
+    "version": "v0.0.6",
     "ICAO": "LFKJ",
     "Coordinates": "41.921631:8.799534:2000",
     "Hoppie": {
-        "MessageTemplate": "GATE INFO EXPECT GATE {terminal}"
+        "MessageTemplate": "LFKJ GATE INFO EXPECT GATE {terminal}"
     },
     "Stands": {
         "1": {
