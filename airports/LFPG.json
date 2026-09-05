@@ -1,10 +1,10 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v1.1.1",
+    "version": "v1.1.2",
     "ICAO": "LFPG",
     "Coordinates": "49.010965:2.560501:6000",
     "Hoppie": {
-        "MessageTemplate": "GATE INFO EXPECT TERMINAL {terminal} BRIEFING {briefingUrl}",
+        "MessageTemplate": "LFPG GATE INFO EXPECT TERMINAL {terminal} BRIEFING {briefingUrl}",
         "BriefingUrl": "VATS.IM/LFPGBRIEF"
     },
     "Stands": {
