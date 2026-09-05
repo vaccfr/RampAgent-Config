@@ -6,10 +6,7 @@
     "$schema",
     "version",
     "max_alt",
-    "max_alt_extended",
     "max_distance",
-    "max_distance_extended",
-    "extended_icaos",
     "CargoOperator",
     "Helicopters",
     "Military",
@@ -24,29 +21,12 @@
     "max_alt": {
       "type": "number",
       "minimum": 2000,
-      "maximum": 10000
+      "maximum": 40000
     },
     "max_distance": {
       "type": "number",
       "minimum": 2.0,
-      "maximum": 15.0
-    },
-    "max_alt_extended": {
-      "type": "number",
-      "minimum": 2000,
-      "maximum": 40000
-    },
-    "max_distance_extended": {
-      "type": "number",
-      "minimum": 4.0,
-      "maximum": 200.0
-    },
-    "extended_icaos": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "pattern": "^[A-Z]{4}$"
-      }
+      "maximum": 250.0
     },
     "CargoOperator": {
       "type": "array",

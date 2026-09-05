@@ -11,6 +11,26 @@
       "type": "string",
       "pattern": "^-?\\d{1,2}\\.\\d+:-?\\d{1,3}\\.\\d+:-?\\d{4}$"
     },
+    "Hoppie": {
+      "type": "object",
+      "description": "Gate-terminal TELEX notification. The rendered message must satisfy the character set the relay enforces: A-Z 0-9 space . , - @ / only, 1-220 characters. No lower case and no colon. Characters that could inject into the Hoppie query string (& = # %) are excluded deliberately.",
+      "required": ["MessageTemplate"],
+      "properties": {
+        "MessageTemplate": {
+          "type": "string",
+          "description": "Message text. {terminal} and {briefingUrl} are substituted; every other character must already be TELEX-safe.",
+          "maxLength": 200,
+          "pattern": "^([A-Z0-9 .,@/-]|\\{terminal\\}|\\{briefingUrl\\})+$"
+        },
+        "BriefingUrl": {
+          "type": "string",
+          "description": "Briefing reference. Not a full link - there is no colon or lower case available - so write it as it is read out. e.g. VATS.IM/LFPGBRIEF",
+          "maxLength": 60,
+          "pattern": "^[A-Z0-9 .,@/-]+$"
+        }
+      },
+      "additionalProperties": false
+    },
     "Stands": {
       "type": "object",
       "additionalProperties": {
@@ -58,6 +78,12 @@
                 "type": "string"
               }
             }
+          },
+          "Terminal": {
+            "type": "string",
+            "description": "Terminal this stand belongs to, substituted into the Hoppie MessageTemplate. Opts the stand in to gate-terminal TELEX; stands without it are never notified. Must be TELEX-safe, so digits are allowed but lower case is not.",
+            "maxLength": 10,
+            "pattern": "^[A-Z0-9 .,@/-]+$"
           }
         },
         "additionalProperties": false

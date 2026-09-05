@@ -1,86 +1,101 @@
 {
-    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v0.0.5",
+    "$schema": "../.github/schema/airportConfig.schema.json",
+    "version": "v0.0.6",
     "ICAO": "LFOB",
     "Coordinates": "49.455237:2.115126:2000",
+    "Hoppie": {
+        "MessageTemplate": "GATE INFO EXPECT GATE {terminal}"
+    },
     "Stands": {
         "1": {
             "Coordinates": "49.458475:2.110654:20",
             "Code": "C",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "1"
         },
         "2": {
             "Coordinates": "49.458247:2.111129:20",
             "Code": "C",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "2"
         },
         "3": {
             "Coordinates": "49.458020:2.111687:20",
             "Code": "C",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "3"
         },
         "4": {
             "Coordinates": "49.457762:2.112154:20",
             "Code": "C",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "4"
         },
         "5": {
             "Coordinates": "49.457715:2.112615:20",
             "Code": "C",
             "Use": "AH",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "5"
         },
         "6": {
             "Coordinates": "49.457921:2.112966:20",
             "Code": "C",
             "Use": "A",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "6"
         },
         "7": {
             "Coordinates": "49.458215:2.113406:20",
             "Code": "C",
             "Use": "A",
             "Schengen": false,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "7"
         },
         "8": {
             "Coordinates": "49.458487:2.113836:20",
             "Code": "C",
             "Use": "A",
             "Schengen": false,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "8"
         },
         "9": {
             "Coordinates": "49.458955:2.114316:20",
             "Code": "C",
             "Use": "A",
             "Schengen": false,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "9"
         },
         "10": {
             "Coordinates": "49.459235:2.114780:20",
             "Code": "C",
             "Use": "A",
             "Schengen": false,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "10"
         },
         "11": {
             "Coordinates": "49.459553:2.115182:20",
             "Code": "C",
             "Use": "A",
             "Schengen": false,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "11"
         },
         "12": {
             "Coordinates": "49.459844:2.115614:20",
             "Code": "C",
             "Use": "A",
             "Schengen": false,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "12"
         },
         "L1": {
             "Coordinates": "49.458548:2.109898:15",
@@ -90,7 +105,8 @@
                 "L2",
                 "L3"
             ],
-            "Priority": 60
+            "Priority": 60,
+            "Terminal": "L1"
         },
         "L2": {
             "Coordinates": "49.458524:2.109946:10",
@@ -99,7 +115,8 @@
             "Block": [
                 "L1"
             ],
-            "Priority": 60
+            "Priority": 60,
+            "Terminal": "L2"
         },
         "L3": {
             "Coordinates": "49.458606:2.109775:10",
@@ -108,19 +125,22 @@
             "Block": [
                 "L1"
             ],
-            "Priority": 60
+            "Priority": 60,
+            "Terminal": "L3"
         },
         "L4": {
             "Coordinates": "49.458707:2.109579:10",
             "Code": "B",
             "Use": "APH",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "L4"
         },
         "L5": {
             "Coordinates": "49.458813:2.109273:10",
             "Code": "B",
             "Use": "APH",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "L5"
         },
         "NORTH": {
             "Coordinates": "49.462413:2.121778:50",
@@ -128,7 +148,8 @@
             "Priority": -10,
             "Apron": {
                 "Size": 10
-            }
+            },
+            "Terminal": "NORTH"
         }
     }
 }
