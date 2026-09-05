@@ -1,13 +1,11 @@
 {
   "$schema": "./.github/schema/config.schema.json",
-  "version": "v1.2.2",
-  "max_alt": 5000,
-  "max_alt_extended": 40000,
-  "max_distance": 10.0,
-  "max_distance_extended": 200.0,
-  "extended_icaos": [
-    "LFPG"
-  ],
+  "version": "v1.2.3",
+  "max_alt": 40000,
+  "max_distance": 200.0,
+  "Hoppie": {
+    "min_alt": 10000
+  },
   "CargoOperator": [
     "FDX",
     "UPS",
@@ -30,7 +28,7 @@
     "ACX",
     "BRQ",
     "FPO",
-	"ADB",
+  	"ADB",
     "ABR",
     "BGA",
   	"DHL"

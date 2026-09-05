@@ -1,8 +1,11 @@
 {
-    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v1.4.6",
+    "$schema": "../.github/schema/airportConfig.schema.json",
+    "version": "v1.4.7",
     "ICAO": "LFMN",
     "Coordinates": "43.661663:7.210765:2000",
+    "Hoppie": {
+        "MessageTemplate": "GATE INFO EXPECT GATE {terminal}"
+    },
     "Stands": {
         "5": {
             "Coordinates": "43.662747:7.212262:20",
@@ -29,7 +32,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via S"
-            }
+            },
+            "Terminal": "5"
         },
         "7": {
             "Coordinates": "43.662452:7.211857:20",
@@ -56,7 +60,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push by ATC on T"
-            }
+            },
+            "Terminal": "7"
         },
         "9": {
             "Coordinates": "43.662171:7.211433:20",
@@ -83,7 +88,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push by ATC on T"
-            }
+            },
+            "Terminal": "9"
         },
         "11": {
             "Coordinates": "43.661886:7.211001:20",
@@ -105,7 +111,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi straight via D"
-            }
+            },
+            "Terminal": "11"
         },
         "13": {
             "Coordinates": "43.662516:7.211012:25",
@@ -129,7 +136,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via S"
-            }
+            },
+            "Terminal": "13"
         },
         "15": {
             "Coordinates": "43.662334:7.211331:27",
@@ -156,7 +164,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push long E on S"
-            }
+            },
+            "Terminal": "15"
         },
         "17": {
             "Coordinates": "43.662466:7.211411:40",
@@ -182,7 +191,8 @@
             "Priority": 10,
             "Remark": {
                 "F": "Taxi out via S"
-            }
+            },
+            "Terminal": "17"
         },
         "20": {
             "Coordinates": "43.663712:7.208579:25",
@@ -192,7 +202,8 @@
             "Priority": 12,
             "Remark": {
                 "ABCDEF": "Push E on S"
-            }
+            },
+            "Terminal": "20"
         },
         "22": {
             "Coordinates": "43.663685:7.208005:20",
@@ -202,7 +213,8 @@
             "Priority": 12,
             "Remark": {
                 "ABCDEF": "Push E on S"
-            }
+            },
+            "Terminal": "22"
         },
         "26": {
             "Coordinates": "43.663201:7.205671:18",
@@ -227,7 +239,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out"
-            }
+            },
+            "Terminal": "26"
         },
         "28": {
             "Coordinates": "43.662827:7.205704:20",
@@ -248,7 +261,8 @@
             "Priority": 5,
             "Remark": {
                 "ABC": "Push W long on S"
-            }
+            },
+            "Terminal": "28"
         },
         "31": {
             "Coordinates": "43.665732:7.218782:25",
@@ -289,7 +303,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "31"
         },
         "42": {
             "Coordinates": "43.661704:7.206735:25",
@@ -314,7 +329,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "42"
         },
         "44": {
             "Coordinates": "43.661207:7.206924:25",
@@ -339,7 +355,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "44"
         },
         "60": {
             "Coordinates": "43.656033:7.202922:25",
@@ -369,7 +386,8 @@
             "Priority": 7,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "60"
         },
         "62": {
             "Coordinates": "43.655690:7.202555:25",
@@ -399,7 +417,8 @@
             "Priority": 7,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "62"
         },
         "77": {
             "Coordinates": "43.654523:7.203378:15",
@@ -440,7 +459,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "77"
         },
         "1B": {
             "Coordinates": "43.666688:7.219933:10",
@@ -454,7 +474,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1B"
         },
         "1C": {
             "Coordinates": "43.666768:7.220045:15",
@@ -469,7 +490,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1C"
         },
         "1D": {
             "Coordinates": "43.666872:7.220128:10",
@@ -483,7 +505,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1D"
         },
         "1X": {
             "Coordinates": "43.666768:7.220045:10",
@@ -497,7 +520,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1X"
         },
         "1E": {
             "Coordinates": "43.667024:7.220383:10",
@@ -511,7 +535,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1E"
         },
         "1F": {
             "Coordinates": "43.667113:7.220493:15",
@@ -526,7 +551,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1F"
         },
         "1G": {
             "Coordinates": "43.667191:7.220617:10",
@@ -540,7 +566,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1G"
         },
         "1Y": {
             "Coordinates": "43.667024:7.220383:10",
@@ -554,7 +581,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1Y"
         },
         "1H": {
             "Coordinates": "43.667350:7.220839:10",
@@ -568,7 +596,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1H"
         },
         "1J": {
             "Coordinates": "43.667416:7.220944:15",
@@ -583,7 +612,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1J"
         },
         "1Q": {
             "Coordinates": "43.667513:7.221048:10",
@@ -597,7 +627,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1Q"
         },
         "1Z": {
             "Coordinates": "43.667416:7.220944:10",
@@ -611,7 +642,8 @@
             "Priority": 50,
             "Remark": {
                 "ABC": "Taxi left to G"
-            }
+            },
+            "Terminal": "1Z"
         },
         "2A": {
             "Coordinates": "43.666358:7.217154:22",
@@ -624,7 +656,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push W on T"
-            }
+            },
+            "Terminal": "2A"
         },
         "2B": {
             "Coordinates": "43.666112:7.216998:45",
@@ -639,7 +672,8 @@
             "Remark": {
                 "ABCDE": "Push W on T",
                 "F": "Push-Pull E on T"
-            }
+            },
+            "Terminal": "2B"
         },
         "2C": {
             "Coordinates": "43.665978:7.216784:30",
@@ -652,7 +686,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push W on T"
-            }
+            },
+            "Terminal": "2C"
         },
         "2L": {
             "Coordinates": "43.666168:7.216846:40",
@@ -667,7 +702,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push W on T"
-            }
+            },
+            "Terminal": "2L"
         },
         "6A": {
             "Coordinates": "43.665681:7.216172:20",
@@ -701,7 +737,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push W on T"
-            }
+            },
+            "Terminal": "6A"
         },
         "6B": {
             "Coordinates": "43.665411:7.216159:30",
@@ -715,7 +752,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push W on T"
-            }
+            },
+            "Terminal": "6B"
         },
         "6C": {
             "Coordinates": "43.665250:7.215923:20",
@@ -752,7 +790,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push W on T"
-            }
+            },
+            "Terminal": "6C"
         },
         "8A": {
             "Coordinates": "43.665005:7.215405:20",
@@ -785,7 +824,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push W on T"
-            }
+            },
+            "Terminal": "8A"
         },
         "8C": {
             "Coordinates": "43.664668:7.215064:20",
@@ -819,7 +859,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push W"
-            }
+            },
+            "Terminal": "8C"
         },
         "10A": {
             "Coordinates": "43.664333:7.214657:20",
@@ -855,7 +896,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push W"
-            }
+            },
+            "Terminal": "10A"
         },
         "10B": {
             "Coordinates": "43.664371:7.214281:30",
@@ -890,7 +932,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E"
-            }
+            },
+            "Terminal": "10B"
         },
         "10C": {
             "Coordinates": "43.664146:7.214112:20",
@@ -926,7 +969,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E"
-            }
+            },
+            "Terminal": "10C"
         },
         "12A": {
             "Coordinates": "43.664344:7.213503:20",
@@ -952,7 +996,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E"
-            }
+            },
+            "Terminal": "12A"
         },
         "12B": {
             "Coordinates": "43.664076:7.213326:30",
@@ -978,7 +1023,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E"
-            }
+            },
+            "Terminal": "12B"
         },
         "12C": {
             "Coordinates": "43.663954:7.212994:20",
@@ -1002,7 +1048,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on S"
-            }
+            },
+            "Terminal": "12C"
         },
         "14A": {
             "Coordinates": "43.664051:7.212355:20",
@@ -1036,7 +1083,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on S"
-            }
+            },
+            "Terminal": "14A"
         },
         "14B": {
             "Coordinates": "43.663978:7.212109:30",
@@ -1063,7 +1111,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on S"
-            }
+            },
+            "Terminal": "14B"
         },
         "14C": {
             "Coordinates": "43.663892:7.211835:20",
@@ -1098,7 +1147,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on S"
-            }
+            },
+            "Terminal": "14C"
         },
         "16A": {
             "Coordinates": "43.663879:7.211253:20",
@@ -1132,7 +1182,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push long E on S"
-            }
+            },
+            "Terminal": "16A"
         },
         "16B": {
             "Coordinates": "43.663912:7.210955:30",
@@ -1165,7 +1216,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push long E on S"
-            }
+            },
+            "Terminal": "16B"
         },
         "16C": {
             "Coordinates": "43.663782:7.210692:20",
@@ -1199,7 +1251,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push long E on S"
-            }
+            },
+            "Terminal": "16C"
         },
         "18A": {
             "Coordinates": "43.663976:7.210062:25",
@@ -1233,7 +1286,8 @@
             "Priority": 7,
             "Remark": {
                 "ABCDEF": "Push long E on S"
-            }
+            },
+            "Terminal": "18A"
         },
         "18C": {
             "Coordinates": "43.663882:7.209408:25",
@@ -1243,7 +1297,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push E on S"
-            }
+            },
+            "Terminal": "18C"
         },
         "19A": {
             "Coordinates": "43.662483:7.209287:25",
@@ -1261,7 +1316,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push-Pull S on D"
-            }
+            },
+            "Terminal": "19A"
         },
         "19B": {
             "Coordinates": "43.662367:7.208869:40",
@@ -1281,7 +1337,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push-Pull S on D"
-            }
+            },
+            "Terminal": "19B"
         },
         "19D": {
             "Coordinates": "43.662526:7.209338:20",
@@ -1295,7 +1352,8 @@
             "Priority": 15,
             "Remark": {
                 "ABCDEF": "Push-Pull S on D"
-            }
+            },
+            "Terminal": "19D"
         },
         "19E": {
             "Coordinates": "43.662165:7.209467:20",
@@ -1310,7 +1368,8 @@
             "Priority": 15,
             "Remark": {
                 "ABCDEF": "Push-Pull S on D"
-            }
+            },
+            "Terminal": "19E"
         },
         "21A": {
             "Coordinates": "43.662012:7.209381:24",
@@ -1326,7 +1385,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push S on D"
-            }
+            },
+            "Terminal": "21A"
         },
         "21D": {
             "Coordinates": "43.661800:7.209499:20",
@@ -1341,7 +1401,8 @@
             "Priority": 15,
             "Remark": {
                 "ABCDEF": "Push S on D"
-            }
+            },
+            "Terminal": "21D"
         },
         "23A": {
             "Coordinates": "43.661562:7.209421:22",
@@ -1357,7 +1418,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push S on D"
-            }
+            },
+            "Terminal": "23A"
         },
         "23B": {
             "Coordinates": "43.661207:7.209150:38",
@@ -1377,7 +1439,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push S on D"
-            }
+            },
+            "Terminal": "23B"
         },
         "23D": {
             "Coordinates": "43.661420:7.209494:15",
@@ -1392,7 +1455,8 @@
             "Priority": 15,
             "Remark": {
                 "ABCDEF": "Push S on D"
-            }
+            },
+            "Terminal": "23D"
         },
         "24A": {
             "Coordinates": "43.663574:7.207431:25",
@@ -1402,7 +1466,8 @@
             "Priority": 15,
             "Remark": {
                 "ABCDEF": "Push E on S"
-            }
+            },
+            "Terminal": "24A"
         },
         "24C": {
             "Coordinates": "43.663524:7.206900:20",
@@ -1415,7 +1480,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Short Push E on S"
-            }
+            },
+            "Terminal": "24C"
         },
         "24D": {
             "Coordinates": "43.663574:7.206693:12",
@@ -1431,7 +1497,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out"
-            }
+            },
+            "Terminal": "24D"
         },
         "25A": {
             "Coordinates": "43.661067:7.209606:24",
@@ -1446,7 +1513,8 @@
             "Priority": 15,
             "Remark": {
                 "ABCDEF": "Push S on D"
-            }
+            },
+            "Terminal": "25A"
         },
         "25D": {
             "Coordinates": "43.661051:7.209528:14",
@@ -1460,7 +1528,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push S on D"
-            }
+            },
+            "Terminal": "25D"
         },
         "26A": {
             "Coordinates": "43.663370:7.205897:13",
@@ -1477,7 +1546,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out"
-            }
+            },
+            "Terminal": "26A"
         },
         "26R": {
             "Coordinates": "43.663184:7.205805:30",
@@ -1503,7 +1573,8 @@
             "Remark": {
                 "ABCDE": "Push W long on S",
                 "F": "Push-Pull W on S"
-            }
+            },
+            "Terminal": "26R"
         },
         "28A": {
             "Coordinates": "43.662965:7.205540:20",
@@ -1525,7 +1596,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push W long on S"
-            }
+            },
+            "Terminal": "28A"
         },
         "33B": {
             "Coordinates": "43.665472:7.218347:25",
@@ -1570,7 +1642,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "33B"
         },
         "33D": {
             "Coordinates": "43.665518:7.218468:15",
@@ -1614,7 +1687,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "33D"
         },
         "33E": {
             "Coordinates": "43.665326:7.218205:13",
@@ -1658,7 +1732,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "33E"
         },
         "35B": {
             "Coordinates": "43.665041:7.217757:22",
@@ -1704,7 +1779,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "35B"
         },
         "35C": {
             "Coordinates": "43.664870:7.217586:22",
@@ -1751,7 +1827,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "35C"
         },
         "35D": {
             "Coordinates": "43.665134:7.217886:13",
@@ -1795,7 +1872,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "35D"
         },
         "35E": {
             "Coordinates": "43.664936:7.217637:13",
@@ -1840,7 +1918,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "35E"
         },
         "37A": {
             "Coordinates": "43.664589:7.217189:22",
@@ -1886,7 +1965,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "37A"
         },
         "37B": {
             "Coordinates": "43.664713:7.217269:25",
@@ -1933,7 +2013,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "37B"
         },
         "37D": {
             "Coordinates": "43.664703:7.217427:13",
@@ -1978,7 +2059,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "37D"
         },
         "37E": {
             "Coordinates": "43.664643:7.216966:13",
@@ -1992,7 +2074,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "37E"
         },
         "39A": {
             "Coordinates": "43.664228:7.216816:22",
@@ -2038,7 +2121,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "39A"
         },
         "39B": {
             "Coordinates": "43.664069:7.216448:15",
@@ -2054,7 +2138,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "39B"
         },
         "39C": {
             "Coordinates": "43.663972:7.216379:22",
@@ -2102,7 +2187,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "39C"
         },
         "39D": {
             "Coordinates": "43.664346:7.216816:13",
@@ -2146,7 +2232,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "39D"
         },
         "39E": {
             "Coordinates": "43.664131:7.216569:13",
@@ -2192,7 +2279,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "39E"
         },
         "39F": {
             "Coordinates": "43.663948:7.216293:13",
@@ -2237,7 +2325,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "39F"
         },
         "40A": {
             "Coordinates": "43.662528:7.206143:25",
@@ -2268,7 +2357,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push W on S Block 16-24"
-            }
+            },
+            "Terminal": "40A"
         },
         "40B": {
             "Coordinates": "43.662406:7.206546:30",
@@ -2292,7 +2382,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "40B"
         },
         "40C": {
             "Coordinates": "43.662284:7.206742:27",
@@ -2322,7 +2413,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "40C"
         },
         "41A": {
             "Coordinates": "43.662404:7.208477:20",
@@ -2343,7 +2435,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "41A"
         },
         "41D": {
             "Coordinates": "43.662414:7.208372:20",
@@ -2363,7 +2456,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "41D"
         },
         "41E": {
             "Coordinates": "43.662062:7.208482:15",
@@ -2385,7 +2479,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "41E"
         },
         "43A": {
             "Coordinates": "43.661903:7.208541:25",
@@ -2407,7 +2502,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "43A"
         },
         "43B": {
             "Coordinates": "43.661787:7.209016:37",
@@ -2427,7 +2523,8 @@
             "Priority": 15,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "43B"
         },
         "43D": {
             "Coordinates": "43.661674:7.208482:20",
@@ -2442,7 +2539,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "43D"
         },
         "45A": {
             "Coordinates": "43.661467:7.208697:20",
@@ -2464,7 +2562,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "45A"
         },
         "45D": {
             "Coordinates": "43.661325:7.208675:17",
@@ -2477,7 +2576,8 @@
                 "45A",
                 "47A"
             ],
-            "Priority": 10
+            "Priority": 10,
+            "Terminal": "45D"
         },
         "46A": {
             "Coordinates": "43.660822:7.207096:25",
@@ -2503,7 +2603,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "46A"
         },
         "46C": {
             "Coordinates": "43.660467:7.207152:25",
@@ -2529,7 +2630,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "46C"
         },
         "47A": {
             "Coordinates": "43.661007:7.208820:25",
@@ -2551,7 +2653,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "47A"
         },
         "47D": {
             "Coordinates": "43.660974:7.208785:14",
@@ -2562,7 +2665,8 @@
                 "47A",
                 "23B"
             ],
-            "Priority": 10
+            "Priority": 10,
+            "Terminal": "47D"
         },
         "48A": {
             "Coordinates": "43.659984:7.207375:25",
@@ -2592,7 +2696,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "48A"
         },
         "48B": {
             "Coordinates": "43.659837:7.207452:30",
@@ -2617,7 +2722,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "48B"
         },
         "48C": {
             "Coordinates": "43.659579:7.207297:25",
@@ -2647,7 +2753,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push S on C"
-            }
+            },
+            "Terminal": "48C"
         },
         "49A": {
             "Coordinates": "43.659410:7.209960:25",
@@ -2660,7 +2767,8 @@
             "Priority": 25,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "49A"
         },
         "49B": {
             "Coordinates": "43.659266:7.209711:30",
@@ -2674,7 +2782,8 @@
             "Priority": 25,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "49B"
         },
         "49C": {
             "Coordinates": "43.658981:7.209410:25",
@@ -2687,7 +2796,8 @@
             "Priority": 25,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "49C"
         },
         "50A": {
             "Coordinates": "43.659189:7.207163:25",
@@ -2729,7 +2839,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "50A"
         },
         "50B": {
             "Coordinates": "43.658995:7.206956:30",
@@ -2769,7 +2880,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "50B"
         },
         "50C": {
             "Coordinates": "43.658888:7.206747:20",
@@ -2812,7 +2924,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "50C"
         },
         "51A": {
             "Coordinates": "43.657859:7.207831:20",
@@ -2831,7 +2944,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via T"
-            }
+            },
+            "Terminal": "51A"
         },
         "51B": {
             "Coordinates": "43.657803:7.207672:25",
@@ -2851,7 +2965,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via T"
-            }
+            },
+            "Terminal": "51B"
         },
         "51C": {
             "Coordinates": "43.657658:7.207536:20",
@@ -2870,7 +2985,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via T"
-            }
+            },
+            "Terminal": "51C"
         },
         "52A": {
             "Coordinates": "43.658583:7.206339:25",
@@ -2912,7 +3028,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "52A"
         },
         "52B": {
             "Coordinates": "43.658606:7.206138:30",
@@ -2943,7 +3060,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "52B"
         },
         "52C": {
             "Coordinates": "43.658345:7.205942:18",
@@ -2984,7 +3102,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "52C"
         },
         "53A": {
             "Coordinates": "43.657390:7.207206:20",
@@ -3003,7 +3122,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via T"
-            }
+            },
+            "Terminal": "53A"
         },
         "53B": {
             "Coordinates": "43.657302:7.207096:25",
@@ -3023,7 +3143,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via T"
-            }
+            },
+            "Terminal": "53B"
         },
         "53C": {
             "Coordinates": "43.657159:7.206876:20",
@@ -3042,7 +3163,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via T"
-            }
+            },
+            "Terminal": "53C"
         },
         "54A": {
             "Coordinates": "43.658063:7.205484:25",
@@ -3083,7 +3205,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "54A"
         },
         "54B": {
             "Coordinates": "43.657925:7.205328:30",
@@ -3111,7 +3234,8 @@
             "Remark": {
                 "ABCDE": "Push E on T",
                 "F": "Push W on T"
-            }
+            },
+            "Terminal": "54B"
         },
         "54C": {
             "Coordinates": "43.657731:7.205041:25",
@@ -3142,7 +3266,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "54C"
         },
         "56A": {
             "Coordinates": "43.657390:7.204279:25",
@@ -3179,7 +3304,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "56A"
         },
         "56B": {
             "Coordinates": "43.657165:7.204202:25",
@@ -3215,7 +3341,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "56B"
         },
         "56C": {
             "Coordinates": "43.656998:7.204019:25",
@@ -3250,7 +3377,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "56C"
         },
         "58A": {
             "Coordinates": "43.656720:7.203614:25",
@@ -3284,7 +3412,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "58A"
         },
         "58B": {
             "Coordinates": "43.656520:7.203453:25",
@@ -3325,7 +3454,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "58B"
         },
         "58C": {
             "Coordinates": "43.656383:7.203225:20",
@@ -3338,7 +3468,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Push E on T"
-            }
+            },
+            "Terminal": "58C"
         },
         "61A": {
             "Coordinates": "43.663114:7.214930:15",
@@ -3384,7 +3515,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "61A"
         },
         "61B": {
             "Coordinates": "43.662965:7.214812:25",
@@ -3401,7 +3533,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "61B"
         },
         "61C": {
             "Coordinates": "43.662782:7.214625:15",
@@ -3429,7 +3562,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "61C"
         },
         "61D": {
             "Coordinates": "43.663056:7.215174:12",
@@ -3474,7 +3608,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "61D"
         },
         "61E": {
             "Coordinates": "43.663019:7.214681:12",
@@ -3520,7 +3655,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "61E"
         },
         "61F": {
             "Coordinates": "43.662689:7.214598:12",
@@ -3534,7 +3670,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "61F"
         },
         "63A": {
             "Coordinates": "43.662501:7.214136:15",
@@ -3580,7 +3717,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "63A"
         },
         "63B": {
             "Coordinates": "43.662367:7.214002:25",
@@ -3629,7 +3767,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "63B"
         },
         "63C": {
             "Coordinates": "43.662227:7.213766:15",
@@ -3644,7 +3783,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "63C"
         },
         "63D": {
             "Coordinates": "43.662487:7.214343:12",
@@ -3691,7 +3831,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "63D"
         },
         "63E": {
             "Coordinates": "43.662373:7.213930:12",
@@ -3737,7 +3878,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "63E"
         },
         "63F": {
             "Coordinates": "43.662105:7.213772:12",
@@ -3751,7 +3893,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "63F"
         },
         "65A": {
             "Coordinates": "43.661882:7.213375:15",
@@ -3779,7 +3922,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "65A"
         },
         "65B": {
             "Coordinates": "43.661769:7.213192:25",
@@ -3828,7 +3972,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "65B"
         },
         "65C": {
             "Coordinates": "43.661597:7.213007:15",
@@ -3874,7 +4019,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "65C"
         },
         "65D": {
             "Coordinates": "43.661897:7.213522:12",
@@ -3921,7 +4067,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "65D"
         },
         "65E": {
             "Coordinates": "43.661787:7.213120:12",
@@ -3936,7 +4083,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "65E"
         },
         "65F": {
             "Coordinates": "43.661515:7.212948:12",
@@ -3981,7 +4129,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "65F"
         },
         "67A": {
             "Coordinates": "43.661300:7.212527:15",
@@ -4027,7 +4176,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "67A"
         },
         "67B": {
             "Coordinates": "43.661199:7.212372:25",
@@ -4048,7 +4198,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "67B"
         },
         "67C": {
             "Coordinates": "43.661028:7.212178:15",
@@ -4063,7 +4214,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "67C"
         },
         "67D": {
             "Coordinates": "43.661302:7.212720:12",
@@ -4110,7 +4262,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "67D"
         },
         "67E": {
             "Coordinates": "43.661224:7.212243:12",
@@ -4158,7 +4311,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "67E"
         },
         "67F": {
             "Coordinates": "43.660902:7.212160:12",
@@ -4203,7 +4357,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "67F"
         },
         "69A": {
             "Coordinates": "43.660729:7.211704:15",
@@ -4218,7 +4373,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "69A"
         },
         "69B": {
             "Coordinates": "43.660529:7.211572:25",
@@ -4266,7 +4422,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "69B"
         },
         "69C": {
             "Coordinates": "43.660425:7.211368:15",
@@ -4294,7 +4451,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "69C"
         },
         "69D": {
             "Coordinates": "43.660720:7.211902:12",
@@ -4339,7 +4497,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "69D"
         },
         "69E": {
             "Coordinates": "43.660642:7.211433:12",
@@ -4354,7 +4513,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "69E"
         },
         "69F": {
             "Coordinates": "43.660345:7.211344:12",
@@ -4399,7 +4559,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "69F"
         },
         "71A": {
             "Coordinates": "43.656137:7.205537:13",
@@ -4414,7 +4575,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "71A"
         },
         "71B": {
             "Coordinates": "43.655945:7.205322:25",
@@ -4444,7 +4606,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "71B"
         },
         "71C": {
             "Coordinates": "43.655897:7.205183:15",
@@ -4459,7 +4622,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "71C"
         },
         "71D": {
             "Coordinates": "43.656163:7.205639:12",
@@ -4504,7 +4668,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "71D"
         },
         "71E": {
             "Coordinates": "43.655995:7.205430:12",
@@ -4550,7 +4715,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "71E"
         },
         "71F": {
             "Coordinates": "43.655825:7.205121:12",
@@ -4595,7 +4761,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "71F"
         },
         "73A": {
             "Coordinates": "43.655578:7.204842:15",
@@ -4610,7 +4777,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "73A"
         },
         "73B": {
             "Coordinates": "43.655573:7.204620:25",
@@ -4640,7 +4808,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "73B"
         },
         "73C": {
             "Coordinates": "43.655365:7.204483:15",
@@ -4686,7 +4855,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "73C"
         },
         "73D": {
             "Coordinates": "43.655648:7.204866:12",
@@ -4713,7 +4883,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "73D"
         },
         "73E": {
             "Coordinates": "43.655476:7.204649:12",
@@ -4759,7 +4930,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "73E"
         },
         "73F": {
             "Coordinates": "43.655318:7.204421:12",
@@ -4773,7 +4945,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "73F"
         },
         "75A": {
             "Coordinates": "43.655095:7.204086:15",
@@ -4819,7 +4992,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "75A"
         },
         "75B": {
             "Coordinates": "43.655053:7.203901:25",
@@ -4836,7 +5010,8 @@
             "Priority": 10,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "75B"
         },
         "75C": {
             "Coordinates": "43.654855:7.203764:15",
@@ -4864,7 +5039,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "75C"
         },
         "75D": {
             "Coordinates": "43.655126:7.204150:12",
@@ -4909,7 +5085,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "75D"
         },
         "75E": {
             "Coordinates": "43.654957:7.203933:12",
@@ -4955,7 +5132,8 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "75E"
         },
         "75F": {
             "Coordinates": "43.654781:7.203726:12",
@@ -4982,19 +5160,22 @@
             "Priority": 5,
             "Remark": {
                 "ABCDEF": "Taxi out via U"
-            }
+            },
+            "Terminal": "75F"
         },
         "HELI 1": {
             "Coordinates": "43.649905:7.210636:15",
             "Code": "A",
             "Use": "H",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "HELI 1"
         },
         "HELI 2": {
             "Coordinates": "43.650070:7.210867:10",
             "Code": "A",
             "Use": "H",
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "HELI 2"
         },
         "HELI 3": {
             "Coordinates": "43.650285:7.211089:10",
@@ -5003,7 +5184,8 @@
             "Callsigns": [
                 "HLI"
             ],
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 3"
         },
         "HELI 4": {
             "Coordinates": "43.650402:7.211331:10",
@@ -5012,25 +5194,29 @@
             "Callsigns": [
                 "HLI"
             ],
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 4"
         },
         "HELI 5": {
             "Coordinates": "43.650557:7.211532:10",
             "Code": "A",
             "Use": "H",
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 5"
         },
         "HELI 6": {
             "Coordinates": "43.650706:7.211744:10",
             "Code": "A",
             "Use": "H",
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 6"
         },
         "HELI 7": {
             "Coordinates": "43.650863:7.211942:10",
             "Code": "A",
             "Use": "H",
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 7"
         },
         "HELI 8": {
             "Coordinates": "43.651015:7.212141:10",
@@ -5039,7 +5225,8 @@
             "Callsigns": [
                 "MCM"
             ],
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 8"
         },
         "HELI 9": {
             "Coordinates": "43.651168:7.212363:10",
@@ -5048,7 +5235,8 @@
             "Callsigns": [
                 "MCM"
             ],
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 9"
         },
         "HELI 10": {
             "Coordinates": "43.651316:7.212573:10",
@@ -5057,31 +5245,36 @@
             "Callsigns": [
                 "MCM"
             ],
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 10"
         },
         "HELI 11": {
             "Coordinates": "43.651479:7.212782:10",
             "Code": "A",
             "Use": "H",
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 11"
         },
         "HELI 12": {
             "Coordinates": "43.651624:7.213021:10",
             "Code": "A",
             "Use": "H",
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 12"
         },
         "HELI 13": {
             "Coordinates": "43.651894:7.213313:10",
             "Code": "A",
             "Use": "H",
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 13"
         },
         "HELI 14": {
             "Coordinates": "43.652092:7.213640:10",
             "Code": "A",
             "Use": "H",
-            "Priority": 5
+            "Priority": 5,
+            "Terminal": "HELI 14"
         },
         "K": {
             "Coordinates": "43.669889:7.224283:100",
@@ -5098,7 +5291,8 @@
                     "43.670704:7.226214",
                     "43.667538:7.221515"
                 ]
-            }
+            },
+            "Terminal": "K"
         }
     }
 }

@@ -1,55 +1,19 @@
 {
-    "$schema": "https://raw.githubusercontent.com/vaccfr/RampAgent-Config/main/.github/schema/airportConfig.schema.json",
-    "version": "v0.0.3",
+    "$schema": "../.github/schema/airportConfig.schema.json",
+    "version": "v0.0.4",
     "ICAO": "LFRB",
     "Coordinates": "48.446981:-4.418435:2000",
+    "Hoppie": {
+        "MessageTemplate": "GATE INFO EXPECT GATE {terminal}"
+    },
     "Stands": {
-        "1N": {
-            "Coordinates": "48.443616:-4.422786:15",
-            "Code": "AB",
-            "Use": "A",
-            "Wingspan": 17.67,
-            "Block": [
-                "1S"
-            ],
-            "Priority": 30
-        },
-        "1S": {
-            "Coordinates": "48.443263:-4.422603:15",
-            "Code": "B",
-            "Use": "A",
-            "Block": [
-                "1N"
-            ],
-            "Wingspan": 21.2,
-            "Priority": 30
-        },
         "2": {
             "Coordinates": "48.443521:-4.422257:20",
             "Code": "BC",
             "Use": "A",
             "Wingspan": 28.72,
-            "Priority": 70
-        },
-        "3N": {
-            "Coordinates": "48.443782:-4.421919:15",
-            "Code": "AB",
-            "Use": "A",
-            "Block": [
-                "3S"
-            ],
-            "Wingspan": 17.67,
-            "Priority": 70
-        },
-        "3S": {
-            "Coordinates": "48.443496:-4.421734:15",
-            "Code": "BC",
-            "Use": "A",
-            "Wingspan": 28.72,
-            "Block": [
-                "3N"
-            ],
-            "Priority": 70
+            "Priority": 70,
+            "Terminal": "2"
         },
         "4": {
             "Coordinates": "48.444068:-4.421445:20",
@@ -59,18 +23,8 @@
                 "4AS"
             ],
             "Wingspan": 35.8,
-            "Priority": 50
-        },
-        "4AS": {
-            "Coordinates": "48.443948:-4.421257:40",
-            "Code": "DE",
-            "Use": "A",
-            "Block": [
-                "4",
-                "5"
-            ],
-            "Wingspan": 60.3,
-            "Priority": 70
+            "Priority": 50,
+            "Terminal": "4"
         },
         "5": {
             "Coordinates": "48.444316:-4.420981:20",
@@ -80,7 +34,8 @@
                 "4AS"
             ],
             "Wingspan": 35.8,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "5"
         },
         "6": {
             "Coordinates": "48.444302:-4.420348:20",
@@ -90,7 +45,8 @@
                 "7A"
             ],
             "Wingspan": 35.8,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "6"
         },
         "7": {
             "Coordinates": "48.444567:-4.419881:20",
@@ -100,19 +56,8 @@
                 "7A"
             ],
             "Wingspan": 35.8,
-            "Priority": 50
-        },
-        "7A": {
-            "Coordinates": "48.444487:-4.420128:40",
-            "Code": "CDE",
-            "Use": "A",
-            "Block": [
-                "6",
-                "7",
-                "8"
-            ],
-            "Wingspan": 60.3,
-            "Priority": 80
+            "Priority": 50,
+            "Terminal": "7"
         },
         "8": {
             "Coordinates": "48.444261:-4.419508:20",
@@ -122,7 +67,8 @@
                 "7A"
             ],
             "Wingspan": 29,
-            "Priority": 50
+            "Priority": 50,
+            "Terminal": "8"
         },
         "9": {
             "Coordinates": "48.445778:-4.417620:15",
@@ -134,7 +80,8 @@
                 "Q3Q4"
             ],
             "Wingspan": 21.2,
-            "Priority": 40
+            "Priority": 40,
+            "Terminal": "9"
         },
         "10": {
             "Coordinates": "48.445917:-4.417486:20",
@@ -147,7 +94,8 @@
                 "Q3Q4"
             ],
             "Wingspan": 34.32,
-            "Priority": 80
+            "Priority": 80,
+            "Terminal": "10"
         },
         "11": {
             "Coordinates": "48.445883:-4.417272:15",
@@ -159,7 +107,8 @@
                 "Q3Q4"
             ],
             "Wingspan": 21.2,
-            "Priority": 40
+            "Priority": 40,
+            "Terminal": "11"
         },
         "12": {
             "Coordinates": "48.445960:-4.416931:15",
@@ -171,7 +120,8 @@
                 "Q3Q4"
             ],
             "Wingspan": 28.72,
-            "Priority": 80
+            "Priority": 80,
+            "Terminal": "12"
         },
         "13": {
             "Coordinates": "48.446091:-4.416757:20",
@@ -184,7 +134,8 @@
                 "Q3Q4"
             ],
             "Wingspan": 35.8,
-            "Priority": 80
+            "Priority": 80,
+            "Terminal": "13"
         },
         "14": {
             "Coordinates": "48.446109:-4.416540:15",
@@ -196,7 +147,8 @@
                 "Q3Q4"
             ],
             "Wingspan": 28.72,
-            "Priority": 80
+            "Priority": 80,
+            "Terminal": "14"
         },
         "15": {
             "Coordinates": "48.446225:-4.416183:20",
@@ -206,7 +158,8 @@
             "Priority": 60,
             "Block": [
                 "Q3Q4"
-            ]
+            ],
+            "Terminal": "15"
         },
         "16": {
             "Coordinates": "48.446315:-4.415676:20",
@@ -216,7 +169,8 @@
             "Priority": 60,
             "Block": [
                 "Q3Q4"
-            ]
+            ],
+            "Terminal": "16"
         },
         "17": {
             "Coordinates": "48.446399:-4.415185:20",
@@ -226,7 +180,8 @@
             "Priority": 60,
             "Block": [
                 "Q3Q4"
-            ]
+            ],
+            "Terminal": "17"
         },
         "18": {
             "Coordinates": "48.446451:-4.414783:15",
@@ -237,7 +192,77 @@
             "Priority": 30,
             "Block": [
                 "Q3Q4"
-            ]
+            ],
+            "Terminal": "18"
+        },
+        "1N": {
+            "Coordinates": "48.443616:-4.422786:15",
+            "Code": "AB",
+            "Use": "A",
+            "Wingspan": 17.67,
+            "Block": [
+                "1S"
+            ],
+            "Priority": 30,
+            "Terminal": "1N"
+        },
+        "1S": {
+            "Coordinates": "48.443263:-4.422603:15",
+            "Code": "B",
+            "Use": "A",
+            "Block": [
+                "1N"
+            ],
+            "Wingspan": 21.2,
+            "Priority": 30,
+            "Terminal": "1S"
+        },
+        "3N": {
+            "Coordinates": "48.443782:-4.421919:15",
+            "Code": "AB",
+            "Use": "A",
+            "Block": [
+                "3S"
+            ],
+            "Wingspan": 17.67,
+            "Priority": 70,
+            "Terminal": "3N"
+        },
+        "3S": {
+            "Coordinates": "48.443496:-4.421734:15",
+            "Code": "BC",
+            "Use": "A",
+            "Wingspan": 28.72,
+            "Block": [
+                "3N"
+            ],
+            "Priority": 70,
+            "Terminal": "3S"
+        },
+        "4AS": {
+            "Coordinates": "48.443948:-4.421257:40",
+            "Code": "DE",
+            "Use": "A",
+            "Block": [
+                "4",
+                "5"
+            ],
+            "Wingspan": 60.3,
+            "Priority": 70,
+            "Terminal": "4AS"
+        },
+        "7A": {
+            "Coordinates": "48.444487:-4.420128:40",
+            "Code": "CDE",
+            "Use": "A",
+            "Block": [
+                "6",
+                "7",
+                "8"
+            ],
+            "Wingspan": 60.3,
+            "Priority": 80,
+            "Terminal": "7A"
         },
         "GA": {
             "Coordinates": "48.446792:-4.412445:50",
@@ -252,7 +277,8 @@
                     "48.447949:-4.410300",
                     "48.447084:-4.409828"
                 ]
-            }
+            },
+            "Terminal": "GA"
         },
         "Q2": {
             "Coordinates": "48.445770:-4.417094:35",
@@ -268,7 +294,8 @@
                 "Q3Q4"
             ],
             "Wingspan": 64.92,
-            "Priority": 80
+            "Priority": 80,
+            "Terminal": "Q2"
         },
         "Q3Q4": {
             "Coordinates": "48.446273:-4.416550:40",
@@ -288,7 +315,8 @@
                 "Q2"
             ],
             "Wingspan": 73.3,
-            "Priority": 100
+            "Priority": 100,
+            "Terminal": "Q3Q4"
         }
     }
 }
