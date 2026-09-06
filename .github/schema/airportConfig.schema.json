@@ -18,9 +18,9 @@
       "properties": {
         "MessageTemplate": {
           "type": "string",
-          "description": "Message text. {terminal} and {briefingUrl} are substituted; every other character must already be TELEX-safe.",
+          "description": "Message text. {terminal}, {briefingUrl} and {info} are substituted; every other character must already be TELEX-safe.",
           "maxLength": 200,
-          "pattern": "^([A-Z0-9 .,@/-]|\\{terminal\\}|\\{briefingUrl\\})+$"
+          "pattern": "^([A-Z0-9 .,@/-]|\\{terminal\\}|\\{briefingUrl\\}|\\{info\\})+$"
         },
         "BriefingUrl": {
           "type": "string",
@@ -83,6 +83,12 @@
             "type": "string",
             "description": "Terminal this stand belongs to, substituted into the Hoppie MessageTemplate. Opts the stand in to gate-terminal TELEX; stands without it are never notified. Must be TELEX-safe, so digits are allowed but lower case is not.",
             "maxLength": 10,
+            "pattern": "^[A-Z0-9 .,@/-]+$"
+          },
+          "Info": {
+            "type": "string",
+            "description": "Information about the stand, e.g. 'AIRBRIDGE'. Must be TELEX-safe, so digits are allowed but lower case is not.",
+            "maxLength": 30,
             "pattern": "^[A-Z0-9 .,@/-]+$"
           }
         },
