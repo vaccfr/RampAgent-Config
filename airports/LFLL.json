@@ -1,1781 +1,1475 @@
 {
-    "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v0.1.6",
-    "ICAO": "LFLL",
-    "Coordinates": "45.723439:5.087657:3000",
-    "Hoppie": {
-        "MessageTemplate": "LFLL GATE INFO EXPECT GATE {terminal}"
+  "$schema": "../.github/schema/airportConfig.schema.json",
+  "version": "v0.1.6",
+  "ICAO": "LFLL",
+  "Coordinates": "45.723439:5.087657:3000",
+  "Hoppie": {
+    "MessageTemplate": "LFLL GATE INFO EXPECT GATE {terminal}"
+  },
+  "Stands": {
+    "A21": {
+      "Coordinates": "45.724413:5.083100:25",
+      "Remark": {
+        "A": "Taxi Out",
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 29,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A21"
     },
-    "Stands": {
-        "A21": {
-            "Coordinates": "45.724413:5.083100:25",
-            "Remark": {
-                "A": "Taxi Out",
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 29,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A21"
-        },
-        "A22": {
-            "Coordinates": "45.724349:5.082561:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 34.1,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A22"
-        },
-        "A23": {
-            "Coordinates": "45.724233:5.082035:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 34.1,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A23"
-        },
-        "A24": {
-            "Coordinates": "45.724132:5.081504:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 34.1,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A24"
-        },
-        "A25": {
-            "Coordinates": "45.724267:5.080603:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.85,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A25"
-        },
-        "A26": {
-            "Coordinates": "45.724377:5.080225:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.85,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A26"
-        },
-        "A27": {
-            "Coordinates": "45.724506:5.079857:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.85,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A27"
-        },
-        "A28": {
-            "Coordinates": "45.724613:5.079457:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.85,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A28"
-        },
-        "A29": {
-            "Coordinates": "45.724742:5.079087:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.85,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A29"
-        },
-        "A30": {
-            "Coordinates": "45.724840:5.078655:20",
-            "Remark": {
-                "BC": "Taxi Out"
-            },
-            "Code": "BC",
-            "Wingspan": 24.85,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A30"
-        },
-        "A31": {
-            "Coordinates": "45.724525:5.078403:25",
-            "Remark": {
-                "BC": "Taxi Out"
-            },
-            "Code": "BC",
-            "Wingspan": 24.57,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A31"
-        },
-        "A32": {
-            "Coordinates": "45.724117:5.078693:25",
-            "Remark": {
-                "BC": "Push Blue/Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.57,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A32"
-        },
-        "A33": {
-            "Coordinates": "45.723986:5.079069:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.57,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A33"
-        },
-        "A34": {
-            "Coordinates": "45.723877:5.079476:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.57,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A34"
-        },
-        "A35": {
-            "Coordinates": "45.723769:5.079846:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.57,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A35"
-        },
-        "A36": {
-            "Coordinates": "45.723664:5.080254:25",
-            "Remark": {
-                "BC": "Push Orange"
-            },
-            "Code": "BC",
-            "Wingspan": 24.57,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "A36"
-        },
-        "B12": {
-            "Coordinates": "45.723666:5.082765:25",
-            "Remark": {
-                "BC": "Push W TB/Push N R1"
-            },
-            "Code": "BC",
-            "Wingspan": 28.08,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "B12"
-        },
-        "B14": {
-            "Coordinates": "45.723598:5.082325:25",
-            "Remark": {
-                "BC": "Push W TB/Push N R1"
-            },
-            "Code": "BC",
-            "Wingspan": 28.08,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "B14"
-        },
-        "B16": {
-            "Coordinates": "45.723495:5.081888:25",
-            "Remark": {
-                "BC": "Push W TB/Push N R1"
-            },
-            "Code": "BC",
-            "Wingspan": 28.08,
-            "Use": "A",
-            "Priority": 5,
-            "Terminal": "B16"
-        },
-        "B61": {
-            "Coordinates": "45.722975:5.081847:25",
-            "Remark": {
-                "C": "Push N R1/Push W TB"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "B62"
-            ],
-            "Priority": 2,
-            "Terminal": "B61"
-        },
-        "B62": {
-            "Coordinates": "45.722793:5.081890:25",
-            "Remark": {
-                "DE": "Push N on R1"
-            },
-            "Code": "DE",
-            "Wingspan": 60.3,
-            "Use": "A",
-            "Block": [
-                "B61",
-                "B63"
-            ],
-            "Priority": 3,
-            "Terminal": "B62"
-        },
-        "B63": {
-            "Coordinates": "45.722602:5.082081:25",
-            "Remark": {
-                "BC": "Push N on R1"
-            },
-            "Code": "BC",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "B62"
-            ],
-            "Priority": 2,
-            "Terminal": "B63"
-        },
-        "B71": {
-            "Coordinates": "45.722207:5.082102:25",
-            "Remark": {
-                "C": "Push N on R1"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "B72"
-            ],
-            "Priority": 2,
-            "Terminal": "B71"
-        },
-        "B72": {
-            "Coordinates": "45.721962:5.082156:25",
-            "Remark": {
-                "DE": "Short Push S/Push N"
-            },
-            "Code": "DE",
-            "Wingspan": 64.92,
-            "Use": "A",
-            "Block": [
-                "B71",
-                "B73"
-            ],
-            "Priority": 3,
-            "Terminal": "B72"
-        },
-        "B73": {
-            "Coordinates": "45.721823:5.082180:25",
-            "Remark": {
-                "BC": "Short Push S/Push N"
-            },
-            "Code": "BC",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "B72"
-            ],
-            "Priority": 2,
-            "Terminal": "B73"
-        },
-        "B81": {
-            "Coordinates": "45.721448:5.081893:25",
-            "Remark": {
-                "BC": "Push S/N"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "B82"
-            ],
-            "Priority": 2,
-            "Terminal": "B81"
-        },
-        "B82": {
-            "Coordinates": "45.721243:5.081855:25",
-            "Remark": {
-                "BC": "Push S/N"
-            },
-            "Code": "DE",
-            "Wingspan": 64.92,
-            "Use": "A",
-            "Block": [
-                "B81",
-                "B83"
-            ],
-            "Priority": 3,
-            "Terminal": "B82"
-        },
-        "B83": {
-            "Coordinates": "45.721096:5.081727:25",
-            "Remark": {
-                "BC": "Push S/N"
-            },
-            "Code": "BCD",
-            "Wingspan": 41.1,
-            "Use": "A",
-            "Block": [
-                "B82"
-            ],
-            "Priority": 2,
-            "Terminal": "B83"
-        },
-        "B91": {
-            "Coordinates": "45.720713:5.081491:25",
-            "Remark": {
-                "BC": "Push S/N"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "B92"
-            ],
-            "Priority": 2,
-            "Terminal": "B91"
-        },
-        "B92": {
-            "Coordinates": "45.720512:5.081327:25",
-            "Remark": {
-                "BC": "Push S/N"
-            },
-            "Code": "DE",
-            "Wingspan": 64.92,
-            "Use": "A",
-            "Block": [
-                "B91",
-                "B93",
-                "C19"
-            ],
-            "Priority": 3,
-            "Terminal": "B92"
-        },
-        "B93": {
-            "Coordinates": "45.720346:5.081158:25",
-            "Remark": {
-                "BC": "Push S/N"
-            },
-            "Code": "DE",
-            "Wingspan": 47.57,
-            "Use": "A",
-            "Block": [
-                "B92",
-                "C19"
-            ],
-            "Priority": 3,
-            "Terminal": "B93"
-        },
-        "C19": {
-            "Coordinates": "45.720151:5.080930:30",
-            "Remark": {
-                "DEF": "Taxi Out Northerly"
-            },
-            "Code": "DEF",
-            "Use": "A",
-            "Block": [
-                "B91",
-                "B93",
-                "C21",
-                "C22",
-                "C23",
-                "C41"
-            ],
-            "Callsigns": [
-                "PAF",
-                "BAF",
-                "CTM",
-                "FAF",
-                "NATO"
-            ],
-            "Priority": 3,
-            "Terminal": "C19"
-        },
-        "C21": {
-            "Coordinates": "45.719774:5.080573:25",
-            "Remark": {
-                "A": "Taxi Out",
-                "BC": "Push S R1/Push N R2"
-            },
-            "Code": "CD",
-            "Wingspan": 41.1,
-            "Use": "A",
-            "Block": [
-                "C19",
-                "C22"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 1,
-            "Terminal": "C21"
-        },
-        "C22": {
-            "Coordinates": "45.719542:5.080737:25",
-            "Remark": {
-                "BC": "Push S R1/Push N R2"
-            },
-            "Code": "DE",
-            "Wingspan": 64.92,
-            "Use": "A",
-            "Block": [
-                "C21",
-                "C23"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 2,
-            "Terminal": "C22"
-        },
-        "C23": {
-            "Coordinates": "45.719439:5.080833:25",
-            "Remark": {
-                "BC": "Push S R1/Push N R2"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "C22"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 1,
-            "Terminal": "C23"
-        },
-        "C41": {
-            "Coordinates": "45.719012:5.080766:25",
-            "Remark": {
-                "BC": "Push S R1/Push N R2"
-            },
-            "Code": "CD",
-            "Wingspan": 41.1,
-            "Use": "A",
-            "Block": [
-                "C42"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 1,
-            "Terminal": "C41"
-        },
-        "C42": {
-            "Coordinates": "45.718844:5.080788:25",
-            "Remark": {
-                "BC": "Push S/Push N on R2"
-            },
-            "Code": "DE",
-            "Wingspan": 64.92,
-            "Use": "A",
-            "Block": [
-                "C41",
-                "C43"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 2,
-            "Terminal": "C42"
-        },
-        "C43": {
-            "Coordinates": "45.718709:5.080758:25",
-            "Remark": {
-                "BC": "Push S/Push N on R2"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "C42"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 1,
-            "Terminal": "C43"
-        },
-        "C61": {
-            "Coordinates": "45.718340:5.080474:25",
-            "Remark": {
-                "BC": "Push S/Push N on R2"
-            },
-            "Code": "CD",
-            "Wingspan": 41.1,
-            "Use": "A",
-            "Block": [
-                "C62"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 1,
-            "Terminal": "C61"
-        },
-        "C62": {
-            "Coordinates": "45.718207:5.080439:25",
-            "Remark": {
-                "BC": "Push S R2/Push N R3"
-            },
-            "Code": "DE",
-            "Wingspan": 64.92,
-            "Use": "A",
-            "Block": [
-                "C61",
-                "C63"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 2,
-            "Terminal": "C62"
-        },
-        "C63": {
-            "Coordinates": "45.717879:5.080407:25",
-            "Remark": {
-                "BC": "Push S R2/Push N R3"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Block": [
-                "C62"
-            ],
-            "Callsigns": [
-                "VOE",
-                "AUS",
-                "MAC",
-                "AFR",
-                "CCM"
-            ],
-            "Priority": 1,
-            "Terminal": "C63"
-        },
-        "C81": {
-            "Coordinates": "45.717552:5.079388:25",
-            "Remark": {
-                "BC": "Push S R2/Push N R3"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Block": [
-                "C82"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 1,
-            "Terminal": "C81"
-        },
-        "C82": {
-            "Coordinates": "45.717417:5.079648:35",
-            "Remark": {
-                "BCDE": "Push N R3/Push S R2",
-                "F": "Push N R3"
-            },
-            "Code": "DEF",
-            "Use": "A",
-            "Block": [
-                "C81",
-                "C83"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 2,
-            "Terminal": "C82"
-        },
-        "C83": {
-            "Coordinates": "45.717168:5.079626:25",
-            "Remark": {
-                "BC": "Push S R2/Push N R3"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Block": [
-                "C82"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 1,
-            "Terminal": "C83"
-        },
-        "D21": {
-            "Coordinates": "45.716259:5.079259:25",
-            "Remark": {
-                "BC": "Push N/Push S on R3"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Block": [
-                "D22"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 1,
-            "Terminal": "D21"
-        },
-        "D22": {
-            "Coordinates": "45.716132:5.079090:35",
-            "Remark": {
-                "BCDEF": "Push S on R3"
-            },
-            "Code": "DEF",
-            "Use": "A",
-            "Block": [
-                "D21",
-                "D23"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 2,
-            "Terminal": "D22"
-        },
-        "D23": {
-            "Coordinates": "45.715823:5.079144:25",
-            "Remark": {
-                "BC": "Push S/Push N on R3"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Block": [
-                "D22"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 1,
-            "Terminal": "D23"
-        },
-        "D41": {
-            "Coordinates": "45.715450:5.078905:25",
-            "Remark": {
-                "C": "Push S R3/Push W TJ"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Block": [
-                "D42"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 1,
-            "Terminal": "D41"
-        },
-        "D42": {
-            "Coordinates": "45.715375:5.078784:35",
-            "Remark": {
-                "DE": "Push E on R4"
-            },
-            "Code": "DE",
-            "Wingspan": 65,
-            "Use": "A",
-            "Block": [
-                "D41",
-                "D43"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 2,
-            "Terminal": "D42"
-        },
-        "D43": {
-            "Coordinates": "45.715233:5.078409:25",
-            "Remark": {
-                "C": "Push E on R4"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Block": [
-                "D42"
-            ],
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 1,
-            "Terminal": "D43"
-        },
-        "D61": {
-            "Coordinates": "45.715671:5.077808:25",
-            "Remark": {
-                "C": "Push E on R4"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 1,
-            "Terminal": "D61"
-        },
-        "D63": {
-            "Coordinates": "45.715433:5.077269:25",
-            "Remark": {
-                "C": "Push E on R4"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "IBE",
-                "DLH",
-                "KLM",
-                "LOT",
-                "BEL",
-                "THY",
-                "TAP",
-                "DAH",
-                "CCM",
-                "BAW",
-                "UAE",
-                "ACA",
-                "QTR",
-                "LBT",
-                "TAR",
-                "CLG",
-                "TJT"
-            ],
-            "Priority": 1,
-            "Terminal": "D63"
-        },
-        "E11": {
-            "Coordinates": "45.718894:5.083046:25",
-            "Remark": {
-                "ABC": "Taxi Out K1",
-                "D": "Push N/Push S on R2"
-            },
-            "Code": "ABCD",
-            "Wingspan": 44.83,
-            "Use": "A",
-            "Priority": 3,
-            "Terminal": "E11"
-        },
-        "E13": {
-            "Coordinates": "45.718437:5.082848:25",
-            "Remark": {
-                "ABC": "Taxi Out K3",
-                "D": "Push N/Push S on R2"
-            },
-            "Code": "ABCD",
-            "Wingspan": 44.83,
-            "Use": "A",
-            "Priority": 3,
-            "Terminal": "E13"
-        },
-        "E15": {
-            "Coordinates": "45.717990:5.082631:25",
-            "Remark": {
-                "ABC": "Taxi Out K3"
-            },
-            "Code": "ABCD",
-            "Wingspan": 35.8,
-            "Use": "A",
-            "Priority": 3,
-            "Terminal": "E15"
-        },
-        "E17": {
-            "Coordinates": "45.717510:5.082432:25",
-            "Remark": {
-                "ABC": "Taxi Out TL"
-            },
-            "Code": "ABC",
-            "Wingspan": 35.99,
-            "Use": "A",
-            "Priority": 3,
-            "Terminal": "E17"
-        },
-        "G11": {
-            "Coordinates": "45.727000:5.082424:15",
-            "Remark": {
-                "AB": "Taxi Out"
-            },
-            "Code": "AB",
-            "Wingspan": 17,
-            "Use": "P",
-            "Priority": 1,
-            "Terminal": "G11"
-        },
-        "G12": {
-            "Coordinates": "45.726617:5.082327:15",
-            "Remark": {
-                "AB": "Taxi Out"
-            },
-            "Code": "AB",
-            "Wingspan": 17,
-            "Use": "P",
-            "Priority": 1,
-            "Terminal": "G12"
-        },
-        "G13": {
-            "Coordinates": "45.727094:5.081960:15",
-            "Remark": {
-                "AB": "Taxi Out"
-            },
-            "Code": "AB",
-            "Wingspan": 17,
-            "Use": "P",
-            "Priority": 1,
-            "Terminal": "G13"
-        },
-        "G14": {
-            "Coordinates": "45.726746:5.081812:15",
-            "Remark": {
-                "AB": "Taxi Out"
-            },
-            "Code": "AB",
-            "Wingspan": 14.5,
-            "Use": "P",
-            "Priority": 1,
-            "Terminal": "G14"
-        },
-        "G15": {
-            "Coordinates": "45.727163:5.081542:15",
-            "Remark": {
-                "AB": "Taxi Out"
-            },
-            "Code": "AB",
-            "Wingspan": 17,
-            "Use": "P",
-            "Priority": 1,
-            "Terminal": "G15"
-        },
-        "G16": {
-            "Coordinates": "45.726824:5.081348:15",
-            "Remark": {
-                "AB": "Taxi Out"
-            },
-            "Code": "AB",
-            "Wingspan": 14.5,
-            "Use": "P",
-            "Priority": 1,
-            "Terminal": "G16"
-        },
-        "J11": {
-            "Coordinates": "45.713521:5.082590:25",
-            "Remark": {
-                "ABC": "Push E/W on TJ"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "C",
-            "Priority": 1,
-            "Terminal": "J11"
-        },
-        "J13": {
-            "Coordinates": "45.713632:5.082057:25",
-            "Remark": {
-                "ABC": "Push E/W on TJ"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "C",
-            "Block": [
-                "J14"
-            ],
-            "Priority": 1,
-            "Terminal": "J13"
-        },
-        "J14": {
-            "Coordinates": "45.713660:5.081652:25",
-            "Remark": {
-                "ABC": "Push E/W on TJ"
-            },
-            "Code": "CD",
-            "Wingspan": 51,
-            "Use": "C",
-            "Block": [
-                "J13",
-                "J15"
-            ],
-            "Priority": 2,
-            "Terminal": "J14"
-        },
-        "J15": {
-            "Coordinates": "45.713710:5.081515:25",
-            "Remark": {
-                "ABC": "Push E/W on TJ"
-            },
-            "Code": "C",
-            "Wingspan": 35.99,
-            "Use": "C",
-            "Block": [
-                "J14"
-            ],
-            "Priority": 1,
-            "Terminal": "J15"
-        },
-        "J19": {
-            "Coordinates": "45.713817:5.080611:25",
-            "Remark": {
-                "BCD": "Push E/W on TJ/Push S on R3"
-            },
-            "Code": "CD",
-            "Wingspan": 51,
-            "Use": "C",
-            "Priority": 2,
-            "Terminal": "J19"
-        },
-        "J31": {
-            "Coordinates": "45.714806:5.084041:25",
-            "Remark": {
-                "BC": "Push E on TJ"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "J31"
-        },
-        "J33": {
-            "Coordinates": "45.714757:5.083430:25",
-            "Remark": {
-                "C": "Push E/W on TJ"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "J33"
-        },
-        "J35": {
-            "Coordinates": "45.714872:5.082875:25",
-            "Remark": {
-                "BC": "Push E/W on TJ"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "J35"
-        },
-        "J37": {
-            "Coordinates": "45.714969:5.082303:25",
-            "Remark": {
-                "BC": "Push E/W on TJ"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "J37"
-        },
-        "J39": {
-            "Coordinates": "45.715061:5.081711:25",
-            "Remark": {
-                "BC": "Push E/W on TJ"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "J39"
-        },
-        "J41": {
-            "Coordinates": "45.715162:5.081139:25",
-            "Remark": {
-                "BC": "Push W on TJ/Push E on R3/R4"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "J41"
-        },
-        "K52": {
-            "Coordinates": "45.717510:5.083870:25",
-            "Remark": {
-                "BC": "Push E on TL"
-            },
-            "Code": "C",
-            "Use": "A",
-            "Wingspan": 35.99,
-            "Priority": 4,
-            "Terminal": "K52"
-        },
-        "L11": {
-            "Coordinates": "45.715806:5.083832:25",
-            "Remark": {
-                "BC": "Push E on TL"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "L11"
-        },
-        "L13": {
-            "Coordinates": "45.715896:5.083234:25",
-            "Remark": {
-                "BC": "Push E on TL"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "L13"
-        },
-        "L15": {
-            "Coordinates": "45.716001:5.082671:25",
-            "Remark": {
-                "BC": "Push E/W on TL"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "L15"
-        },
-        "L17": {
-            "Coordinates": "45.716087:5.082102:25",
-            "Remark": {
-                "BC": "Push E/W on TL"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "L17"
-        },
-        "L19": {
-            "Coordinates": "45.716199:5.081542:25",
-            "Remark": {
-                "BC": "Push W TL/Push E R3/R4"
-            },
-            "Code": "C",
-            "Wingspan": 36,
-            "Use": "A",
-            "Callsigns": [
-                "EZY",
-                "EJU",
-                "EZS",
-                "TVF",
-                "WZZ",
-                "PGT",
-                "EIN",
-                "VLG"
-            ],
-            "Priority": 1,
-            "Terminal": "L19"
-        },
-        "M11": {
-            "Coordinates": "45.710461:5.085385:30",
-            "Remark": {
-                "CDE": "Push N on TM"
-            },
-            "Code": "CDE",
-            "Wingspan": 64.92,
-            "Block": [
-                "M12"
-            ],
-            "Priority": 4,
-            "Terminal": "M11"
-        },
-        "M12": {
-            "Coordinates": "45.710405:5.085356:35",
-            "Remark": {
-                "BCDE": "Taxi Out"
-            },
-            "Wingspan": 88.4,
-            "Block": [
-                "M11",
-                "M13"
-            ],
-            "Priority": 5,
-            "Terminal": "M12"
-        },
-        "M13": {
-            "Coordinates": "45.709787:5.085345:30",
-            "Remark": {
-                "CDE": "Push N on TM"
-            },
-            "Code": "CDE",
-            "Wingspan": 64.92,
-            "Block": [
-                "M12"
-            ],
-            "Priority": 4,
-            "Terminal": "M13"
-        },
-        "M21": {
-            "Coordinates": "45.708936:5.085243:25",
-            "Remark": {
-                "B": "Taxi Out Left",
-                "CD": "Push N on TM"
-            },
-            "Code": "BCD",
-            "Wingspan": 51.9,
-            "Block": [
-                "M22"
-            ],
-            "Priority": 4,
-            "Terminal": "M21"
-        },
-        "M22": {
-            "Coordinates": "45.708670:5.085152:35",
-            "Remark": {
-                "ABCDE": "Push N on TM"
-            },
-            "Code": "EF",
-            "Wingspan": 79.8,
-            "Block": [
-                "M21",
-                "M23"
-            ],
-            "Priority": 5,
-            "Terminal": "M22"
-        },
-        "M23": {
-            "Coordinates": "45.708367:5.085192:25",
-            "Remark": {
-                "B": "Taxi Out Right",
-                "CD": "Push N on TM"
-            },
-            "Code": "BCD",
-            "Wingspan": 51.9,
-            "Block": [
-                "M22"
-            ],
-            "Priority": 4,
-            "Terminal": "M23"
-        },
-        "M31": {
-            "Coordinates": "45.707818:5.085061:25",
-            "Remark": {
-                "B": "Taxi Out Left",
-                "CD": "Push N on TM"
-            },
-            "Code": "BCD",
-            "Wingspan": 51.9,
-            "Block": [
-                "M32"
-            ],
-            "Priority": 4,
-            "Terminal": "M31"
-        },
-        "M32": {
-            "Coordinates": "45.707582:5.085007:35",
-            "Remark": {
-                "ABCDE": "Push N on TM"
-            },
-            "Code": "EF",
-            "Wingspan": 79.8,
-            "Block": [
-                "M31",
-                "M33"
-            ],
-            "Priority": 5,
-            "Terminal": "M32"
-        },
-        "M33": {
-            "Coordinates": "45.707262:5.085050:25",
-            "Remark": {
-                "B": "Taxi Out Right",
-                "CD": "Push N on TM"
-            },
-            "Code": "BCD",
-            "Wingspan": 51.9,
-            "Block": [
-                "M32"
-            ],
-            "Priority": 4,
-            "Terminal": "M33"
-        },
-        "M41": {
-            "Coordinates": "45.706649:5.085031:25",
-            "Remark": {
-                "B": "Taxi Out Left",
-                "CD": "Push N on TM"
-            },
-            "Code": "BCDE",
-            "Wingspan": 65,
-            "Block": [
-                "M42"
-            ],
-            "Priority": 4,
-            "Terminal": "M41"
-        },
-        "M42": {
-            "Coordinates": "45.706342:5.084940:35",
-            "Remark": {
-                "ABCDEF": "Push N on TM"
-            },
-            "Code": "EF",
-            "Wingspan": 79.75,
-            "Block": [
-                "M41",
-                "M43"
-            ],
-            "Priority": 5,
-            "Terminal": "M42"
-        },
-        "M43": {
-            "Coordinates": "45.706039:5.084969:25",
-            "Remark": {
-                "B": "Taxi Out Right",
-                "CD": "Push N on TM"
-            },
-            "Code": "BCD",
-            "Wingspan": 51.9,
-            "Block": [
-                "M42"
-            ],
-            "Priority": 4,
-            "Terminal": "M43"
-        },
-        "N11": {
-            "Coordinates": "45.729478:5.082319:15",
-            "Remark": {
-                "ABC": "Taxi Out TN2"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N21"
-            ],
-            "Use": "P",
-            "Priority": 3,
-            "Terminal": "N11"
-        },
-        "N12": {
-            "Coordinates": "45.729455:5.081845:15",
-            "Remark": {
-                "ABC": "Taxi Out TN2"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N22"
-            ],
-            "Use": "P",
-            "Priority": 4,
-            "Terminal": "N12"
-        },
-        "N13": {
-            "Coordinates": "45.729481:5.081351:15",
-            "Remark": {
-                "ABC": "Taxi Out TN2"
-            },
-            "Code": "ABC",
-            "Wingspan": 35.99,
-            "Block": [
-                "N23"
-            ],
-            "Use": "P",
-            "Priority": 3,
-            "Terminal": "N13"
-        },
-        "N14": {
-            "Coordinates": "45.729459:5.080892:15",
-            "Remark": {
-                "ABC": "Taxi Out TN2"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N24"
-            ],
-            "Use": "P",
-            "Priority": 4,
-            "Terminal": "N14"
-        },
-        "N21": {
-            "Coordinates": "45.729625:5.082298:15",
-            "Remark": {
-                "ABC": "Taxi Out TN1"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N11"
-            ],
-            "Use": "P",
-            "Priority": 4,
-            "Terminal": "N21"
-        },
-        "N22": {
-            "Coordinates": "45.729631:5.081820:15",
-            "Remark": {
-                "ABC": "Taxi Out TN1"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N12"
-            ],
-            "Use": "P",
-            "Priority": 3,
-            "Terminal": "N22"
-        },
-        "N23": {
-            "Coordinates": "45.729625:5.081330:15",
-            "Remark": {
-                "ABC": "Taxi Out TN1"
-            },
-            "Code": "ABC",
-            "Wingspan": 35.99,
-            "Block": [
-                "N13"
-            ],
-            "Use": "P",
-            "Priority": 4,
-            "Terminal": "N23"
-        },
-        "N24": {
-            "Coordinates": "45.729609:5.080855:15",
-            "Remark": {
-                "ABC": "Taxi Out TN1"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N14"
-            ],
-            "Use": "P",
-            "Priority": 3,
-            "Terminal": "N24"
-        },
-        "N31": {
-            "Coordinates": "45.728807:5.082384:15",
-            "Remark": {
-                "ABC": "Taxi Out TN3"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N41"
-            ],
-            "Use": "P",
-            "Priority": 4,
-            "Terminal": "N31"
-        },
-        "N32": {
-            "Coordinates": "45.728805:5.081928:15",
-            "Remark": {
-                "ABC": "Taxi Out TN3"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N42"
-            ],
-            "Use": "P",
-            "Priority": 3,
-            "Terminal": "N32"
-        },
-        "N33": {
-            "Coordinates": "45.728770:5.081453:15",
-            "Remark": {
-                "ABC": "Taxi Out TN3"
-            },
-            "Code": "ABC",
-            "Wingspan": 35.99,
-            "Block": [
-                "N43"
-            ],
-            "Use": "P",
-            "Priority": 4,
-            "Terminal": "N33"
-        },
-        "N34": {
-            "Coordinates": "45.728757:5.080968:15",
-            "Remark": {
-                "ABC": "Taxi Out TN3"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N44"
-            ],
-            "Use": "P",
-            "Priority": 3,
-            "Terminal": "N34"
-        },
-        "N41": {
-            "Coordinates": "45.728671:5.082419:15",
-            "Remark": {
-                "ABC": "Taxi Out TN2"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N31"
-            ],
-            "Use": "P",
-            "Priority": 3,
-            "Terminal": "N41"
-        },
-        "N42": {
-            "Coordinates": "45.728654:5.081947:15",
-            "Remark": {
-                "ABC": "Taxi Out TN2"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N32"
-            ],
-            "Use": "P",
-            "Priority": 4,
-            "Terminal": "N42"
-        },
-        "N43": {
-            "Coordinates": "45.728659:5.081466:15",
-            "Remark": {
-                "ABC": "Taxi Out TN2"
-            },
-            "Code": "ABC",
-            "Wingspan": 35.99,
-            "Block": [
-                "N33"
-            ],
-            "Use": "P",
-            "Priority": 3,
-            "Terminal": "N43"
-        },
-        "N44": {
-            "Coordinates": "45.728663:5.080994:15",
-            "Remark": {
-                "ABC": "Taxi Out TN2"
-            },
-            "Code": "ABC",
-            "Wingspan": 29,
-            "Block": [
-                "N34"
-            ],
-            "Use": "P",
-            "Priority": 4,
-            "Terminal": "N44"
-        }
+    "A22": {
+      "Coordinates": "45.724349:5.082561:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 34.1,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A22"
+    },
+    "A23": {
+      "Coordinates": "45.724233:5.082035:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 34.1,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A23"
+    },
+    "A24": {
+      "Coordinates": "45.724132:5.081504:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 34.1,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A24"
+    },
+    "A25": {
+      "Coordinates": "45.724267:5.080603:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.85,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A25"
+    },
+    "A26": {
+      "Coordinates": "45.724377:5.080225:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.85,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A26"
+    },
+    "A27": {
+      "Coordinates": "45.724506:5.079857:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.85,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A27"
+    },
+    "A28": {
+      "Coordinates": "45.724613:5.079457:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.85,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A28"
+    },
+    "A29": {
+      "Coordinates": "45.724742:5.079087:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.85,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A29"
+    },
+    "A30": {
+      "Coordinates": "45.724840:5.078655:20",
+      "Remark": {
+        "BC": "Taxi Out"
+      },
+      "Code": "BC",
+      "Wingspan": 24.85,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A30"
+    },
+    "A31": {
+      "Coordinates": "45.724525:5.078403:25",
+      "Remark": {
+        "BC": "Taxi Out"
+      },
+      "Code": "BC",
+      "Wingspan": 24.57,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A31"
+    },
+    "A32": {
+      "Coordinates": "45.724117:5.078693:25",
+      "Remark": {
+        "BC": "Push Blue/Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.57,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A32"
+    },
+    "A33": {
+      "Coordinates": "45.723986:5.079069:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.57,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A33"
+    },
+    "A34": {
+      "Coordinates": "45.723877:5.079476:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.57,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A34"
+    },
+    "A35": {
+      "Coordinates": "45.723769:5.079846:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.57,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A35"
+    },
+    "A36": {
+      "Coordinates": "45.723664:5.080254:25",
+      "Remark": {
+        "BC": "Push Orange"
+      },
+      "Code": "BC",
+      "Wingspan": 24.57,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "A36"
+    },
+    "B12": {
+      "Coordinates": "45.723666:5.082765:25",
+      "Remark": {
+        "BC": "Push W TB/Push N R1"
+      },
+      "Code": "BC",
+      "Wingspan": 28.08,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "B12"
+    },
+    "B14": {
+      "Coordinates": "45.723598:5.082325:25",
+      "Remark": {
+        "BC": "Push W TB/Push N R1"
+      },
+      "Code": "BC",
+      "Wingspan": 28.08,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "B14"
+    },
+    "B16": {
+      "Coordinates": "45.723495:5.081888:25",
+      "Remark": {
+        "BC": "Push W TB/Push N R1"
+      },
+      "Code": "BC",
+      "Wingspan": 28.08,
+      "Use": "A",
+      "Priority": 5,
+      "Terminal": "B16"
+    },
+    "B61": {
+      "Coordinates": "45.722975:5.081847:25",
+      "Remark": {
+        "C": "Push N R1/Push W TB"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["B62"],
+      "Priority": 2,
+      "Terminal": "B61"
+    },
+    "B62": {
+      "Coordinates": "45.722793:5.081890:25",
+      "Remark": {
+        "DE": "Push N on R1"
+      },
+      "Code": "DE",
+      "Wingspan": 60.3,
+      "Use": "A",
+      "Block": ["B61", "B63"],
+      "Priority": 3,
+      "Terminal": "B62"
+    },
+    "B63": {
+      "Coordinates": "45.722602:5.082081:25",
+      "Remark": {
+        "BC": "Push N on R1"
+      },
+      "Code": "BC",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["B62"],
+      "Priority": 2,
+      "Terminal": "B63"
+    },
+    "B71": {
+      "Coordinates": "45.722207:5.082102:25",
+      "Remark": {
+        "C": "Push N on R1"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["B72"],
+      "Priority": 2,
+      "Terminal": "B71"
+    },
+    "B72": {
+      "Coordinates": "45.721962:5.082156:25",
+      "Remark": {
+        "DE": "Short Push S/Push N"
+      },
+      "Code": "DE",
+      "Wingspan": 64.92,
+      "Use": "A",
+      "Block": ["B71", "B73"],
+      "Priority": 3,
+      "Terminal": "B72"
+    },
+    "B73": {
+      "Coordinates": "45.721823:5.082180:25",
+      "Remark": {
+        "BC": "Short Push S/Push N"
+      },
+      "Code": "BC",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["B72"],
+      "Priority": 2,
+      "Terminal": "B73"
+    },
+    "B81": {
+      "Coordinates": "45.721448:5.081893:25",
+      "Remark": {
+        "BC": "Push S/N"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["B82"],
+      "Priority": 2,
+      "Terminal": "B81"
+    },
+    "B82": {
+      "Coordinates": "45.721243:5.081855:25",
+      "Remark": {
+        "BC": "Push S/N"
+      },
+      "Code": "DE",
+      "Wingspan": 64.92,
+      "Use": "A",
+      "Block": ["B81", "B83"],
+      "Priority": 3,
+      "Terminal": "B82"
+    },
+    "B83": {
+      "Coordinates": "45.721096:5.081727:25",
+      "Remark": {
+        "BC": "Push S/N"
+      },
+      "Code": "BCD",
+      "Wingspan": 41.1,
+      "Use": "A",
+      "Block": ["B82"],
+      "Priority": 2,
+      "Terminal": "B83"
+    },
+    "B91": {
+      "Coordinates": "45.720713:5.081491:25",
+      "Remark": {
+        "BC": "Push S/N"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["B92"],
+      "Priority": 2,
+      "Terminal": "B91"
+    },
+    "B92": {
+      "Coordinates": "45.720512:5.081327:25",
+      "Remark": {
+        "BC": "Push S/N"
+      },
+      "Code": "DE",
+      "Wingspan": 64.92,
+      "Use": "A",
+      "Block": ["B91", "B93", "C19"],
+      "Priority": 3,
+      "Terminal": "B92"
+    },
+    "B93": {
+      "Coordinates": "45.720346:5.081158:25",
+      "Remark": {
+        "BC": "Push S/N"
+      },
+      "Code": "DE",
+      "Wingspan": 47.57,
+      "Use": "A",
+      "Block": ["B92", "C19"],
+      "Priority": 3,
+      "Terminal": "B93"
+    },
+    "C19": {
+      "Coordinates": "45.720151:5.080930:30",
+      "Remark": {
+        "DEF": "Taxi Out Northerly"
+      },
+      "Code": "DEF",
+      "Use": "A",
+      "Block": ["B91", "B93", "C21", "C22", "C23", "C41"],
+      "Callsigns": ["PAF", "BAF", "CTM", "FAF", "NATO"],
+      "Priority": 3,
+      "Terminal": "C19"
+    },
+    "C21": {
+      "Coordinates": "45.719774:5.080573:25",
+      "Remark": {
+        "A": "Taxi Out",
+        "BC": "Push S R1/Push N R2"
+      },
+      "Code": "CD",
+      "Wingspan": 41.1,
+      "Use": "A",
+      "Block": ["C19", "C22"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 1,
+      "Terminal": "C21"
+    },
+    "C22": {
+      "Coordinates": "45.719542:5.080737:25",
+      "Remark": {
+        "BC": "Push S R1/Push N R2"
+      },
+      "Code": "DE",
+      "Wingspan": 64.92,
+      "Use": "A",
+      "Block": ["C21", "C23"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 2,
+      "Terminal": "C22"
+    },
+    "C23": {
+      "Coordinates": "45.719439:5.080833:25",
+      "Remark": {
+        "BC": "Push S R1/Push N R2"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["C22"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 1,
+      "Terminal": "C23"
+    },
+    "C41": {
+      "Coordinates": "45.719012:5.080766:25",
+      "Remark": {
+        "BC": "Push S R1/Push N R2"
+      },
+      "Code": "CD",
+      "Wingspan": 41.1,
+      "Use": "A",
+      "Block": ["C42"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 1,
+      "Terminal": "C41"
+    },
+    "C42": {
+      "Coordinates": "45.718844:5.080788:25",
+      "Remark": {
+        "BC": "Push S/Push N on R2"
+      },
+      "Code": "DE",
+      "Wingspan": 64.92,
+      "Use": "A",
+      "Block": ["C41", "C43"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 2,
+      "Terminal": "C42"
+    },
+    "C43": {
+      "Coordinates": "45.718709:5.080758:25",
+      "Remark": {
+        "BC": "Push S/Push N on R2"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["C42"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 1,
+      "Terminal": "C43"
+    },
+    "C61": {
+      "Coordinates": "45.718340:5.080474:25",
+      "Remark": {
+        "BC": "Push S/Push N on R2"
+      },
+      "Code": "CD",
+      "Wingspan": 41.1,
+      "Use": "A",
+      "Block": ["C62"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 1,
+      "Terminal": "C61"
+    },
+    "C62": {
+      "Coordinates": "45.718207:5.080439:25",
+      "Remark": {
+        "BC": "Push S R2/Push N R3"
+      },
+      "Code": "DE",
+      "Wingspan": 64.92,
+      "Use": "A",
+      "Block": ["C61", "C63"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 2,
+      "Terminal": "C62"
+    },
+    "C63": {
+      "Coordinates": "45.717879:5.080407:25",
+      "Remark": {
+        "BC": "Push S R2/Push N R3"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Block": ["C62"],
+      "Callsigns": ["VOE", "AUS", "MAC", "AFR", "CCM"],
+      "Priority": 1,
+      "Terminal": "C63"
+    },
+    "C81": {
+      "Coordinates": "45.717552:5.079388:25",
+      "Remark": {
+        "BC": "Push S R2/Push N R3"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Block": ["C82"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 1,
+      "Terminal": "C81"
+    },
+    "C82": {
+      "Coordinates": "45.717417:5.079648:35",
+      "Remark": {
+        "BCDE": "Push N R3/Push S R2",
+        "F": "Push N R3"
+      },
+      "Code": "DEF",
+      "Use": "A",
+      "Block": ["C81", "C83"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 2,
+      "Terminal": "C82"
+    },
+    "C83": {
+      "Coordinates": "45.717168:5.079626:25",
+      "Remark": {
+        "BC": "Push S R2/Push N R3"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Block": ["C82"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 1,
+      "Terminal": "C83"
+    },
+    "D21": {
+      "Coordinates": "45.716259:5.079259:25",
+      "Remark": {
+        "BC": "Push N/Push S on R3"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Block": ["D22"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 1,
+      "Terminal": "D21"
+    },
+    "D22": {
+      "Coordinates": "45.716132:5.079090:35",
+      "Remark": {
+        "BCDEF": "Push S on R3"
+      },
+      "Code": "DEF",
+      "Use": "A",
+      "Block": ["D21", "D23"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 2,
+      "Terminal": "D22"
+    },
+    "D23": {
+      "Coordinates": "45.715823:5.079144:25",
+      "Remark": {
+        "BC": "Push S/Push N on R3"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Block": ["D22"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 1,
+      "Terminal": "D23"
+    },
+    "D41": {
+      "Coordinates": "45.715450:5.078905:25",
+      "Remark": {
+        "C": "Push S R3/Push W TJ"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Block": ["D42"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 1,
+      "Terminal": "D41"
+    },
+    "D42": {
+      "Coordinates": "45.715375:5.078784:35",
+      "Remark": {
+        "DE": "Push E on R4"
+      },
+      "Code": "DE",
+      "Wingspan": 65,
+      "Use": "A",
+      "Block": ["D41", "D43"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 2,
+      "Terminal": "D42"
+    },
+    "D43": {
+      "Coordinates": "45.715233:5.078409:25",
+      "Remark": {
+        "C": "Push E on R4"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Block": ["D42"],
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 1,
+      "Terminal": "D43"
+    },
+    "D61": {
+      "Coordinates": "45.715671:5.077808:25",
+      "Remark": {
+        "C": "Push E on R4"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 1,
+      "Terminal": "D61"
+    },
+    "D63": {
+      "Coordinates": "45.715433:5.077269:25",
+      "Remark": {
+        "C": "Push E on R4"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": [
+        "IBE",
+        "DLH",
+        "KLM",
+        "LOT",
+        "BEL",
+        "THY",
+        "TAP",
+        "DAH",
+        "CCM",
+        "BAW",
+        "UAE",
+        "ACA",
+        "QTR",
+        "LBT",
+        "TAR",
+        "CLG",
+        "TJT"
+      ],
+      "Priority": 1,
+      "Terminal": "D63"
+    },
+    "E11": {
+      "Coordinates": "45.718894:5.083046:25",
+      "Remark": {
+        "ABC": "Taxi Out K1",
+        "D": "Push N/Push S on R2"
+      },
+      "Code": "ABCD",
+      "Wingspan": 44.83,
+      "Use": "A",
+      "Priority": 3,
+      "Terminal": "E11"
+    },
+    "E13": {
+      "Coordinates": "45.718437:5.082848:25",
+      "Remark": {
+        "ABC": "Taxi Out K3",
+        "D": "Push N/Push S on R2"
+      },
+      "Code": "ABCD",
+      "Wingspan": 44.83,
+      "Use": "A",
+      "Priority": 3,
+      "Terminal": "E13"
+    },
+    "E15": {
+      "Coordinates": "45.717990:5.082631:25",
+      "Remark": {
+        "ABC": "Taxi Out K3"
+      },
+      "Code": "ABCD",
+      "Wingspan": 35.8,
+      "Use": "A",
+      "Priority": 3,
+      "Terminal": "E15"
+    },
+    "E17": {
+      "Coordinates": "45.717510:5.082432:25",
+      "Remark": {
+        "ABC": "Taxi Out TL"
+      },
+      "Code": "ABC",
+      "Wingspan": 35.99,
+      "Use": "A",
+      "Priority": 3,
+      "Terminal": "E17"
+    },
+    "G11": {
+      "Coordinates": "45.727000:5.082424:15",
+      "Remark": {
+        "AB": "Taxi Out"
+      },
+      "Code": "AB",
+      "Wingspan": 17,
+      "Use": "P",
+      "Priority": 1,
+      "Terminal": "G11"
+    },
+    "G12": {
+      "Coordinates": "45.726617:5.082327:15",
+      "Remark": {
+        "AB": "Taxi Out"
+      },
+      "Code": "AB",
+      "Wingspan": 17,
+      "Use": "P",
+      "Priority": 1,
+      "Terminal": "G12"
+    },
+    "G13": {
+      "Coordinates": "45.727094:5.081960:15",
+      "Remark": {
+        "AB": "Taxi Out"
+      },
+      "Code": "AB",
+      "Wingspan": 17,
+      "Use": "P",
+      "Priority": 1,
+      "Terminal": "G13"
+    },
+    "G14": {
+      "Coordinates": "45.726746:5.081812:15",
+      "Remark": {
+        "AB": "Taxi Out"
+      },
+      "Code": "AB",
+      "Wingspan": 14.5,
+      "Use": "P",
+      "Priority": 1,
+      "Terminal": "G14"
+    },
+    "G15": {
+      "Coordinates": "45.727163:5.081542:15",
+      "Remark": {
+        "AB": "Taxi Out"
+      },
+      "Code": "AB",
+      "Wingspan": 17,
+      "Use": "P",
+      "Priority": 1,
+      "Terminal": "G15"
+    },
+    "G16": {
+      "Coordinates": "45.726824:5.081348:15",
+      "Remark": {
+        "AB": "Taxi Out"
+      },
+      "Code": "AB",
+      "Wingspan": 14.5,
+      "Use": "P",
+      "Priority": 1,
+      "Terminal": "G16"
+    },
+    "J11": {
+      "Coordinates": "45.713521:5.082590:25",
+      "Remark": {
+        "ABC": "Push E/W on TJ"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "C",
+      "Priority": 1,
+      "Terminal": "J11"
+    },
+    "J13": {
+      "Coordinates": "45.713632:5.082057:25",
+      "Remark": {
+        "ABC": "Push E/W on TJ"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "C",
+      "Block": ["J14"],
+      "Priority": 1,
+      "Terminal": "J13"
+    },
+    "J14": {
+      "Coordinates": "45.713660:5.081652:25",
+      "Remark": {
+        "ABC": "Push E/W on TJ"
+      },
+      "Code": "CD",
+      "Wingspan": 51,
+      "Use": "C",
+      "Block": ["J13", "J15"],
+      "Priority": 2,
+      "Terminal": "J14"
+    },
+    "J15": {
+      "Coordinates": "45.713710:5.081515:25",
+      "Remark": {
+        "ABC": "Push E/W on TJ"
+      },
+      "Code": "C",
+      "Wingspan": 35.99,
+      "Use": "C",
+      "Block": ["J14"],
+      "Priority": 1,
+      "Terminal": "J15"
+    },
+    "J19": {
+      "Coordinates": "45.713817:5.080611:25",
+      "Remark": {
+        "BCD": "Push E/W on TJ/Push S on R3"
+      },
+      "Code": "CD",
+      "Wingspan": 51,
+      "Use": "C",
+      "Priority": 2,
+      "Terminal": "J19"
+    },
+    "J31": {
+      "Coordinates": "45.714806:5.084041:25",
+      "Remark": {
+        "BC": "Push E on TJ"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "J31"
+    },
+    "J33": {
+      "Coordinates": "45.714757:5.083430:25",
+      "Remark": {
+        "C": "Push E/W on TJ"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "J33"
+    },
+    "J35": {
+      "Coordinates": "45.714872:5.082875:25",
+      "Remark": {
+        "BC": "Push E/W on TJ"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "J35"
+    },
+    "J37": {
+      "Coordinates": "45.714969:5.082303:25",
+      "Remark": {
+        "BC": "Push E/W on TJ"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "J37"
+    },
+    "J39": {
+      "Coordinates": "45.715061:5.081711:25",
+      "Remark": {
+        "BC": "Push E/W on TJ"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "J39"
+    },
+    "J41": {
+      "Coordinates": "45.715162:5.081139:25",
+      "Remark": {
+        "BC": "Push W on TJ/Push E on R3/R4"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "J41"
+    },
+    "K52": {
+      "Coordinates": "45.717510:5.083870:25",
+      "Remark": {
+        "BC": "Push E on TL"
+      },
+      "Code": "C",
+      "Use": "A",
+      "Wingspan": 35.99,
+      "Priority": 4,
+      "Terminal": "K52"
+    },
+    "L11": {
+      "Coordinates": "45.715806:5.083832:25",
+      "Remark": {
+        "BC": "Push E on TL"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "L11"
+    },
+    "L13": {
+      "Coordinates": "45.715896:5.083234:25",
+      "Remark": {
+        "BC": "Push E on TL"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "L13"
+    },
+    "L15": {
+      "Coordinates": "45.716001:5.082671:25",
+      "Remark": {
+        "BC": "Push E/W on TL"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "L15"
+    },
+    "L17": {
+      "Coordinates": "45.716087:5.082102:25",
+      "Remark": {
+        "BC": "Push E/W on TL"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "L17"
+    },
+    "L19": {
+      "Coordinates": "45.716199:5.081542:25",
+      "Remark": {
+        "BC": "Push W TL/Push E R3/R4"
+      },
+      "Code": "C",
+      "Wingspan": 36,
+      "Use": "A",
+      "Callsigns": ["EZY", "EJU", "EZS", "TVF", "WZZ", "PGT", "EIN", "VLG"],
+      "Priority": 1,
+      "Terminal": "L19"
+    },
+    "M11": {
+      "Coordinates": "45.710461:5.085385:30",
+      "Remark": {
+        "CDE": "Push N on TM"
+      },
+      "Code": "CDE",
+      "Wingspan": 64.92,
+      "Block": ["M12"],
+      "Priority": 4,
+      "Terminal": "M11"
+    },
+    "M12": {
+      "Coordinates": "45.710405:5.085356:35",
+      "Remark": {
+        "BCDE": "Taxi Out"
+      },
+      "Wingspan": 88.4,
+      "Block": ["M11", "M13"],
+      "Priority": 5,
+      "Terminal": "M12"
+    },
+    "M13": {
+      "Coordinates": "45.709787:5.085345:30",
+      "Remark": {
+        "CDE": "Push N on TM"
+      },
+      "Code": "CDE",
+      "Wingspan": 64.92,
+      "Block": ["M12"],
+      "Priority": 4,
+      "Terminal": "M13"
+    },
+    "M21": {
+      "Coordinates": "45.708936:5.085243:25",
+      "Remark": {
+        "B": "Taxi Out Left",
+        "CD": "Push N on TM"
+      },
+      "Code": "BCD",
+      "Wingspan": 51.9,
+      "Block": ["M22"],
+      "Priority": 4,
+      "Terminal": "M21"
+    },
+    "M22": {
+      "Coordinates": "45.708670:5.085152:35",
+      "Remark": {
+        "ABCDE": "Push N on TM"
+      },
+      "Code": "EF",
+      "Wingspan": 79.8,
+      "Block": ["M21", "M23"],
+      "Priority": 5,
+      "Terminal": "M22"
+    },
+    "M23": {
+      "Coordinates": "45.708367:5.085192:25",
+      "Remark": {
+        "B": "Taxi Out Right",
+        "CD": "Push N on TM"
+      },
+      "Code": "BCD",
+      "Wingspan": 51.9,
+      "Block": ["M22"],
+      "Priority": 4,
+      "Terminal": "M23"
+    },
+    "M31": {
+      "Coordinates": "45.707818:5.085061:25",
+      "Remark": {
+        "B": "Taxi Out Left",
+        "CD": "Push N on TM"
+      },
+      "Code": "BCD",
+      "Wingspan": 51.9,
+      "Block": ["M32"],
+      "Priority": 4,
+      "Terminal": "M31"
+    },
+    "M32": {
+      "Coordinates": "45.707582:5.085007:35",
+      "Remark": {
+        "ABCDE": "Push N on TM"
+      },
+      "Code": "EF",
+      "Wingspan": 79.8,
+      "Block": ["M31", "M33"],
+      "Priority": 5,
+      "Terminal": "M32"
+    },
+    "M33": {
+      "Coordinates": "45.707262:5.085050:25",
+      "Remark": {
+        "B": "Taxi Out Right",
+        "CD": "Push N on TM"
+      },
+      "Code": "BCD",
+      "Wingspan": 51.9,
+      "Block": ["M32"],
+      "Priority": 4,
+      "Terminal": "M33"
+    },
+    "M41": {
+      "Coordinates": "45.706649:5.085031:25",
+      "Remark": {
+        "B": "Taxi Out Left",
+        "CD": "Push N on TM"
+      },
+      "Code": "BCDE",
+      "Wingspan": 65,
+      "Block": ["M42"],
+      "Priority": 4,
+      "Terminal": "M41"
+    },
+    "M42": {
+      "Coordinates": "45.706342:5.084940:35",
+      "Remark": {
+        "ABCDEF": "Push N on TM"
+      },
+      "Code": "EF",
+      "Wingspan": 79.75,
+      "Block": ["M41", "M43"],
+      "Priority": 5,
+      "Terminal": "M42"
+    },
+    "M43": {
+      "Coordinates": "45.706039:5.084969:25",
+      "Remark": {
+        "B": "Taxi Out Right",
+        "CD": "Push N on TM"
+      },
+      "Code": "BCD",
+      "Wingspan": 51.9,
+      "Block": ["M42"],
+      "Priority": 4,
+      "Terminal": "M43"
+    },
+    "N11": {
+      "Coordinates": "45.729478:5.082319:15",
+      "Remark": {
+        "ABC": "Taxi Out TN2"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N21"],
+      "Use": "P",
+      "Priority": 3,
+      "Terminal": "N11"
+    },
+    "N12": {
+      "Coordinates": "45.729455:5.081845:15",
+      "Remark": {
+        "ABC": "Taxi Out TN2"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N22"],
+      "Use": "P",
+      "Priority": 4,
+      "Terminal": "N12"
+    },
+    "N13": {
+      "Coordinates": "45.729481:5.081351:15",
+      "Remark": {
+        "ABC": "Taxi Out TN2"
+      },
+      "Code": "ABC",
+      "Wingspan": 35.99,
+      "Block": ["N23"],
+      "Use": "P",
+      "Priority": 3,
+      "Terminal": "N13"
+    },
+    "N14": {
+      "Coordinates": "45.729459:5.080892:15",
+      "Remark": {
+        "ABC": "Taxi Out TN2"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N24"],
+      "Use": "P",
+      "Priority": 4,
+      "Terminal": "N14"
+    },
+    "N21": {
+      "Coordinates": "45.729625:5.082298:15",
+      "Remark": {
+        "ABC": "Taxi Out TN1"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N11"],
+      "Use": "P",
+      "Priority": 4,
+      "Terminal": "N21"
+    },
+    "N22": {
+      "Coordinates": "45.729631:5.081820:15",
+      "Remark": {
+        "ABC": "Taxi Out TN1"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N12"],
+      "Use": "P",
+      "Priority": 3,
+      "Terminal": "N22"
+    },
+    "N23": {
+      "Coordinates": "45.729625:5.081330:15",
+      "Remark": {
+        "ABC": "Taxi Out TN1"
+      },
+      "Code": "ABC",
+      "Wingspan": 35.99,
+      "Block": ["N13"],
+      "Use": "P",
+      "Priority": 4,
+      "Terminal": "N23"
+    },
+    "N24": {
+      "Coordinates": "45.729609:5.080855:15",
+      "Remark": {
+        "ABC": "Taxi Out TN1"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N14"],
+      "Use": "P",
+      "Priority": 3,
+      "Terminal": "N24"
+    },
+    "N31": {
+      "Coordinates": "45.728807:5.082384:15",
+      "Remark": {
+        "ABC": "Taxi Out TN3"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N41"],
+      "Use": "P",
+      "Priority": 4,
+      "Terminal": "N31"
+    },
+    "N32": {
+      "Coordinates": "45.728805:5.081928:15",
+      "Remark": {
+        "ABC": "Taxi Out TN3"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N42"],
+      "Use": "P",
+      "Priority": 3,
+      "Terminal": "N32"
+    },
+    "N33": {
+      "Coordinates": "45.728770:5.081453:15",
+      "Remark": {
+        "ABC": "Taxi Out TN3"
+      },
+      "Code": "ABC",
+      "Wingspan": 35.99,
+      "Block": ["N43"],
+      "Use": "P",
+      "Priority": 4,
+      "Terminal": "N33"
+    },
+    "N34": {
+      "Coordinates": "45.728757:5.080968:15",
+      "Remark": {
+        "ABC": "Taxi Out TN3"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N44"],
+      "Use": "P",
+      "Priority": 3,
+      "Terminal": "N34"
+    },
+    "N41": {
+      "Coordinates": "45.728671:5.082419:15",
+      "Remark": {
+        "ABC": "Taxi Out TN2"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N31"],
+      "Use": "P",
+      "Priority": 3,
+      "Terminal": "N41"
+    },
+    "N42": {
+      "Coordinates": "45.728654:5.081947:15",
+      "Remark": {
+        "ABC": "Taxi Out TN2"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N32"],
+      "Use": "P",
+      "Priority": 4,
+      "Terminal": "N42"
+    },
+    "N43": {
+      "Coordinates": "45.728659:5.081466:15",
+      "Remark": {
+        "ABC": "Taxi Out TN2"
+      },
+      "Code": "ABC",
+      "Wingspan": 35.99,
+      "Block": ["N33"],
+      "Use": "P",
+      "Priority": 3,
+      "Terminal": "N43"
+    },
+    "N44": {
+      "Coordinates": "45.728663:5.080994:15",
+      "Remark": {
+        "ABC": "Taxi Out TN2"
+      },
+      "Code": "ABC",
+      "Wingspan": 29,
+      "Block": ["N34"],
+      "Use": "P",
+      "Priority": 4,
+      "Terminal": "N44"
     }
+  }
 }
