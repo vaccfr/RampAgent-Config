@@ -15,7 +15,6 @@
       forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f nixpkgs.legacyPackages.${system});
     in
     {
-      # `nix develop` -> shell with the exact tools used for linting/formatting.
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
           packages = [
@@ -25,7 +24,6 @@
         };
       });
 
-      # `nix fmt` -> format the whole repo with the pinned prettier.
       formatter = forAllSystems (pkgs: pkgs.prettier);
     };
 }

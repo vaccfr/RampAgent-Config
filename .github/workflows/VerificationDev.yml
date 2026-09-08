@@ -19,5 +19,8 @@ jobs:
       - name: Install validator deps
         run: npm install ajv ajv-formats
 
+      - name: Check formatting
+        run: npx prettier --check .
+
       - name: Validate configs
         run: node validate-configs.js
