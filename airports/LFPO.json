@@ -848,7 +848,7 @@
       "Priority": 50,
       "Terminal": "P14"
     },
-    "P41": {
+    "P15": {
       "Coordinates": "48.730528:2.358485:20",
       "Code": "BC",
       "Use": "A",
@@ -934,7 +934,7 @@
       "Priority": 50,
       "Terminal": "R22"
     },
-    "S04": {
+    "S03": {
       "Coordinates": "48.729654:2.356546:20",
       "Code": "BCDEF",
       "Use": "A",
@@ -943,7 +943,7 @@
       "Block": ["S24", "S25"],
       "Terminal": "S04"
     },
-    "S24": {
+    "S31": {
       "Coordinates": "48.729841:2.356468:20",
       "Code": "BC",
       "Use": "A",
@@ -952,7 +952,7 @@
       "Block": ["S04"],
       "Terminal": "S24"
     },
-    "S25": {
+    "S32": {
       "Coordinates": "48.729429:2.356414:20",
       "Code": "BC",
       "Use": "A",
@@ -961,7 +961,7 @@
       "Block": ["S04"],
       "Terminal": "S25"
     },
-    "S26": {
+    "S04": {
       "Coordinates": "48.729054:2.356409:20",
       "Code": "BC",
       "Use": "A",
