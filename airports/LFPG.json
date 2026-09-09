@@ -1810,30 +1810,6 @@
       "Priority": 1,
       "Terminal": "2E"
     },
-    "E40": {
-      "Coordinates": "49.002734:2.580886:22",
-      "Remark": {
-        "C": "Push E"
-      },
-      "Code": "C",
-      "Use": "A",
-      "Schengen": false,
-      "Callsigns": ["AFR", "FBT", "LNR", "KQA", "MEA", "HVN", "AMX"],
-      "Priority": 1,
-      "Terminal": "2E"
-    },
-    "E42": {
-      "Coordinates": "49.002562:2.580304:20",
-      "Remark": {
-        "C": "Push S"
-      },
-      "Code": "C",
-      "Use": "A",
-      "Schengen": false,
-      "Callsigns": ["AFR", "FBT", "LNR", "KQA", "MEA", "HVN", "AMX"],
-      "Priority": 1,
-      "Terminal": "2E"
-    },
     "F02": {
       "Coordinates": "49.005458:2.573384:20",
       "Remark": {
