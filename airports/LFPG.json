@@ -1,6 +1,6 @@
 {
   "$schema": "../.github/schema/airportConfig.schema.json",
-  "version": "v1.1.2",
+  "version": "v1.1.3",
   "ICAO": "LFPG",
   "Coordinates": "49.010965:2.560501:6000",
   "Hoppie": {
@@ -1804,30 +1804,6 @@
         "DE": "Push S"
       },
       "Code": "CDE",
-      "Use": "A",
-      "Schengen": false,
-      "Callsigns": ["AFR", "FBT", "LNR", "KQA", "MEA", "HVN", "AMX"],
-      "Priority": 1,
-      "Terminal": "2E"
-    },
-    "E40": {
-      "Coordinates": "49.002734:2.580886:22",
-      "Remark": {
-        "C": "Push E"
-      },
-      "Code": "C",
-      "Use": "A",
-      "Schengen": false,
-      "Callsigns": ["AFR", "FBT", "LNR", "KQA", "MEA", "HVN", "AMX"],
-      "Priority": 1,
-      "Terminal": "2E"
-    },
-    "E42": {
-      "Coordinates": "49.002562:2.580304:20",
-      "Remark": {
-        "C": "Push S"
-      },
-      "Code": "C",
       "Use": "A",
       "Schengen": false,
       "Callsigns": ["AFR", "FBT", "LNR", "KQA", "MEA", "HVN", "AMX"],
