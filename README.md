@@ -8,10 +8,10 @@
 🔍: Under review,
 ✅: Done,
 
-| FIR  | Platforms                                            | Status                                 | Creator                                                                   |
-| ---- | ---------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------------- |
-| LFBB | LFBO <br> LFBD                                       | ✅ <br> 📜                             | Matthieu P. <br> Alexis B.                                                |
-| LFFF | LFPG<br>LFPO<br>LFOB<br>LFPB<br>LFQQ                 | ✅<br>📜<br>📜<br>📜<br>⌛             | Leo D.<br>Alexis B.<br>Alexis B.<br>Alexis B.<br>N/A                      |
+| FIR  | Platforms                                            | Status                                    | Creator                                                                   |
+| ---- | ---------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------- |
+| LFBB | LFBO <br> LFBD                                       | ✅ <br> 📜                               | Matthieu P. <br> Alexis B.                                                |
+| LFFF | LFPG<br>LFPO<br>LFOB<br>LFPB<br>LFQQ                 | ✅<br>📜<br>📜<br>📜<br>🔍              | Leo D.<br>Alexis B.<br>Alexis B.<br>Alexis B.<br>Loïck B.                 |
 | LFMM | LFMN<br>LFML<br>LFLL<br>LFKJ<br>LFKB<br>LFMT<br>LFMD | ✅<br>✅<br>✅<br>📜<br>⌛<br>✅<br>🔍 | Alexis B.<br>Leo D.<br>Leo D.<br>Alexis B.<br>N/A<br>Leo D.<br>Raphaël M. |
-| LFEE | LFSB                                                 | 🔍                                     | Alexis B.                                                                 |
-| LFRR | LFRS<br>LFRN<br>LFRB                                 | ✅<br>🔍<br>🔍                         | Leo D.<br>Loïck B.<br>Loïck B.                                            |
+| LFEE | LFSB                                                 | 🔍                                        | Alexis B.                                                                 |
+| LFRR | LFRS<br>LFRN<br>LFRB                                 | ✅<br>🔍<br>🔍                           | Leo D.<br>Loïck B.<br>Loïck B.                                            |

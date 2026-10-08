@@ -1,0 +1,301 @@
+{
+  "$schema": "../.github/schema/airportConfig.schema.json",
+  "version": "v0.0.1",
+  "ICAO": "LFQQ",
+  "Coordinates": "50.566201:3.103230:2000",
+  "Hoppie": {
+    "MessageTemplate": "LFQQ GATE INFO EXPECT GATE {terminal}"
+  },
+  "Stands": {
+    "B01": {
+      "Coordinates": "50.570308:3.102297:20",
+      "Code": "C",
+      "Use": "A",
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B01"
+    },
+    "B02": {
+      "Coordinates": "50.570394:3.102903:20",
+      "Code": "C",
+      "Use": "A",
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B02"
+    },
+    "B03": {
+      "Coordinates": "50.570486:3.103493:20",
+      "Code": "C",
+      "Use": "A",
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B03"
+    },
+    "B04": {
+      "Coordinates": "50.570571:3.104099:20",
+      "Code": "C",
+      "Use": "A",
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B04"
+    },
+    "B06": {
+      "Coordinates": "50.570658:3.104700:20",
+      "Code": "C",
+      "Use": "A",
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B06"
+    },
+    "B07": {
+      "Coordinates": "50.570767:3.105478:20",
+      "Code": "C",
+      "Use": "A",
+      "Block": ["B08"],
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B07"
+    },
+    "B08": {
+      "Coordinates": "50.571009:3.106143:30",
+      "Code": "E",
+      "Use": "A",
+      "Block": ["B07", "B09"],
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B08"
+    },
+    "B09": {
+      "Coordinates": "50.571009:3.106143:25",
+      "Code": "CD",
+      "Use": "A",
+      "Block": ["B08"],
+      "Priority": 70,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B09"
+    },
+    "B10": {
+      "Coordinates": "50.571096:3.106875:20",
+      "Code": "C",
+      "Use": "A",
+      "Block": ["B11"],
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B10"
+    },
+    "B11": {
+      "Coordinates": "50.571225:3.107366:30",
+      "Code": "E",
+      "Use": "A",
+      "Block": ["B10", "B12"],
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B11"
+    },
+    "B12": {
+      "Coordinates": "50.571225:3.107366:25",
+      "Code": "CD",
+      "Use": "A",
+      "Block": ["B11"],
+      "Priority": 70,
+      "Remark": {
+        "ABCDEF": "Push"
+      },
+      "Terminal": "B12"
+    },
+    "B13": {
+      "Coordinates": "50.571300:3.108042:15",
+      "Code": "B",
+      "Use": "A",
+      "Block": ["B14"],
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Turn L"
+      },
+      "Terminal": "B13"
+    },
+    "B14": {
+      "Coordinates": "50.571317:3.108189:20",
+      "Code": "C",
+      "Use": "A",
+      "Block": ["B13", "B15"],
+      "Priority": 70,
+      "Remark": {
+        "ABCDEF": "Turn R"
+      },
+      "Terminal": "B14"
+    },
+    "B15": {
+      "Coordinates": "50.571358:3.108404:15",
+      "Code": "B",
+      "Use": "A",
+      "Block": ["B14"],
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Turn R"
+      },
+      "Terminal": "B15"
+    },
+    "B16": {
+      "Coordinates": "50.571421:3.109034:20",
+      "Code": "C",
+      "Use": "A",
+      "Block": ["B17"],
+      "Priority": 70,
+      "Remark": {
+        "ABCDEF": "Turn L"
+      },
+      "Terminal": "B16"
+    },
+    "B17": {
+      "Coordinates": "50.571421:3.109034:15",
+      "Code": "B",
+      "Use": "A",
+      "Block": ["B16"],
+      "Priority": 50,
+      "Remark": {
+        "ABCDEF": "Turn L"
+      },
+      "Terminal": "B17"
+    },
+    "C10": {
+      "Coordinates": "50.568222:3.096264:20",
+      "Code": "C",
+      "Use": "AC",
+      "Priority": 80,
+      "Terminal": "C10"
+    },
+    "C11": {
+      "Coordinates": "50.568101:3.095473:20",
+      "Code": "C",
+      "Use": "AC",
+      "Block": ["B12"],
+      "Priority": 80,
+      "Terminal": "C11"
+    },
+    "C12": {
+      "Coordinates": "50.567766:3.095081:30",
+      "Code": "DE",
+      "Use": "AC",
+      "Block": ["C11", "C13"],
+      "Priority": 80,
+      "Terminal": "C12"
+    },
+    "C13": {
+      "Coordinates": "50.568048:3.094679:20",
+      "Code": "C",
+      "Use": "AC",
+      "Block": ["B12"],
+      "Priority": 80,
+      "Terminal": "C13"
+    },
+    "CHARLIE": {
+      "Coordinates": "50.568227:3.097927:20",
+      "Code": "AB",
+      "Use": "AP",
+      "Priority": 50,
+      "Apron": {
+        "Size": 9,
+        "Coordinates": [
+          "50.568655:3.096734",
+          "50.568873:3.098421",
+          "50.567760:3.098799",
+          "50.567547:3.097190"
+        ]
+      },
+      "Terminal": "CHARLIE"
+    },
+    "D01": {
+      "Coordinates": "50.570678:3.114919:10",
+      "Code": "AB",
+      "Use": "C",
+      "Wingspan": 16.3,
+      "Priority": 60,
+      "Terminal": "D01"
+    },
+    "D02": {
+      "Coordinates": "50.570854:3.114865:10",
+      "Code": "AB",
+      "Use": "C",
+      "Wingspan": 16.3,
+      "Priority": 60,
+      "Terminal": "D02"
+    },
+    "D03": {
+      "Coordinates": "50.571034:3.114801:10",
+      "Code": "AB",
+      "Use": "C",
+      "Wingspan": 16.3,
+      "Priority": 60,
+      "Terminal": "D03"
+    },
+    "D04": {
+      "Coordinates": "50.570528:3.115815:15",
+      "Code": "AB",
+      "Use": "CH",
+      "Wingspan": 20.1,
+      "Priority": 80,
+      "Terminal": "D04"
+    },
+    "D05": {
+      "Coordinates": "50.570820:3.115724:15",
+      "Code": "AB",
+      "Use": "CH",
+      "Wingspan": 20.1,
+      "Priority": 80,
+      "Terminal": "D05"
+    },
+    "D06": {
+      "Coordinates": "50.571084:3.115646:15",
+      "Code": "AB",
+      "Use": "CH",
+      "Wingspan": 20.1,
+      "Priority": 80,
+      "Terminal": "D06"
+    },
+    "D07": {
+      "Coordinates": "50.571155:3.116620:15",
+      "Code": "AB",
+      "Use": "CH",
+      "Wingspan": 20.1,
+      "Priority": 80,
+      "Terminal": "D07"
+    },
+    "ECHO": {
+      "Coordinates": "50.573153:3.095183:20",
+      "Code": "A",
+      "Use": "P",
+      "Priority": 50,
+      "Apron": {
+        "Size": 20,
+        "Coordinates": [
+          "50.573077:3.092823",
+          "50.573544:3.096498",
+          "50.573055:3.096605",
+          "50.572515:3.093051"
+        ]
+      },
+      "Terminal": "ECHO"
+    }
+  }
+}
