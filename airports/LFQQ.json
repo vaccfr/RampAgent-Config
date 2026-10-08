@@ -1,6 +1,6 @@
 {
   "$schema": "../.github/schema/airportConfig.schema.json",
-  "version": "v0.0.1",
+  "version": "v1.0.0",
   "ICAO": "LFQQ",
   "Coordinates": "50.566201:3.103230:2000",
   "Hoppie": {
@@ -12,9 +12,6 @@
       "Code": "C",
       "Use": "A",
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B01"
     },
     "B02": {
@@ -22,9 +19,6 @@
       "Code": "C",
       "Use": "A",
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B02"
     },
     "B03": {
@@ -32,9 +26,6 @@
       "Code": "C",
       "Use": "A",
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B03"
     },
     "B04": {
@@ -42,9 +33,6 @@
       "Code": "C",
       "Use": "A",
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B04"
     },
     "B06": {
@@ -52,9 +40,6 @@
       "Code": "C",
       "Use": "A",
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B06"
     },
     "B07": {
@@ -63,9 +48,6 @@
       "Use": "A",
       "Block": ["B08"],
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B07"
     },
     "B08": {
@@ -74,9 +56,6 @@
       "Use": "A",
       "Block": ["B07", "B09"],
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B08"
     },
     "B09": {
@@ -85,9 +64,6 @@
       "Use": "A",
       "Block": ["B08"],
       "Priority": 70,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B09"
     },
     "B10": {
@@ -96,9 +72,6 @@
       "Use": "A",
       "Block": ["B11"],
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B10"
     },
     "B11": {
@@ -107,9 +80,6 @@
       "Use": "A",
       "Block": ["B10", "B12"],
       "Priority": 50,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B11"
     },
     "B12": {
@@ -118,9 +88,6 @@
       "Use": "A",
       "Block": ["B11"],
       "Priority": 70,
-      "Remark": {
-        "ABCDEF": "Push"
-      },
       "Terminal": "B12"
     },
     "B13": {
@@ -189,7 +156,7 @@
       "Coordinates": "50.568101:3.095473:20",
       "Code": "C",
       "Use": "AC",
-      "Block": ["B12"],
+      "Block": ["C12"],
       "Priority": 80,
       "Terminal": "C11"
     },
@@ -205,7 +172,7 @@
       "Coordinates": "50.568048:3.094679:20",
       "Code": "C",
       "Use": "AC",
-      "Block": ["B12"],
+      "Block": ["C12"],
       "Priority": 80,
       "Terminal": "C13"
     },
@@ -213,7 +180,7 @@
       "Coordinates": "50.568227:3.097927:20",
       "Code": "AB",
       "Use": "AP",
-      "Priority": 50,
+      "Priority": 90,
       "Apron": {
         "Size": 9,
         "Coordinates": [
