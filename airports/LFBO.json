@@ -19,27 +19,27 @@
       "Priority": 50,
       "Terminal": "A12"
     },
-     "A13": {
+    "A13": {
       "Coordinates": "43.622493:1.378666:20",
       "Code": "BC",
       "Priority": 50,
       "Terminal": "A13"
     },
-     "A14": {
+    "A14": {
       "Coordinates": "43.622699:1.379026:20",
       "Code": "B",
       "Block": ["A16"],
       "Priority": 70,
       "Terminal": "A14"
     },
-     "A15": {
+    "A15": {
       "Coordinates": "43.622885:1.379358:20",
       "Code": "B",
       "Block": ["A16"],
       "Priority": 70,
       "Terminal": "A15"
     },
-     "A16": {
+    "A16": {
       "Coordinates": "43.622831:1.379085:20",
       "Code": "C",
       "Block": ["A14", "A15"],
