@@ -1,12 +1,51 @@
 {
   "$schema": "../.github/schema/airportConfig.schema.json",
-  "version": "v1.1.2",
+  "version": "v1.1.3",
   "ICAO": "LFBO",
   "Coordinates": "43.629242:1.363506:3000",
   "Hoppie": {
     "MessageTemplate": "LFBO GATE INFO EXPECT GATE {terminal}"
   },
   "Stands": {
+    "A10": {
+      "Coordinates": "43.622027:1.377845:20",
+      "Code": "BC",
+      "Priority": 50,
+      "Terminal": "A10"
+    },
+    "A12": {
+      "Coordinates": "43.622272:1.378245:20",
+      "Code": "BC",
+      "Priority": 50,
+      "Terminal": "A12"
+    },
+     "A13": {
+      "Coordinates": "43.622493:1.378666:20",
+      "Code": "BC",
+      "Priority": 50,
+      "Terminal": "A13"
+    },
+     "A14": {
+      "Coordinates": "43.622699:1.379026:20",
+      "Code": "B",
+      "Block": ["A16"],
+      "Priority": 70,
+      "Terminal": "A14"
+    },
+     "A15": {
+      "Coordinates": "43.622885:1.379358:20",
+      "Code": "B",
+      "Block": ["A16"],
+      "Priority": 70,
+      "Terminal": "A15"
+    },
+     "A16": {
+      "Coordinates": "43.622831:1.379085:20",
+      "Code": "C",
+      "Block": ["A14", "A15"],
+      "Priority": 50,
+      "Terminal": "A16"
+    },
     "A20": {
       "Coordinates": "43.622726:1.377140:18",
       "Code": "AB",
@@ -37,9 +76,9 @@
     "AIRBUS": {
       "Coordinates": "43.618574:1.362633:300",
       "Callsigns": ["AIB"],
-      "Priority": -50,
+      "Priority": 0,
       "Apron": {
-        "Size": 100,
+        "Size": 20,
         "Coordinates": [
           "43.613164:1.359193",
           "43.612869:1.365910",
@@ -59,7 +98,7 @@
     },
     "B11": {
       "Coordinates": "43.623850:1.376461:40",
-      "Code": "EF",
+      "Code": "E",
       "Use": "C",
       "Block": ["B10", "B12", "B21", "B31"],
       "Priority": 5,
@@ -91,7 +130,7 @@
     },
     "B20": {
       "Coordinates": "43.622982:1.376840:18",
-      "Code": "AB",
+      "Code": "BC",
       "Priority": 10,
       "Block": ["A20"],
       "Terminal": "B20"
@@ -154,19 +193,12 @@
       },
       "Terminal": "C"
     },
-    "DELIVERY": {
-      "Coordinates": "43.632379:1.350760:100",
-      "Priority": 100,
-      "Apron": {
-        "Size": 20,
-        "Coordinates": [
-          "43.629521:1.352305",
-          "43.634569:1.347327",
-          "43.635594:1.349344",
-          "43.630438:1.354644"
-        ]
-      },
-      "Terminal": "DELIVERY"
+    "D51": {
+      "Coordinates": "43.625491:1.374629:50",
+      "Code": "F",
+      "Use": "AC",
+      "Priority": 0,
+      "Terminal": "D51"
     },
     "E10": {
       "Coordinates": "43.629027:1.375358:25",
@@ -359,7 +391,7 @@
     },
     "K11": {
       "Coordinates": "43.627703:1.375141:25",
-      "Code": "C",
+      "Code": "D",
       "Use": "AP",
       "Countries": ["LF", "LE", "LS", "LI", "EL", "EH", "EG", "LP"],
       "Block": ["K12", "K22"],
@@ -371,7 +403,7 @@
     },
     "K12": {
       "Coordinates": "43.627837:1.374901:25",
-      "Code": "B",
+      "Code": "BC",
       "Use": "AP",
       "Countries": ["LF", "LE", "LS", "LI", "EL", "EH", "EG", "LP"],
       "Priority": 20,
@@ -382,7 +414,7 @@
     },
     "K22": {
       "Coordinates": "43.627518:1.375261:25",
-      "Code": "B",
+      "Code": "BC",
       "Use": "AP",
       "Countries": ["LF", "LE", "LS", "LI", "EL", "EH", "EG", "LP"],
       "Block": ["K11"],
@@ -403,7 +435,7 @@
       },
       "Terminal": "K32"
     },
-    "NORTH": {
+    "LAGARDERE": {
       "Coordinates": "43.651417:1.355782:20",
       "Callsigns": ["AIB"],
       "Priority": 0,
@@ -416,7 +448,7 @@
           "43.647395:1.355095"
         ]
       },
-      "Terminal": "NORTH"
+      "Terminal": "LAGARDERE"
     },
     "S1": {
       "Coordinates": "43.624778:1.356854:25",
@@ -652,6 +684,21 @@
         "BC": "Push S on R Area"
       },
       "Terminal": "V12"
+    },
+    "ZIEGLER": {
+      "Coordinates": "43.632379:1.350760:100",
+      "Code": "EF",
+      "Priority": 70,
+      "Apron": {
+        "Size": 10,
+        "Coordinates": [
+          "43.629521:1.352305",
+          "43.634569:1.347327",
+          "43.635594:1.349344",
+          "43.630438:1.354644"
+        ]
+      },
+      "Terminal": "ZIEGLER"
     }
   }
 }
