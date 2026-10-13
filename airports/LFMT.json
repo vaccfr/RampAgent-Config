@@ -1,6 +1,6 @@
 {
     "$schema": "../.github/schema/airportConfig.schema.json",
-    "version": "v0.1.5",
+    "version": "v0.1.6",
     "ICAO": "LFMT",
     "Coordinates": "43.577814:3.961215:3000",
     "Hoppie": {
