@@ -4,30 +4,49 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
-  validate:
+  format-and-validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install validator deps
-        run: npm install ajv ajv-formats
+      - name: Install dependencies
+        run: npm install
 
-      - name: Check formatting
-        run: npx prettier --check .
+      - name: Apply formatting
+        run: npm run format
+
+      - name: Commit formatting changes
+        if: github.actor != 'github-actions[bot]'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git add .
+            git commit -m "Apply Prettier formatting"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
 
       - name: Validate configs
+        if: github.actor != 'github-actions[bot]'
         run: node validate-configs.js
 
   deploy:
     runs-on: ubuntu-latest
-    needs: validate
+    needs: format-and-validate
+    if: github.event_name == 'push'
     steps:
       - name: Trigger Config Update
         run: |

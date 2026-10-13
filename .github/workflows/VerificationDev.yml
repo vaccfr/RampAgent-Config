@@ -7,23 +7,45 @@ on:
     branches: [dev, main]
     types: [opened, synchronize, reopened]
 
+permissions:
+  contents: write
+
 jobs:
-  validate:
+  format-and-validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install validator deps
-        run: npm install ajv ajv-formats
+      - name: Install dependencies
+        run: npm install
 
-      - name: Check formatting
-        run: npx prettier --check .
+      - name: Apply formatting
+        run: npm run format
+
+      - name: Commit formatting changes
+        if: github.event_name == 'pull_request' || github.actor != 'github-actions[bot]'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git add .
+            git commit -m "Apply Prettier formatting"
+            if [ "${{ github.event_name }}" = "pull_request" ]; then
+              git push origin HEAD:${{ github.head_ref }}
+            else
+              git push origin HEAD:${{ github.ref_name }}
+            fi
+          fi
 
       - name: Validate configs
+        if: github.event_name == 'pull_request' || github.actor != 'github-actions[bot]'
         run: node validate-configs.js
