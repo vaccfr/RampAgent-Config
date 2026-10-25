@@ -1,6 +1,6 @@
 {
   "$schema": "../.github/schema/airportConfig.schema.json",
-  "version": "v0.0.7",
+  "version": "v0.0.8",
   "ICAO": "LFBD",
   "Coordinates": "44.828970:-0.710506:2000",
   "Hoppie": {
@@ -123,23 +123,13 @@
       "Code": "C",
       "Use": "A",
       "Priority": 50,
-      "Block": ["C2"],
       "Terminal": "C1"
-    },
-    "C2": {
-      "Coordinates": "44.829582:-0.702792:30",
-      "Code": "DE",
-      "Use": "A",
-      "Priority": 50,
-      "Block": ["C1", "C3"],
-      "Terminal": "C2"
     },
     "C3": {
       "Coordinates": "44.829502:-0.702605:20",
       "Code": "C",
       "Use": "A",
       "Priority": 50,
-      "Block": ["C2"],
       "Terminal": "C3"
     },
     "C4": {
