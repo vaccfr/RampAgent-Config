@@ -9,10 +9,10 @@
   "Stands": {
     "25": {
       "Coordinates": "43.437827:5.221382:15",
-      "Code": "DE",
+      "Code": "D",
       "Use": "APM",
       "Block": ["24D", "25B", "25C", "25D", "25E"],
-      "Priority": 13,
+      "Priority": 5,
       "Terminal": "25"
     },
     "30": {
@@ -20,7 +20,7 @@
       "Code": "C",
       "Use": "AM",
       "Block": ["30B", "30D", "30E", "31E"],
-      "Priority": 8,
+      "Priority": 5,
       "Terminal": "30"
     },
     "35": {
@@ -28,7 +28,7 @@
       "Code": "C",
       "Use": "AM",
       "Block": ["30", "30B", "30D", "35B", "35C"],
-      "Priority": 8,
+      "Priority": 5,
       "Terminal": "35"
     },
     "40": {
@@ -36,7 +36,7 @@
       "Code": "C",
       "Use": "APM",
       "Block": ["40B", "40C", "40D", "40E", "41C", "45B", "45"],
-      "Priority": 8,
+      "Priority": 5,
       "Terminal": "40"
     },
     "45": {
@@ -44,21 +44,21 @@
       "Code": "C",
       "Use": "A",
       "Block": ["40", "40A", "40B", "40D", "41C", "45B", "45C", "45E"],
-      "Priority": 8,
+      "Priority": 5,
       "Terminal": "45"
     },
     "50": {
       "Coordinates": "43.441459:5.213560:32",
       "Code": "F",
       "Block": ["50A", "50C", "51", "51A", "51C"],
-      "Priority": 46,
+      "Priority": 10,
       "Terminal": "50"
     },
     "51": {
       "Coordinates": "43.441872:5.212978:32",
       "Code": "F",
       "Block": ["50", "50A", "50C", "51A", "51C"],
-      "Priority": 46,
+      "Priority": 10,
       "Terminal": "51"
     },
     "52": {
@@ -66,7 +66,7 @@
       "Code": "DE",
       "Use": "APMC",
       "Block": ["53"],
-      "Priority": 10,
+      "Priority": 6,
       "Terminal": "52"
     },
     "53": {
@@ -74,7 +74,7 @@
       "Code": "DE",
       "Use": "APMC",
       "Block": ["52"],
-      "Priority": 10,
+      "Priority": 6,
       "Terminal": "53"
     },
     "54": {
@@ -82,7 +82,7 @@
       "Code": "CD",
       "Use": "APMC",
       "Block": ["55"],
-      "Priority": 10,
+      "Priority": 7,
       "Terminal": "54"
     },
     "55": {
@@ -90,7 +90,7 @@
       "Code": "CD",
       "Use": "APMC",
       "Block": ["54"],
-      "Priority": 10,
+      "Priority": 7,
       "Terminal": "55"
     },
     "56": {
@@ -98,7 +98,7 @@
       "Code": "BC",
       "Use": "APMC",
       "Block": ["57"],
-      "Priority": 10,
+      "Priority": 8,
 	  "Callsigns": ["FIZ", "NJE", "PEA"],
       "Terminal": "56"
     },
@@ -107,7 +107,7 @@
       "Code": "BC",
       "Use": "APMC",
       "Block": ["56"],
-      "Priority": 10,
+      "Priority": 8,
 	  "Callsigns": ["FIZ", "NJE", "PEA"],
       "Terminal": "57"
     },
@@ -115,7 +115,7 @@
       "Coordinates": "43.443556:5.213093:12",
       "Code": "AB",
       "Use": "P",
-      "Priority": 17,
+      "Priority": 20,
 	  "Callsigns": ["ASJ", "AXY", "JFA", "NJE", "OYO", "UEE", "VND"],
       "Terminal": "64"
     },
@@ -123,14 +123,14 @@
       "Coordinates": "43.443358:5.213362:10",
       "Use": "H",
       "Block": ["64B", "63D"],
-      "Priority": 16,
+      "Priority": 20,
       "Terminal": "65"
     },
     "70": {
       "Coordinates": "43.443627:5.214850:33",
       "Code": "A",
       "Use": "P",
-      "Priority": 4,
+      "Priority": 10,
       "Apron": {
         "Size": 4
       },
@@ -140,7 +140,7 @@
       "Coordinates": "43.443897:5.215231:10",
       "Code": "AB",
       "Use": "P",
-      "Priority": 21,
+      "Priority": 9,
 	  "Callsigns": ["TJT"],
       "Block": ["72B"],
       "Terminal": "71"
@@ -149,7 +149,7 @@
       "Coordinates": "43.444035:5.215448:10",
       "Code": "AB",
       "Use": "P",
-      "Priority": 21,
+      "Priority": 9,
 	  "Callsigns": ["TJT"],
       "Block": ["72B"],
       "Terminal": "72"
@@ -158,7 +158,7 @@
       "Coordinates": "43.444143:5.215668:10",
       "Code": "A",
       "Use": "P",
-      "Priority": 21,
+      "Priority": 9,
 	  "Callsigns": ["TJT"],
       "Block": ["72B"],
       "Terminal": "73"
@@ -167,7 +167,7 @@
       "Coordinates": "43.444213:5.215934:12",
       "Code": "AB",
       "Use": "P",
-      "Priority": 21,
+      "Priority": 9,
       "Block": ["73B"],
       "Terminal": "74"
     },
@@ -175,7 +175,7 @@
       "Coordinates": "43.444390:5.216068:10",
       "Code": "AB",
       "Use": "P",
-      "Priority": 20,
+      "Priority": 9,
       "Terminal": "75"
     },
     "76": {
@@ -205,21 +205,21 @@
       "Coordinates": "43.446096:5.216693:25",
       "Code": "C",
       "Use": "C",
-      "Priority": 8,
+      "Priority": 11,
       "Terminal": "80"
     },
     "81": {
       "Coordinates": "43.446361:5.217154:25",
       "Code": "CD",
       "Use": "C",
-      "Priority": 8,
+      "Priority": 11,
       "Terminal": "81"
     },
     "82": {
       "Coordinates": "43.446698:5.217648:25",
       "Code": "C",
       "Use": "C",
-      "Priority": 8,
+      "Priority": 11,
       "Terminal": "82"
     },
     "1A": {
@@ -252,7 +252,7 @@
       "Code": "BC",
       "Use": "A",
       "Schengen": true,
-      "Priority": 3,
+      "Priority": 2,
       "Terminal": "2C"
     },
     "3A": {
@@ -325,7 +325,7 @@
       "Use": "A",
       "Schengen": true,
       "Block": ["6A", "5B"],
-      "Priority": 3,
+      "Priority": 1,
       "Callsigns": ["AFR", "ANE", "IBE", "KLM", "VOE", "AUA", "CCM", "TAP", "TVF", "BEL", "DLH", "EJU", "FHM", "HHN", "SWR", "TRA", "HOP", "KLC", "EZS", "WZZ", "VLG", "SAS", "EWG", "NOZ", "WIF", "DAH", "ELY", "GJM", "KNE", "LBT", "MAC", "NOS", "RAM", "TAR", "TSC"],
       "Terminal": "5C"
     },
@@ -335,7 +335,7 @@
       "Use": "A",
       "Schengen": true,
       "Block": ["6A1", "5C", "6B"],
-      "Priority": 4,
+      "Priority": 2,
       "Terminal": "6A"
     },
     "6A1": {
@@ -354,7 +354,7 @@
       "Schengen": true,
       "Use": "A",
       "Block": ["6A", "6A1", "6C"],
-      "Priority": 1,
+      "Priority": 2,
       "Terminal": "6B"
     },
     "6C": {
@@ -363,7 +363,7 @@
       "Use": "A",
       "Schengen": true,
       "Block": ["6B"],
-      "Priority": 2,
+      "Priority": 1,
       "Callsigns": ["FHM", "TAP", "TVF", "VOE"],
       "Terminal": "6C"
     },
@@ -434,7 +434,7 @@
       "Schengen": false,
       "Block": ["9C", "9A"],
       "Priority": 2,
-	  "Callsigns": ["ETH", "KAL", "UAE", "QTR", "SIA", "THY", "AFR", "UAL", "CPA", "AAL", "ANA", "DLH", "DAL", "ETD", "JAL", "BAW"],
+	  "Callsigns": ["ETH", "KAL", "UAE", "QTR", "SIA", "AFR", "CPA", "ETD"],
       "Terminal": "9B"
     },
     "9C": {
@@ -462,7 +462,7 @@
       "Use": "A",
       "Schengen": false,
       "Block": ["10C", "10D", "10A"],
-      "Priority": 2,
+      "Priority": 3,
       "Terminal": "10B"
     },
     "10C": {
@@ -482,8 +482,8 @@
       "Use": "A",
       "Schengen": false,
       "Block": ["10C", "10B", "10A"],
-      "Priority": 3,
-	  "Callsigns": ["ETH", "KAL", "UAE", "QTR", "SIA", "THY", "AFR", "UAL", "CPA", "AAL", "ANA", "DLH", "DAL", "ETD", "JAL", "BAW"],
+      "Priority": 2,
+	  "Callsigns": ["ETH", "KAL", "UAE", "QTR", "SIA", "AFR", "CPA", "ETD"],
       "Terminal": "10D"
     },
     "20A": {
@@ -517,7 +517,7 @@
       "Use": "APMH",
       "Code": "C",
       "Block": ["25A", "25B", "25", "25C"],
-      "Priority": 10,
+      "Priority": 12,
       "Terminal": "24B"
     },
     "24D": {
@@ -525,7 +525,7 @@
       "Use": "APM",
       "Code": "C",
       "Block": ["25", "25D", "25E", "25C"],
-      "Priority": 10,
+      "Priority": 12,
       "Terminal": "24D"
     },
     "25A": {
@@ -533,7 +533,7 @@
       "Code": "AB",
       "Use": "APM",
       "Block": ["24B", "25", "25B"],
-      "Priority": 11,
+      "Priority": 13,
       "Terminal": "25A"
     },
     "25B": {
@@ -541,7 +541,7 @@
       "Code": "C",
       "Use": "APM",
       "Block": ["24B", "25", "25A", "25C"],
-      "Priority": 12,
+      "Priority": 14,
       "Terminal": "25B"
     },
     "25C": {
@@ -549,7 +549,7 @@
       "Code": "AB",
       "Use": "APM",
       "Block": ["24B", "24D", "25", "25B", "25D"],
-      "Priority": 11,
+      "Priority": 13,
       "Terminal": "25C"
     },
     "25D": {
@@ -560,7 +560,7 @@
       "Code": "C",
       "Use": "APM",
       "Block": ["24D", "25", "25C", "25E"],
-      "Priority": 12,
+      "Priority": 14,
       "Terminal": "25D"
     },
     "25E": {
@@ -568,7 +568,7 @@
       "Code": "AB",
       "Use": "APM",
       "Block": ["24D", "25", "25D"],
-      "Priority": 11,
+      "Priority": 13,
       "Terminal": "25E"
     },
     "30A": {
@@ -579,7 +579,7 @@
       "Code": "C",
       "Use": "AM",
       "Block": ["30B", "30C", "31C"],
-      "Priority": 5,
+      "Priority": 6,
       "Terminal": "30A"
     },
     "30B": {
@@ -587,7 +587,7 @@
       "Code": "C",
       "Use": "A",
       "Block": ["30", "30A", "30C", "30D", "31C", "31E", "35", "35E"],
-      "Priority": 8,
+      "Priority": 7,
       "Terminal": "30B"
     },
     "30C": {
@@ -595,7 +595,7 @@
       "Code": "AB",
       "Use": "AM",
       "Block": ["30A", "30B", "31C"],
-      "Priority": 5,
+      "Priority": 6,
       "Terminal": "30C"
     },
     "30D": {
@@ -630,7 +630,7 @@
       "Code": "AB",
       "Use": "AM",
       "Block": ["30", "30B", "30E", "30D"],
-      "Priority": 5,
+      "Priority": 6,
       "Terminal": "31E"
     },
     "34C": {
@@ -654,7 +654,7 @@
       "Code": "C",
       "Use": "A",
       "Block": ["30", "34C", "34E", "35", "35C", "35E"],
-      "Priority": 5,
+      "Priority": 6,
       "Terminal": "35B"
     },
     "35C": {
@@ -681,7 +681,7 @@
       "Code": "C",
       "Use": "APM",
       "Block": ["40", "40B", "40C", "41C"],
-      "Priority": 5,
+      "Priority": 6,
       "Terminal": "40A"
     },
     "40B": {
@@ -697,7 +697,7 @@
       "Code": "AB",
       "Use": "APM",
       "Block": ["40", "40A", "40B", "41C"],
-      "Priority": 5,
+      "Priority": 6,
       "Terminal": "40C"
     },
     "40D": {
@@ -732,7 +732,7 @@
       "Code": "C",
       "Use": "APM",
       "Block": ["40", "40B", "40E", "40D"],
-      "Priority": 5,
+      "Priority": 6,
       "Terminal": "41E"
     },
     "44C": {
@@ -756,7 +756,7 @@
       "Code": "C",
       "Use": "AC",
       "Block": ["40", "44C", "44E", "45", "45C", "45E"],
-      "Priority": 5,
+      "Priority": 6,
       "Terminal": "45B"
     },
     "45C": {
@@ -780,7 +780,7 @@
       "Code": "C",
       "Use": "A",
       "Schengen": true,
-      "Priority": 1,
+      "Priority": 4,
       "Terminal": "47A"
     },
     "47C": {
@@ -788,7 +788,7 @@
       "Code": "C",
       "Use": "A",
       "Schengen": true,
-      "Priority": 1,
+      "Priority": 4,
       "Terminal": "47C"
     },
     "47E": {
@@ -797,7 +797,7 @@
       "Use": "A",
       "Schengen": true,
       "Callsigns": ["RYR", "RYS", "MAY", "LDM", "WAZ", "WZZ", "EZS", "EJU"],
-      "Priority": 1,
+      "Priority": 4,
       "Terminal": "47E"
     },
     "47G": {
@@ -814,7 +814,7 @@
       "Code": "C",
       "Use": "A",
       "Schengen": false,
-      "Priority": 1,
+      "Priority": 4,
       "Terminal": "48A"
     },
     "48C": {
@@ -822,7 +822,7 @@
       "Code": "C",
       "Use": "A",
       "Schengen": false,
-      "Priority": 1,
+      "Priority": 4,
       "Terminal": "48C"
     },
     "48E": {
@@ -831,7 +831,7 @@
       "Use": "A",
       "Schengen": false,
       "Callsigns": ["RYR", "EZY", "RUK", "RYS", "MAY", "LDM", "WUK", "WAZ", "WZZ"],
-      "Priority": 1,
+      "Priority": 4,
       "Terminal": "48E"
     },
     "48G": {
@@ -847,35 +847,35 @@
       "Coordinates": "43.441685:5.212790:22",
       "Code": "B",
       "Block": ["51", "50"],
-      "Priority": 45,
+      "Priority": 20,
       "Terminal": "50A"
     },
     "50C": {
       "Coordinates": "43.441967:5.213375:22",
       "Code": "B",
       "Block": ["51", "50"],
-      "Priority": 45,
+      "Priority": 20,
       "Terminal": "50C"
     },
     "51A": {
       "Coordinates": "43.441354:5.213192:22",
       "Code": "B",
       "Block": ["51", "50"],
-      "Priority": 45,
+      "Priority": 20,
       "Terminal": "51A"
     },
     "51C": {
       "Coordinates": "43.441706:5.213753:22",
       "Code": "B",
       "Block": ["51", "50"],
-      "Priority": 45,
+      "Priority": 20,
       "Terminal": "51C"
     },
     "60N": {
       "Coordinates": "43.442904:5.211355:28",
       "Code": "CD",
       "Use": "C",
-      "Priority": 3,
+      "Priority": 18,
       "Callsigns": ["DHL", "DAE", "DHK", "DHV", "DHX", "JOS", "VEC", "SET", "SOP", "AHK", "ABR", "BCS", "LVU", "VTM", "AJK", "GHN", "CGF", "KFS", "KII", "SWT", "XLR", "BDA", "SWQ" ,"PAC", "CSB", "ABX", "TMN", "CJT", "CKS", "BOX", "HLF"],
       "Terminal": "60N"
     },
@@ -883,7 +883,7 @@
       "Coordinates": "43.443112:5.211999:25",
       "Code": "C",
       "Use": "C",
-      "Priority": 2,
+      "Priority": 18,
       "Block": ["62N"],
       "Callsigns": ["DHL", "DAE", "DHK", "DHV", "DHX", "JOS", "VEC", "SET", "SOP", "AHK", "ABR", "BCS", "LVU", "VTM", "AJK", "GHN", "CGF", "KFS", "KII", "SWT", "XLR", "BDA", "SWQ" ,"PAC", "CSB", "ABX", "TMN", "CJT", "CKS", "BOX", "HLF"],
       "Terminal": "61N"
@@ -892,7 +892,7 @@
       "Coordinates": "43.443200:5.211875:25",
       "Code": "D",
       "Use": "C",
-      "Priority": 1,
+      "Priority": 18,
       "Block": ["61N"],
       "Callsigns": ["DHL", "DAE", "DHK", "DHV", "DHX", "JOS", "VEC", "SET", "SOP", "AHK", "ABR", "BCS", "LVU", "VTM", "AJK", "GHN", "CGF", "KFS", "KII", "SWT", "XLR", "BDA", "SWQ" ,"PAC", "CSB", "ABX", "TMN", "CJT", "CKS", "BOX", "HLF"],
       "Terminal": "62N"
@@ -904,7 +904,7 @@
       },
       "Code": "AB",
       "Use": "P",
-      "Priority": 17,
+      "Priority": 19,
 	  "Callsigns": ["ASJ", "AXY", "JFA", "NJE", "OYO", "UEE", "VND"],
       "Terminal": "63A"
     },
@@ -915,7 +915,7 @@
       },
       "Code": "A",
       "Use": "P",
-      "Priority": 16,
+      "Priority": 17,
       "Terminal": "63B"
     },
     "63C": {
@@ -936,7 +936,7 @@
       },
       "Code": "B",
       "Use": "P",
-      "Priority": 16,
+      "Priority": 17,
       "Block": ["63C", "63E", "65"],
       "Terminal": "63D"
     },
@@ -974,7 +974,7 @@
       "Code": "C",
       "Use": "P",
       "Block": ["66E", "66W"],
-      "Priority": 17,
+      "Priority": 16,
       "Terminal": "66G"
     },
     "66W": {
@@ -982,7 +982,7 @@
       "Code": "B",
       "Use": "P",
       "Block": ["66E", "66G"],
-      "Priority": 17,
+      "Priority": 16,
       "Terminal": "66W"
     },
     "67N": {
@@ -998,7 +998,7 @@
       "Code": "C",
       "Use": "PC",
       "Block": ["69N", "67N"],
-      "Priority": 17,
+      "Priority": 16,
       "Terminal": "68N"
     },
     "69N": {
@@ -1006,7 +1006,7 @@
       "Code": "B",
       "Use": "P",
       "Block": ["68N"],
-      "Priority": 17,
+      "Priority": 16,
       "Terminal": "69N"
     },
     "72B": {
@@ -1014,14 +1014,14 @@
       "Code": "C",
       "Use": "P",
       "Block": ["73", "72"],
-      "Priority": 20,
+      "Priority": 10,
       "Terminal": "72B"
     },
     "73B": {
       "Coordinates": "43.444191:5.215848:14",
       "Code": "AB",
       "Block": ["73", "74"],
-      "Priority": 20,
+      "Priority": 10,
       "Terminal": "73B"
     },
     "83A": {
@@ -1029,7 +1029,7 @@
       "Code": "AB",
       "Use": "C",
       "Block": ["83B"],
-      "Priority": 5,
+      "Priority": 12,
       "Terminal": "83A"
     },
     "83B": {
@@ -1037,7 +1037,7 @@
       "Code": "C",
       "Use": "C",
       "Block": ["83A", "83C"],
-      "Priority": 6,
+      "Priority": 12,
 	  "Callsigns": ["BRD", "FPO", "ITI", "SWT"],
       "Terminal": "83B"
     },
@@ -1046,7 +1046,7 @@
       "Code": "AB",
       "Use": "C",
       "Block": ["83B", "83D"],
-      "Priority": 5,
+      "Priority": 12,
       "Terminal": "83C"
     },
     "83D": {
@@ -1054,7 +1054,7 @@
       "Code": "C",
       "Use": "C",
       "Block": ["83C", "83E"],
-      "Priority": 6,
+      "Priority": 12,
 	  "Callsigns": ["BRD", "FPO", "ITI", "SWT"],
       "Terminal": "83D"
     },
@@ -1063,13 +1063,13 @@
       "Code": "AB",
       "Use": "C",
       "Block": ["83D"],
-      "Priority": 5,
+      "Priority": 12,
       "Terminal": "83E"
     },
     "AIRBUS": {
       "Coordinates": "43.433772:5.228934:200",
       "Use": "H",
-      "Priority": 1,
+      "Priority": 40,
       "Callsigns": ["AIB", "IXR"],
       "Apron": {
         "Size": 29,
@@ -1086,7 +1086,7 @@
     },
     "SECUA": {
       "Coordinates": "43.434185:5.225190:100",
-      "Priority": 1,
+      "Priority": 45,
       "Callsigns": ["PELIC"],
       "Apron": {
         "Size": 6,
@@ -1103,7 +1103,7 @@
       "Coordinates": "43.432813:5.208839:80",
       "Use": "H",
       "Callsigns": ["SAMU", "DRAGO", "FGN"],
-      "Priority": 1,
+      "Priority": 44,
       "Apron": {
         "Size": 3
       },
