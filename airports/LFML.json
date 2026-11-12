@@ -671,7 +671,7 @@
       "Schengen": false,
       "Block": ["9C", "9A"],
       "Priority": 2,
-      "Callsigns": ["ETH", "KAL", "UAE", "QTR", "SIA", "AFR", "CPA", "ETD"],
+      "Callsigns": ["ETH", "KAL", "UAE", "QTR", "SIA", "AFR", "CPA", "ETD", "CRL", "FBU", "FWI"],
       "Terminal": "9B"
     },
     "9C": {
@@ -751,7 +751,7 @@
       "Schengen": false,
       "Block": ["10C", "10B", "10A"],
       "Priority": 2,
-      "Callsigns": ["ETH", "KAL", "UAE", "QTR", "SIA", "AFR", "CPA", "ETD"],
+      "Callsigns": ["ETH", "KAL", "UAE", "QTR", "SIA", "AFR", "CPA", "ETD", "CRL", "FBU", "FWI"],
       "Terminal": "10D"
     },
     "20A": {
