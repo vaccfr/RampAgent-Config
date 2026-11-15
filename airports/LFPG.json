@@ -1,6 +1,6 @@
 {
   "$schema": "../.github/schema/airportConfig.schema.json",
-  "version": "v1.1.3",
+  "version": "v1.1.4",
   "ICAO": "LFPG",
   "Coordinates": "49.010965:2.560501:6000",
   "Hoppie": {
@@ -1692,6 +1692,7 @@
       },
       "Code": "DE",
       "Use": "A",
+      "Schengen": false,
       "Callsigns": ["AFR", "FBT", "LNR", "KQA", "MEA", "HVN", "AMX", "KFR"],
       "Priority": 1,
       "Terminal": "2E"
